@@ -5,7 +5,7 @@
     <h1 align="center">WORKING-WITH-TF</h1>
 </p>
 <p align="center">
-    <em>HTTP error 401 for prompt `slogan`</em>
+    <em>Figuring out TF Anchor Points</em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/Secret-Ambush/Working-with-TF?style=flat&color=0080ff" alt="license">
