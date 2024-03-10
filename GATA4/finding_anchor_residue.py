@@ -74,3 +74,31 @@ for position in range(len(consensus_sequences[0])):
         print(f"Position {position+1}: Anchor residue {most_common[0]} appears {most_common[1]} times")
     else:
         print(f"Position {position+1}: No anchor residue meets the threshold.")
+        
+        
+
+        
+'''
+
+Output
+
+
+Found PWM from binning_1_bin_1/binning_1_bin_1.fasta_results/meme.html:
+Found PWM from binning_1_bin_6/binning_1_bin_6.fasta_results/meme.html:
+Found PWM from binning_1_bin_8/binning_1_bin_8.fasta_results/meme.html:
+Found PWM from binning_1_bin_9/binning_1_bin_9.fasta_results/meme.html:
+Found PWM from binning_1_bin_7/binning_1_bin_7.fasta_results/meme.html:
+Found PWM from binning_1_bin_10/binning_1_bin_10.fasta_results/meme.html:
+Found PWM from binning_1_bin_11/binning_1_bin_11.fasta_results/meme.html:
+Found PWM from binning_1_bin_5/binning_1_bin_5.fasta_results/meme.html:
+Found PWM from binning_1_bin_2/binning_1_bin_2.fasta_results/meme.html:
+Found PWM from binning_1_bin_3/binning_1_bin_3.fasta_results/meme.html:
+Found PWM from binning_1_bin_4/binning_1_bin_4.fasta_results/meme.html:
+Position 1: Anchor residue A appears 10 times
+Position 2: Anchor residue T appears 11 times
+Position 3: Anchor residue T appears 9 times
+Position 4: Anchor residue A appears 10 times
+Position 5: Anchor residue A appears 9 times
+Position 6: Anchor residue A appears 11 times
+
+'''
