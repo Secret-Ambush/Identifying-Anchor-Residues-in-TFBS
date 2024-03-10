@@ -202,7 +202,7 @@
 </letter_frequencies>
 </training_set>
 <model>
-<command_line>meme /data/binning_1_bin_1.fasta -dna -maxw 50 -minw 6 -nmotifs 3 -maxsize 1000000 -o /data/binning_1_bin_1.fasta_results </command_line>
+<command_line>meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 6 -nmotifs 3 -o /data/binning_1_bin_1.fasta_results </command_line>
 <host>buildkitsandbox</host>
 <type>zoops</type>
 <nmotifs>3</nmotifs>
@@ -228,7 +228,7 @@
 <seed>0</seed>
 <hsfrac>0</hsfrac>
 <searchsize>35984</searchsize>
-<maxsize>1000000</maxsize>
+<maxsize>0</maxsize>
 <norand>no</norand>
 <csites>1000</csites>
 <strands>forward</strands>
@@ -246,7 +246,7 @@
 </background_frequencies>
 </model>
 <motifs>
-<motif id="motif_1" name="NTKATM" alt="MEME-1" width="6" sites="2620" ic="5.7" re="5.0" llr="9000" p_value="5.2e-862" e_value="7.9e-288" bayes_threshold="3.74993" elapsed_time="41.323528">
+<motif id="motif_1" name="NTKATM" alt="MEME-1" width="6" sites="2620" ic="5.7" re="5.0" llr="9000" p_value="5.2e-862" e_value="7.9e-288" bayes_threshold="3.74993" elapsed_time="41.150814">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -333,7 +333,7 @@
 <contributing_sites>
 </contributing_sites>
 </motif>
-<motif id="motif_2" name="MDWWWWWA" alt="MEME-2" width="8" sites="4498" ic="2.1" re="0.8" llr="2372" p_value="1.3e-091" e_value="1.3e-091" bayes_threshold="1.99679" elapsed_time="41.948472">
+<motif id="motif_2" name="MDWWWWWA" alt="MEME-2" width="8" sites="4498" ic="2.1" re="0.8" llr="2372" p_value="1.3e-091" e_value="1.3e-091" bayes_threshold="1.99679" elapsed_time="41.799246">
 <scores>
 <alphabet_matrix>
 <alphabet_array>

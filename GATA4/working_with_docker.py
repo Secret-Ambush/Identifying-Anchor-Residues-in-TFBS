@@ -26,7 +26,6 @@ def meme_analysis(input_files):
                             "-maxw", "8", 
                             "-minw", "6", 
                             "-nmotifs", "3", 
-                            "-maxsize", "1000000",
                             "-o", f"/data/{input_basename}_results"],
                            check=True)
         except subprocess.CalledProcessError as e:
@@ -35,4 +34,5 @@ def meme_analysis(input_files):
 pattern = 'binning_1_bin_*/*.fasta'
 fasta_files = glob.glob(pattern)
 output_files = [os.path.join(os.path.basename(os.path.dirname(f)), os.path.basename(f)) for f in fasta_files]
+
 meme_analysis(output_files)

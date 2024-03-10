@@ -202,7 +202,7 @@
 </letter_frequencies>
 </training_set>
 <model>
-<command_line>meme /data/binning_1_bin_3.fasta -dna -maxw 50 -minw 6 -nmotifs 3 -maxsize 1000000 -o /data/binning_1_bin_3.fasta_results </command_line>
+<command_line>meme /data/binning_1_bin_3.fasta -dna -maxw 8 -minw 6 -nmotifs 3 -o /data/binning_1_bin_3.fasta_results </command_line>
 <host>buildkitsandbox</host>
 <type>zoops</type>
 <nmotifs>3</nmotifs>
@@ -228,7 +228,7 @@
 <seed>0</seed>
 <hsfrac>0</hsfrac>
 <searchsize>35984</searchsize>
-<maxsize>1000000</maxsize>
+<maxsize>0</maxsize>
 <norand>no</norand>
 <csites>1000</csites>
 <strands>forward</strands>
@@ -246,7 +246,7 @@
 </background_frequencies>
 </model>
 <motifs>
-<motif id="motif_1" name="AWWWWWWA" alt="MEME-1" width="8" sites="4495" ic="1.7" re="0.4" llr="1345" p_value="2.6e-094" e_value="2.6e-094" bayes_threshold="1.998" elapsed_time="40.461543">
+<motif id="motif_1" name="AWWWWWWA" alt="MEME-1" width="8" sites="4495" ic="1.7" re="0.4" llr="1345" p_value="2.6e-094" e_value="2.6e-094" bayes_threshold="1.998" elapsed_time="41.438560">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -357,7 +357,7 @@ A[TA][TA][AT][AT][AT][AT]A
 <contributing_sites>
 </contributing_sites>
 </motif>
-<motif id="motif_2" name="WWWWWW" alt="MEME-2" width="6" sites="4498" ic="1.0" re="0.1" llr="228" p_value="1.0e+000" e_value="4.5e+006" bayes_threshold="3.80461" elapsed_time="40.809598">
+<motif id="motif_2" name="WWWWWW" alt="MEME-2" width="6" sites="4498" ic="1.0" re="0.1" llr="228" p_value="1.0e+000" e_value="4.5e+006" bayes_threshold="3.80461" elapsed_time="41.794501">
 <scores>
 <alphabet_matrix>
 <alphabet_array>

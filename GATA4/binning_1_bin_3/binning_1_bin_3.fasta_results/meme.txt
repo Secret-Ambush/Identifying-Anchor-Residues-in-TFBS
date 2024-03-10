@@ -37,7 +37,7 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/binning_1_bin_3.fasta -dna -maxw 50 -minw 6 -nmotifs 3 -maxsize 1000000 -o /data/binning_1_bin_3.fasta_results 
+command: meme /data/binning_1_bin_3.fasta -dna -maxw 8 -minw 6 -nmotifs 3 -o /data/binning_1_bin_3.fasta_results 
 
 model:  mod=         zoops    nmotifs=         3    evt=           inf
 objective function:           em=       E-value of product of p-values
@@ -126,7 +126,7 @@ A[TA][TA][AT][AT][AT][AT]A
 
 
 
-Time 40.46 secs.
+Time 41.44 secs.
 
 ********************************************************************************
 
@@ -193,7 +193,7 @@ letter-probability matrix: alength= 4 w= 6 nsites= 4498 E= 4.5e+006
 
 
 
-Time 40.81 secs.
+Time 41.79 secs.
 
 ********************************************************************************
 
@@ -201,6 +201,6 @@ Time 40.81 secs.
 Stopped because couldn't find any more starting points for EM.
 ********************************************************************************
 
-CPU: 4e5f5ca46ef7
+CPU: a26b96cbae57
 
 ********************************************************************************
