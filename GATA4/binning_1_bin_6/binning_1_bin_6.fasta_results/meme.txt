@@ -1,0 +1,139 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.5 (Release date: Thu Sep 14 08:48:04 2023 +1000)
+
+For further information on how to interpret these results please access http://localhost:8080/meme_5.5.5.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= /data/binning_1_bin_6.fasta
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /data/binning_1_bin_6.fasta -dna -maxw 50 -minw 6 -nmotifs 3 -maxsize 1000000 -o /data/binning_1_bin_6.fasta_results 
+
+model:  mod=         zoops    nmotifs=         3    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: +
+width:  minw=            6    maxw=            8
+nsites: minsites=        2    maxsites=     4498    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           35984    N=            4498
+sample: seed=            0    hsfrac=          0
+        searchsize=  35984    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.412 C 0.154 G 0.142 T 0.292 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.412 C 0.154 G 0.142 T 0.292 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF AWWWWWWA MEME-1	width =   8  sites = 4498  llr = 1230  E-value = 1.4e-095
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif AWWWWWWA MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  53344446
+pos.-specific     C  21111122
+probability       G  22111111
+matrix            T  14443431
+
+         bits    2.8         
+                 2.5         
+                 2.3         
+                 2.0         
+Relative         1.7         
+Entropy          1.4         
+(0.4 bits)       1.1         
+                 0.8         
+                 0.6         
+                 0.3        *
+                 0.0 --------
+
+Multilevel           ATTAAAAA
+consensus             AATTTTC
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AWWWWWWA MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 4498 bayes= 1.99679 E= 1.4e-095 
+    40     18     19   -128 
+   -29    -13     18     31 
+   -28     -6      0     35 
+   -10    -28     -8     28 
+   -14    -18      8     22 
+   -16    -21    -13     33 
+   -12     13     -6     11 
+    47     40    -23   -152 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AWWWWWWA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 4498 E= 1.4e-095 
+ 0.542686  0.175411  0.161627  0.120276 
+ 0.336816  0.140952  0.160738  0.361494 
+ 0.338373  0.147843  0.141618  0.372165 
+ 0.383726  0.126945  0.133837  0.355491 
+ 0.373499  0.136283  0.149622  0.340596 
+ 0.369275  0.133615  0.129835  0.367274 
+ 0.379280  0.169186  0.136505  0.315029 
+ 0.572477  0.204091  0.121387  0.102045 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AWWWWWWA MEME-1 regular expression
+--------------------------------------------------------------------------------
+A[TA][TA][AT][AT][AT][AT][AC]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 39.99 secs.
+
+********************************************************************************
+
+********************************************************************************
+Stopped because couldn't find any more starting points for EM.
+********************************************************************************
+
+CPU: e04b896a6930
+
+********************************************************************************
