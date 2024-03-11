@@ -94,6 +94,7 @@ Found PWM from binning_1_bin_5/binning_1_bin_5.fasta_results/meme.html:
 Found PWM from binning_1_bin_2/binning_1_bin_2.fasta_results/meme.html:
 Found PWM from binning_1_bin_3/binning_1_bin_3.fasta_results/meme.html:
 Found PWM from binning_1_bin_4/binning_1_bin_4.fasta_results/meme.html:
+
 Position 1: Anchor residue A appears 10 times
 Position 2: Anchor residue T appears 11 times
 Position 3: Anchor residue T appears 9 times

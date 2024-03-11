@@ -24,7 +24,7 @@ def meme_analysis(input_files):
                             "meme", f"/data/{input_basename}", 
                             "-dna", 
                             "-maxw", "8", 
-                            "-minw", "6", 
+                            "-minw", "4", 
                             "-nmotifs", "3", 
                             "-o", f"/data/{input_basename}_results"],
                            check=True)

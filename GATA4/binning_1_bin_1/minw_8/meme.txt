@@ -37,13 +37,13 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 4 -nmotifs 3 -o /data/binning_1_bin_1.fasta_results 
+command: meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 8 -nmotifs 3 -o /data/binning_1_bin_1.fasta_results 
 
 model:  mod=         zoops    nmotifs=         3    evt=           inf
 objective function:           em=       E-value of product of p-values
                               starts=   E-value of product of p-values
 strands: +
-width:  minw=            4    maxw=            8
+width:  minw=            8    maxw=            8
 nsites: minsites=        2    maxsites=     4498    wnsites=       0.8
 theta:  spmap=         uni    spfuzz=        0.5
 em:     prior=   dirichlet    b=            0.01    maxiter=        50
@@ -61,70 +61,78 @@ Background model order: 0
 
 
 ********************************************************************************
-MOTIF KATM MEME-1	width =   4  sites = 3845  llr = 11647  E-value = 3.0e-356
+MOTIF MDWWWWWA MEME-1	width =   8  sites = 4493  llr = 2377  E-value = 1.3e-187
 ********************************************************************************
 --------------------------------------------------------------------------------
-	Motif KATM MEME-1 Description
+	Motif MDWWWWWA MEME-1 Description
 --------------------------------------------------------------------------------
-Simplified        A  1a:6
-pos.-specific     C  :::3
-probability       G  5:::
-matrix            T  4:a1
+Simplified        A  43345446
+pos.-specific     C  211:1122
+probability       G  22211111
+matrix            T  14444431
 
-         bits    2.9     
-                 2.6     
-                 2.3     
-                 2.0     
-Relative         1.7   * 
-Entropy          1.4   * 
-(4.4 bits)       1.1  ** 
-                 0.9 *** 
-                 0.6 ****
-                 0.3 ****
-                 0.0 ----
+         bits    2.9         
+                 2.6         
+                 2.3         
+                 2.0         
+Relative         1.7         
+Entropy          1.4         
+(0.8 bits)       1.1         
+                 0.9         
+                 0.6         
+                 0.3        *
+                 0.0 --------
 
-Multilevel           GATA
-consensus            T  C
-sequence                 
-                         
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-	Motif KATM MEME-1 position-specific scoring matrix
---------------------------------------------------------------------------------
-log-odds matrix: alength= 4 w= 4 n= 22490 bayes= 4.46565 E= 3.0e-356 
-  -203  -1855    189     35 
-   126  -1855  -1855  -1855 
- -1855  -1855  -1855    171 
-    44    127  -1855   -162 
+Multilevel           ATTAATAA
+consensus            CAATTATC
+sequence             G       
+                             
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif KATM MEME-1 position-specific probability matrix
+	Motif MDWWWWWA MEME-1 position-specific scoring matrix
 --------------------------------------------------------------------------------
-letter-probability matrix: alength= 4 w= 4 nsites= 3845 E= 3.0e-356 
- 0.102211  0.000000  0.509233  0.388557 
- 1.000000  0.000000  0.000000  0.000000 
- 0.000000  0.000000  0.000000  1.000000 
- 0.566190  0.334720  0.000000  0.099090 
+log-odds matrix: alength= 4 w= 8 n= 4498 bayes= 1.9988 E= 1.3e-187 
+     5     66     63   -117 
+   -44      2     52     21 
+   -37    -38     27     40 
+     4   -164      6     32 
+    20   -116    -67     28 
+   -10    -19   -100     46 
+   -12     39    -28      7 
+    51     75    -30   -240 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif MDWWWWWA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 4493 E= 1.3e-187 
+ 0.432450  0.219230  0.212775  0.135544 
+ 0.308702  0.140886  0.197196  0.353216 
+ 0.323837  0.106610  0.166036  0.403517 
+ 0.429780  0.044736  0.143557  0.381927 
+ 0.481861  0.062319  0.086357  0.369464 
+ 0.388827  0.121968  0.068996  0.420209 
+ 0.383708  0.182729  0.113732  0.319831 
+ 0.596038  0.234587  0.111507  0.057868 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif KATM MEME-1 regular expression
+	Motif MDWWWWWA MEME-1 regular expression
 --------------------------------------------------------------------------------
-[GT]AT[AC]
+[ACG][TA][TA][AT][AT][TA][AT][AC]
 --------------------------------------------------------------------------------
 
 
 
 
-Time 41.01 secs.
+Time 39.86 secs.
 
 ********************************************************************************
 
 
 ********************************************************************************
-MOTIF MDWWWWWA MEME-2	width =   8  sites = 4498  llr = 2372  E-value = 2.8e-025
+MOTIF MDWWWWWA MEME-2	width =   8  sites = 4498  llr = 2372  E-value = 1.0e+000
 ********************************************************************************
 --------------------------------------------------------------------------------
 	Motif MDWWWWWA MEME-2 Description
@@ -155,7 +163,7 @@ sequence             G
 --------------------------------------------------------------------------------
 	Motif MDWWWWWA MEME-2 position-specific scoring matrix
 --------------------------------------------------------------------------------
-log-odds matrix: alength= 4 w= 8 n= 4498 bayes= 1.99679 E= 2.8e-025 
+log-odds matrix: alength= 4 w= 8 n= 4498 bayes= 1.99679 E= 1.0e+000 
      5     65     63   -116 
    -44      2     52     21 
    -37    -39     28     40 
@@ -169,7 +177,7 @@ log-odds matrix: alength= 4 w= 8 n= 4498 bayes= 1.99679 E= 2.8e-025
 --------------------------------------------------------------------------------
 	Motif MDWWWWWA MEME-2 position-specific probability matrix
 --------------------------------------------------------------------------------
-letter-probability matrix: alength= 4 w= 8 nsites= 4498 E= 2.8e-025 
+letter-probability matrix: alength= 4 w= 8 nsites= 4498 E= 1.0e+000 
  0.431970  0.218986  0.212539  0.136505 
  0.308804  0.140952  0.196976  0.353268 
  0.323477  0.106492  0.166963  0.403068 
@@ -189,7 +197,7 @@ letter-probability matrix: alength= 4 w= 8 nsites= 4498 E= 2.8e-025
 
 
 
-Time 41.85 secs.
+Time 40.08 secs.
 
 ********************************************************************************
 
@@ -197,6 +205,6 @@ Time 41.85 secs.
 Stopped because couldn't find any more starting points for EM.
 ********************************************************************************
 
-CPU: 50a625fd6dfb
+CPU: 3e0876c3d57c
 
 ********************************************************************************

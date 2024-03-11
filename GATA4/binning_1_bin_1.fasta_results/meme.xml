@@ -202,14 +202,14 @@
 </letter_frequencies>
 </training_set>
 <model>
-<command_line>meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 4 -nmotifs 3 -o /data/binning_1_bin_1.fasta_results </command_line>
+<command_line>meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 6 -nmotifs 3 -o /data/binning_1_bin_1.fasta_results </command_line>
 <host>buildkitsandbox</host>
 <type>zoops</type>
 <nmotifs>3</nmotifs>
 <evalue_threshold>inf</evalue_threshold>
 <object_function>E-value of product of p-values</object_function>
 <spfun>E-value of product of p-values</spfun>
-<min_width>4</min_width>
+<min_width>6</min_width>
 <max_width>8</max_width>
 <wg>11</wg>
 <ws>1</ws>
@@ -246,42 +246,66 @@
 </background_frequencies>
 </model>
 <motifs>
-<motif id="motif_1" name="KATM" alt="MEME-1" width="4" sites="3845" ic="5.3" re="4.4" llr="11647" p_value="3.7e-1117" e_value="3.0e-356" bayes_threshold="4.46565" elapsed_time="41.010935">
+<motif id="motif_1" name="NTKATM" alt="MEME-1" width="6" sites="2620" ic="5.7" re="5.0" llr="9000" p_value="5.2e-862" e_value="7.9e-288" bayes_threshold="3.74993" elapsed_time="41.150814">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
-<value letter_id="A">-203</value>
-<value letter_id="C">-1855</value>
-<value letter_id="G">189</value>
-<value letter_id="T">35</value>
+<value letter_id="A">-57</value>
+<value letter_id="C">114</value>
+<value letter_id="G">85</value>
+<value letter_id="T">-89</value>
+</alphabet_array>
+<alphabet_array>
+<value letter_id="A">-80</value>
+<value letter_id="C">15</value>
+<value letter_id="G">-75</value>
+<value letter_id="T">78</value>
+</alphabet_array>
+<alphabet_array>
+<value letter_id="A">-241</value>
+<value letter_id="C">-1800</value>
+<value letter_id="G">179</value>
+<value letter_id="T">54</value>
 </alphabet_array>
 <alphabet_array>
 <value letter_id="A">126</value>
-<value letter_id="C">-1855</value>
-<value letter_id="G">-1855</value>
-<value letter_id="T">-1855</value>
+<value letter_id="C">-1800</value>
+<value letter_id="G">-1800</value>
+<value letter_id="T">-1800</value>
 </alphabet_array>
 <alphabet_array>
-<value letter_id="A">-1855</value>
-<value letter_id="C">-1855</value>
-<value letter_id="G">-1855</value>
+<value letter_id="A">-1800</value>
+<value letter_id="C">-1800</value>
+<value letter_id="G">-849</value>
 <value letter_id="T">171</value>
 </alphabet_array>
 <alphabet_array>
-<value letter_id="A">44</value>
-<value letter_id="C">127</value>
-<value letter_id="G">-1855</value>
-<value letter_id="T">-162</value>
+<value letter_id="A">30</value>
+<value letter_id="C">158</value>
+<value letter_id="G">-1800</value>
+<value letter_id="T">-209</value>
 </alphabet_array>
 </alphabet_matrix>
 </scores>
 <probabilities>
 <alphabet_matrix>
 <alphabet_array>
-<value letter_id="A">0.102211</value>
+<value letter_id="A">0.281298</value>
+<value letter_id="C">0.305725</value>
+<value letter_id="G">0.248092</value>
+<value letter_id="T">0.164885</value>
+</alphabet_array>
+<alphabet_array>
+<value letter_id="A">0.240840</value>
+<value letter_id="C">0.154580</value>
+<value letter_id="G">0.082061</value>
+<value letter_id="T">0.522519</value>
+</alphabet_array>
+<alphabet_array>
+<value letter_id="A">0.078626</value>
 <value letter_id="C">0.000000</value>
-<value letter_id="G">0.509233</value>
-<value letter_id="T">0.388557</value>
+<value letter_id="G">0.476718</value>
+<value letter_id="T">0.444656</value>
 </alphabet_array>
 <alphabet_array>
 <value letter_id="A">1.000000</value>
@@ -292,24 +316,24 @@
 <alphabet_array>
 <value letter_id="A">0.000000</value>
 <value letter_id="C">0.000000</value>
-<value letter_id="G">0.000000</value>
-<value letter_id="T">1.000000</value>
+<value letter_id="G">0.000382</value>
+<value letter_id="T">0.999618</value>
 </alphabet_array>
 <alphabet_array>
-<value letter_id="A">0.566190</value>
-<value letter_id="C">0.334720</value>
+<value letter_id="A">0.513359</value>
+<value letter_id="C">0.414885</value>
 <value letter_id="G">0.000000</value>
-<value letter_id="T">0.099090</value>
+<value letter_id="T">0.071756</value>
 </alphabet_array>
 </alphabet_matrix>
 </probabilities>
 <regular_expression>
-[GT]AT[AC]
+[CAG][TA][GT]AT[AC]
 </regular_expression>
 <contributing_sites>
 </contributing_sites>
 </motif>
-<motif id="motif_2" name="MDWWWWWA" alt="MEME-2" width="8" sites="4498" ic="2.1" re="0.8" llr="2372" p_value="2.8e-025" e_value="2.8e-025" bayes_threshold="1.99679" elapsed_time="41.854778">
+<motif id="motif_2" name="MDWWWWWA" alt="MEME-2" width="8" sites="4498" ic="2.1" re="0.8" llr="2372" p_value="1.3e-091" e_value="1.3e-091" bayes_threshold="1.99679" elapsed_time="41.799246">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
