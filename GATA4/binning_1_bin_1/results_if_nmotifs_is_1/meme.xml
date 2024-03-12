@@ -194,15 +194,15 @@
 </alphabet>
 <letter_frequencies>
 <alphabet_array>
-<value letter_id="A">0.362</value>
-<value letter_id="C">0.138</value>
+<value letter_id="A">0.418</value>
+<value letter_id="C">0.139</value>
 <value letter_id="G">0.138</value>
-<value letter_id="T">0.362</value>
+<value letter_id="T">0.305</value>
 </alphabet_array>
 </letter_frequencies>
 </training_set>
 <model>
-<command_line>meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -nostatus -time 14400 -o /data/binning_1_bin_1.fasta_results </command_line>
+<command_line>meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -o /data/binning_1_bin_1.fasta_results </command_line>
 <host>buildkitsandbox</host>
 <type>zoops</type>
 <nmotifs>1</nmotifs>
@@ -231,57 +231,57 @@
 <maxsize>0</maxsize>
 <norand>no</norand>
 <csites>1000</csites>
-<strands>both</strands>
+<strands>forward</strands>
 <brief>1000</brief>
 <psp_file></psp_file>
 <priors_file></priors_file>
 <reason_for_stopping>Stopped because requested number of motifs (1) found.</reason_for_stopping>
 <background_frequencies source="--sequences--" order="0">
 <alphabet_array>
-<value letter_id="A">0.362</value>
-<value letter_id="C">0.138</value>
+<value letter_id="A">0.418</value>
+<value letter_id="C">0.139</value>
 <value letter_id="G">0.138</value>
-<value letter_id="T">0.362</value>
+<value letter_id="T">0.305</value>
 </alphabet_array>
 </background_frequencies>
 </model>
 <motifs>
-<motif id="motif_1" name="GATA" alt="MEME-1" width="4" sites="2880" ic="8.0" re="7.3" llr="14484" p_value="2.8e-1448" e_value="1.5e-470" bayes_threshold="5.24553" elapsed_time="38.699400">
+<motif id="motif_1" name="KATM" alt="MEME-1" width="4" sites="3845" ic="5.3" re="4.4" llr="11647" p_value="3.7e-1117" e_value="3.0e-356" bayes_threshold="4.46565" elapsed_time="41.534553">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
-<value letter_id="A">-1814</value>
-<value letter_id="C">-1814</value>
-<value letter_id="G">285</value>
-<value letter_id="T">-1814</value>
+<value letter_id="A">-203</value>
+<value letter_id="C">-1855</value>
+<value letter_id="G">189</value>
+<value letter_id="T">35</value>
 </alphabet_array>
 <alphabet_array>
-<value letter_id="A">147</value>
-<value letter_id="C">-1814</value>
-<value letter_id="G">-1814</value>
-<value letter_id="T">-1814</value>
+<value letter_id="A">126</value>
+<value letter_id="C">-1855</value>
+<value letter_id="G">-1855</value>
+<value letter_id="T">-1855</value>
 </alphabet_array>
 <alphabet_array>
-<value letter_id="A">-1814</value>
-<value letter_id="C">-1814</value>
-<value letter_id="G">-1814</value>
-<value letter_id="T">147</value>
+<value letter_id="A">-1855</value>
+<value letter_id="C">-1855</value>
+<value letter_id="G">-1855</value>
+<value letter_id="T">171</value>
 </alphabet_array>
 <alphabet_array>
-<value letter_id="A">147</value>
-<value letter_id="C">-1814</value>
-<value letter_id="G">-1814</value>
-<value letter_id="T">-1814</value>
+<value letter_id="A">44</value>
+<value letter_id="C">127</value>
+<value letter_id="G">-1855</value>
+<value letter_id="T">-162</value>
 </alphabet_array>
 </alphabet_matrix>
 </scores>
 <probabilities>
 <alphabet_matrix>
 <alphabet_array>
-<value letter_id="A">0.000000</value>
+<value letter_id="A">0.102211</value>
 <value letter_id="C">0.000000</value>
-<value letter_id="G">1.000000</value>
-<value letter_id="T">0.000000</value>
+<value letter_id="G">0.509233</value>
+<value letter_id="T">0.388557</value>
 </alphabet_array>
 <alphabet_array>
 <value letter_id="A">1.000000</value>
@@ -296,15 +296,15 @@
 <value letter_id="T">1.000000</value>
 </alphabet_array>
 <alphabet_array>
-<value letter_id="A">1.000000</value>
-<value letter_id="C">0.000000</value>
+<value letter_id="A">0.566190</value>
+<value letter_id="C">0.334720</value>
 <value letter_id="G">0.000000</value>
-<value letter_id="T">0.000000</value>
+<value letter_id="T">0.099090</value>
 </alphabet_array>
 </alphabet_matrix>
 </probabilities>
 <regular_expression>
-GATA
+[GT]AT[AC]
 </regular_expression>
 <contributing_sites>
 </contributing_sites>

@@ -37,12 +37,12 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -nostatus -time 14400 -o /data/binning_1_bin_1.fasta_results 
+command: meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -o /data/binning_1_bin_1.fasta_results 
 
 model:  mod=         zoops    nmotifs=         1    evt=           inf
 objective function:           em=       E-value of product of p-values
                               starts=   E-value of product of p-values
-strands: + -
+strands: +
 width:  minw=            4    maxw=            8
 nsites: minsites=        2    maxsites=     4498    wnsites=       0.8
 theta:  spmap=         uni    spfuzz=        0.5
@@ -53,72 +53,72 @@ data:   n=           35984    N=            4498
 sample: seed=            0    hsfrac=          0
         searchsize=  35984    norand=         no    csites=       1000
 Letter frequencies in dataset:
-A 0.362 C 0.138 G 0.138 T 0.362 
+A 0.418 C 0.139 G 0.138 T 0.305 
 Background letter frequencies (from file dataset with add-one prior applied):
-A 0.362 C 0.138 G 0.138 T 0.362 
+A 0.418 C 0.139 G 0.138 T 0.305 
 Background model order: 0
 ********************************************************************************
 
 
 ********************************************************************************
-MOTIF GATA MEME-1	width =   4  sites = 2880  llr = 14484  E-value = 1.5e-470
+MOTIF KATM MEME-1	width =   4  sites = 3845  llr = 11647  E-value = 3.0e-356
 ********************************************************************************
 --------------------------------------------------------------------------------
-	Motif GATA MEME-1 Description
+	Motif KATM MEME-1 Description
 --------------------------------------------------------------------------------
-Simplified        A  :a:a
-pos.-specific     C  ::::
-probability       G  a:::
-matrix            T  ::a:
+Simplified        A  1a:6
+pos.-specific     C  :::3
+probability       G  5:::
+matrix            T  4:a1
 
-         bits    2.9 *   
-                 2.6 *   
-                 2.3 *   
-                 2.0 *   
-Relative         1.7 *   
-Entropy          1.4 ****
-(7.3 bits)       1.1 ****
-                 0.9 ****
+         bits    2.9     
+                 2.6     
+                 2.3     
+                 2.0     
+Relative         1.7   * 
+Entropy          1.4   * 
+(4.4 bits)       1.1  ** 
+                 0.9 *** 
                  0.6 ****
                  0.3 ****
                  0.0 ----
 
 Multilevel           GATA
-consensus                
+consensus            T  C
 sequence                 
                          
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif GATA MEME-1 position-specific scoring matrix
+	Motif KATM MEME-1 position-specific scoring matrix
 --------------------------------------------------------------------------------
-log-odds matrix: alength= 4 w= 4 n= 22490 bayes= 5.24553 E= 1.5e-470 
- -1814  -1814    285  -1814 
-   147  -1814  -1814  -1814 
- -1814  -1814  -1814    147 
-   147  -1814  -1814  -1814 
+log-odds matrix: alength= 4 w= 4 n= 22490 bayes= 4.46565 E= 3.0e-356 
+  -203  -1855    189     35 
+   126  -1855  -1855  -1855 
+ -1855  -1855  -1855    171 
+    44    127  -1855   -162 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif GATA MEME-1 position-specific probability matrix
+	Motif KATM MEME-1 position-specific probability matrix
 --------------------------------------------------------------------------------
-letter-probability matrix: alength= 4 w= 4 nsites= 2880 E= 1.5e-470 
- 0.000000  0.000000  1.000000  0.000000 
+letter-probability matrix: alength= 4 w= 4 nsites= 3845 E= 3.0e-356 
+ 0.102211  0.000000  0.509233  0.388557 
  1.000000  0.000000  0.000000  0.000000 
  0.000000  0.000000  0.000000  1.000000 
- 1.000000  0.000000  0.000000  0.000000 
+ 0.566190  0.334720  0.000000  0.099090 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif GATA MEME-1 regular expression
+	Motif KATM MEME-1 regular expression
 --------------------------------------------------------------------------------
-GATA
+[GT]AT[AC]
 --------------------------------------------------------------------------------
 
 
 
 
-Time 38.70 secs.
+Time 41.53 secs.
 
 ********************************************************************************
 
@@ -126,6 +126,6 @@ Time 38.70 secs.
 Stopped because requested number of motifs (1) found.
 ********************************************************************************
 
-CPU: bd7a4da94b70
+CPU: a2fa4c555e61
 
 ********************************************************************************

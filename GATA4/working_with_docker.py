@@ -19,15 +19,21 @@ def meme_analysis(input_files):
         print(f"Executing Docker command for: {input_file}")
         try:
             subprocess.run(["docker", "run", "--rm", 
-                            "-v", f"{input_dir}:/data",  
-                            "memesuite/memesuite:latest", 
-                            "meme", f"/data/{input_basename}", 
-                            "-dna", 
-                            "-maxw", "8", 
-                            "-minw", "4", 
-                            "-nmotifs", "3", 
-                            "-o", f"/data/{input_basename}_results"],
-                           check=True)
+                "-v", f"{input_dir}:/data",  
+                "memesuite/memesuite:latest", 
+                "meme", f"/data/{input_basename}", 
+                "-dna", 
+                "-maxw", "8", 
+                "-minw", "4", 
+                "-nmotifs", "1", 
+                "-mod", "zoops", 
+                "-objfun", "classic", 
+                "-revcomp", 
+                "-markov_order", "0", 
+                "-nostatus", 
+                "-time", "14400", 
+                "-o", f"/data/{input_basename}_results"],
+               check=True)
         except subprocess.CalledProcessError as e:
             print(f"Command failed with error: {e}")
 
