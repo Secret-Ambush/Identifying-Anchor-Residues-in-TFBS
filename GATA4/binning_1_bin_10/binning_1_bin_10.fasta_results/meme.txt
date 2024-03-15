@@ -1,0 +1,135 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.5 (Release date: Thu Sep 14 08:48:04 2023 +1000)
+
+For further information on how to interpret these results please access http://localhost:8080/meme_5.5.5.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= /data/binning_1_bin_10.fasta
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /data/binning_1_bin_10.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/binning_1_bin_10.fasta_results 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: + -
+width:  minw=            4    maxw=            8
+nsites: minsites=        2    maxsites=     4498    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           35984    N=            4498
+sample: seed=            0    hsfrac=          0
+        searchsize=  35984    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.341 C 0.159 G 0.159 T 0.341 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.341 C 0.159 G 0.159 T 0.341 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF ATCGCG MEME-1	width =   6  sites =  86  llr = 616  E-value = 2.0e-007
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif ATCGCG MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  a12:::
+pos.-specific     C  ::81a1
+probability       G  :1:7:9
+matrix            T  :9:2::
+
+         bits    2.7     * 
+                 2.4     * 
+                 2.1     **
+                 1.9   * **
+Relative         1.6 * * **
+Entropy          1.3 * ****
+(10.3 bits)      1.1 * ****
+                 0.8 ******
+                 0.5 ******
+                 0.3 ******
+                 0.0 ------
+
+Multilevel           ATCGCG
+consensus                  
+sequence                   
+                           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ATCGCG MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 6 n= 13494 bayes= 9.15679 E= 2.0e-007 
+   155  -1307  -1307  -1307 
+  -229  -1307   -119    134 
+   -97    237  -1307  -1307 
+ -1307    -78    220    -97 
+ -1307    265  -1307  -1307 
+ -1307    -19    243  -1307 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ATCGCG MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 6 nsites= 86 E= 2.0e-007 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.069767  0.000000  0.069767  0.860465 
+ 0.174419  0.825581  0.000000  0.000000 
+ 0.000000  0.093023  0.732558  0.174419 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.139535  0.860465  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ATCGCG MEME-1 regular expression
+--------------------------------------------------------------------------------
+ATCGCG
+--------------------------------------------------------------------------------
+
+
+
+
+Time 40.03 secs.
+
+********************************************************************************
+
+********************************************************************************
+Stopped because requested number of motifs (1) found.
+********************************************************************************
+
+CPU: 966392b3e1ab
+
+********************************************************************************

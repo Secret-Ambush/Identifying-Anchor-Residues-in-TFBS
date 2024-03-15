@@ -30,12 +30,12 @@ def meme_analysis(input_files):
                 "-objfun", "classic", 
                 "-revcomp", 
                 "-markov_order", "0", 
-                "-o", f"/data/{input_basename}_results_new"],
+                "-o", f"/data/{input_basename}_results"],
                check=True)
         except subprocess.CalledProcessError as e:
             print(f"Command failed with error: {e}")
 
-pattern = 'binning_1_bin_*/*.fasta'
+pattern = 'bin_*/*.fasta'
 fasta_files = glob.glob(pattern)
 output_files = [os.path.join(os.path.basename(os.path.dirname(f)), os.path.basename(f)) for f in fasta_files]
 
