@@ -1,0 +1,27 @@
+Top 10% bin of entire dataset
+
+Position 1:
+  G: 6 times
+  T: 2 times
+  A: 3 times
+Most common: G appears 6 times
+
+Position 2:
+  A: 8 times
+  C: 1 times
+  T: 2 times
+Most common: A appears 8 times
+
+Position 3:
+  T: 8 times
+  G: 1 times
+  C: 2 times
+Most common: T appears 8 times
+
+Position 4:
+  A: 6 times
+  C: 2 times
+  T: 2 times
+  G: 1 times
+Most common: A appears 6 times
+

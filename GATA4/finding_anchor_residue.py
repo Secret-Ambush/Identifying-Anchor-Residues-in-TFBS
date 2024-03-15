@@ -54,14 +54,13 @@ for i in pwm_sections:
     consensus_sequences.append(consensus)
     
 with open('top_10_percent_total_consensus_analysis.txt', 'w') as output_file:
+    output_file.write("Top 10% bin of entire dataset\n\n")
     for position in range(len(consensus_sequences[0])):
         residues_at_position = [seq[position] for seq in consensus_sequences]
         count = Counter(residues_at_position)
         
-        # Find the most common residue at this position and its count
         most_common_residue, most_common_count = count.most_common(1)[0]
         
-        # Write the base appearances and counts at each position to the file
         output_file.write(f"Position {position+1}:\n")
         for residue, residue_count in count.items():
             output_file.write(f"  {residue}: {residue_count} times\n")
