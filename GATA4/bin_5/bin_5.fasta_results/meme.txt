@@ -25,7 +25,7 @@ for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
 ********************************************************************************
 TRAINING SET
 ********************************************************************************
-PRIMARY SEQUENCES= /data/bin_3.fasta
+PRIMARY SEQUENCES= /data/bin_5.fasta
 CONTROL SEQUENCES= --none--
 ALPHABET= ACGT
 
@@ -37,7 +37,7 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/bin_3.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_3.fasta_results 
+command: meme /data/bin_5.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_5.fasta_results 
 
 model:  mod=         zoops    nmotifs=         1    evt=           inf
 objective function:           em=       E-value of product of p-values
@@ -53,72 +53,72 @@ data:   n=           35984    N=            4498
 sample: seed=            0    hsfrac=          0
         searchsize=  35984    norand=         no    csites=       1000
 Letter frequencies in dataset:
-A 0.36 C 0.14 G 0.14 T 0.36 
+A 0.354 C 0.146 G 0.146 T 0.354 
 Background letter frequencies (from file dataset with add-one prior applied):
-A 0.36 C 0.14 G 0.14 T 0.36 
+A 0.354 C 0.146 G 0.146 T 0.354 
 Background model order: 0
 ********************************************************************************
 
 
 ********************************************************************************
-MOTIF TATC MEME-1	width =   4  sites = 1460  llr = 7346  E-value = 3.3e-105
+MOTIF GATA MEME-1	width =   4  sites = 1390  llr = 6557  E-value = 1.6e-054
 ********************************************************************************
 --------------------------------------------------------------------------------
-	Motif TATC MEME-1 Description
+	Motif GATA MEME-1 Description
 --------------------------------------------------------------------------------
-Simplified        A  :a::
-pos.-specific     C  :::a
-probability       G  ::::
-matrix            T  a:a:
+Simplified        A  :8:a
+pos.-specific     C  :2::
+probability       G  a:::
+matrix            T  ::a:
 
-         bits    2.8    *
-                 2.6    *
-                 2.3    *
-                 2.0    *
-Relative         1.7    *
-Entropy          1.4 ****
-(7.3 bits)       1.1 ****
-                 0.9 ****
+         bits    2.8 *   
+                 2.5 *   
+                 2.2 *   
+                 1.9 *   
+Relative         1.7 *   
+Entropy          1.4 * **
+(6.8 bits)       1.1 ****
+                 0.8 ****
                  0.6 ****
                  0.3 ****
                  0.0 ----
 
-Multilevel           TATC
+Multilevel           GATA
 consensus                
 sequence                 
                          
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif TATC MEME-1 position-specific scoring matrix
+	Motif GATA MEME-1 position-specific scoring matrix
 --------------------------------------------------------------------------------
-log-odds matrix: alength= 4 w= 4 n= 22490 bayes= 6.12541 E= 3.3e-105 
- -1716  -1716  -1716    147 
-   147  -1716  -1716  -1716 
- -1716  -1716  -1716    147 
- -1716    283  -1716  -1716 
+log-odds matrix: alength= 4 w= 4 n= 22490 bayes= 6.19136 E= 1.6e-054 
+ -1708  -1708    278  -1708 
+   118     44  -1708  -1708 
+ -1708  -1708  -1708    150 
+   150  -1708  -1708  -1708 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif TATC MEME-1 position-specific probability matrix
+	Motif GATA MEME-1 position-specific probability matrix
 --------------------------------------------------------------------------------
-letter-probability matrix: alength= 4 w= 4 nsites= 1460 E= 3.3e-105 
+letter-probability matrix: alength= 4 w= 4 nsites= 1390 E= 1.6e-054 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.802158  0.197842  0.000000  0.000000 
  0.000000  0.000000  0.000000  1.000000 
  1.000000  0.000000  0.000000  0.000000 
- 0.000000  0.000000  0.000000  1.000000 
- 0.000000  1.000000  0.000000  0.000000 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif TATC MEME-1 regular expression
+	Motif GATA MEME-1 regular expression
 --------------------------------------------------------------------------------
-TATC
+GATA
 --------------------------------------------------------------------------------
 
 
 
 
-Time 40.05 secs.
+Time 40.06 secs.
 
 ********************************************************************************
 
@@ -126,6 +126,6 @@ Time 40.05 secs.
 Stopped because requested number of motifs (1) found.
 ********************************************************************************
 
-CPU: 45ae38c97195
+CPU: faea7788692a
 
 ********************************************************************************
