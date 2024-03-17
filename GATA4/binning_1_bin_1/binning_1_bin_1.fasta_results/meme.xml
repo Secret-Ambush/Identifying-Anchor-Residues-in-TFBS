@@ -202,7 +202,7 @@
 </letter_frequencies>
 </training_set>
 <model>
-<command_line>meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -nostatus -time 14400 -o /data/binning_1_bin_1.fasta_results </command_line>
+<command_line>meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/binning_1_bin_1.fasta_results </command_line>
 <host>buildkitsandbox</host>
 <type>zoops</type>
 <nmotifs>1</nmotifs>
@@ -246,7 +246,7 @@
 </background_frequencies>
 </model>
 <motifs>
-<motif id="motif_1" name="GATA" alt="MEME-1" width="4" sites="2880" ic="8.0" re="7.3" llr="14484" p_value="2.8e-1448" e_value="1.5e-470" bayes_threshold="5.24553" elapsed_time="38.699400">
+<motif id="motif_1" name="GATA" alt="MEME-1" width="4" sites="2880" ic="8.0" re="7.3" llr="14484" p_value="2.8e-1448" e_value="1.5e-470" bayes_threshold="5.24553" elapsed_time="39.874318">
 <scores>
 <alphabet_matrix>
 <alphabet_array>

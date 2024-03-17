@@ -11,9 +11,9 @@
         "release": "Thu Sep 14 08:48:04 2023 +1000",
         "stop_reason": "Stopped because requested number of motifs (1) found.",
         "cmd": [
-          "meme", "/data/binning_1_bin_11.fasta", "-dna", "-maxw", "8",
-          "-minw", "4", "-nmotifs", "1", "-mod", "zoops", "-objfun",
-          "classic", "-revcomp", "-markov_order", "0", "-o",
+          "meme", "/data/binning_1_bin_11.fasta", "-dna", "-o", "-nostatus",
+          "-maxw", "8", "-minw", "4", "-nmotifs", "1", "-mod", "zoops",
+          "-objfun", "classic", "-revcomp", "-markov_order", "0", "-o",
           "/data/binning_1_bin_11.fasta_results"
         ],
         "options": {
@@ -25,11 +25,11 @@
           "minw": 4,
           "maxw": 8,
           "minsites": 2,
-          "maxsites": 6,
+          "maxsites": 8,
           "wnsites": 0.8,
           "spmap": "uni",
           "spfuzz": 0.5,
-          "searchsize": 48,
+          "searchsize": 64,
           "maxsize": 0,
           "norand": "no",
           "csites": 1000,
@@ -122,16 +122,16 @@
         "background": {
           "source": "--sequences--",
           "order": 0,
-          "freqs": [0.323, 0.177, 0.177, 0.323]
+          "freqs": [0.359, 0.141, 0.141, 0.359]
         },
         "sequence_db": {
           "primary_source": "/data/binning_1_bin_11.fasta",
-          "primary_count": 6,
-          "primary_positions": 48,
+          "primary_count": 8,
+          "primary_positions": 64,
           "control_source": "--none--",
           "control_count": 0,
           "control_positions": 0,
-          "freqs": [0.323, 0.177, 0.177, 0.323],
+          "freqs": [0.359, 0.141, 0.141, 0.359],
           "sequences": [
             {
               "name": "Sequence1",
@@ -157,103 +157,112 @@
               "name": "Sequence6",
               "length": 8,
               "weight": 1.000000
+            }, {
+              "name": "Sequence7",
+              "length": 8,
+              "weight": 1.000000
+            }, {
+              "name": "Sequence8",
+              "length": 8,
+              "weight": 1.000000
             }
           ]
         },
         "motifs": [
           {
             "db": 0,
-            "id": "ATMT",
+            "id": "YGATAA",
             "alt": "MEME-1",
-            "len": 4,
-            "nsites": 6,
-            "evalue": "9.2e+001",
-            "ic": 5.8,
-            "re": 5.0,
-            "llr": 21,
-            "bt": 2.54057,
-            "time": 0.139256,
+            "len": 6,
+            "nsites": 5,
+            "evalue": "1.1e+000",
+            "ic": 9.6,
+            "re": 8.6,
+            "llr": 30,
+            "bt": 3.04103,
+            "time": 0.128545,
             "psm": [
-              [137, -9, -923, -923], [-923, -923, -923, 163], 
-              [5, 191, -923, -923], [-95, -923, -923, 137]
+              [-897, 151, -897, 74], [-897, 51, 251, -897], 
+              [147, -897, -897, -897], [-897, -897, -897, 147], 
+              [147, -897, -897, -897], [115, -897, 51, -897]
             ],
             "pwm": [
-              [0.833333, 0.166667, 0.000000, 0.000000], 
+              [0.000000, 0.400000, 0.000000, 0.600000], 
+              [0.000000, 0.200000, 0.800000, 0.000000], 
+              [1.000000, 0.000000, 0.000000, 0.000000], 
               [0.000000, 0.000000, 0.000000, 1.000000], 
-              [0.333333, 0.666667, 0.000000, 0.000000], 
-              [0.166667, 0.000000, 0.000000, 0.833333]
+              [1.000000, 0.000000, 0.000000, 0.000000], 
+              [0.800000, 0.000000, 0.200000, 0.000000]
             ],
             "sites": [
               {
-                "seq": 2,
-                "pos": 0,
-                "rc": false,
-                "pvalue": 5.96e-03,
-                "lflank": "",
-                "match": "ATCT",
-                "rflank": "TAAG"
-              }, {
-                "seq": 1,
-                "pos": 0,
-                "rc": false,
-                "pvalue": 5.96e-03,
-                "lflank": "",
-                "match": "ATCT",
-                "rflank": "GCGA"
-              }, {
-                "seq": 3,
-                "pos": 0,
-                "rc": false,
-                "pvalue": 9.23e-03,
-                "lflank": "",
-                "match": "CTCT",
-                "rflank": "AATC"
-              }, {
-                "seq": 5,
-                "pos": 2,
-                "rc": false,
-                "pvalue": 2.01e-02,
-                "lflank": "CA",
-                "match": "ATAT",
-                "rflank": "GC"
-              }, {
-                "seq": 0,
-                "pos": 3,
-                "rc": false,
-                "pvalue": 2.01e-02,
-                "lflank": "GGT",
-                "match": "ATAT",
-                "rflank": "A"
-              }, {
-                "seq": 4,
+                "seq": 7,
                 "pos": 1,
                 "rc": false,
-                "pvalue": 2.61e-02,
-                "lflank": "G",
-                "match": "ATCA",
-                "rflank": "CAA"
+                "pvalue": 3.30e-04,
+                "lflank": "A",
+                "match": "CGATAA",
+                "rflank": "A"
+              }, {
+                "seq": 2,
+                "pos": 2,
+                "rc": false,
+                "pvalue": 3.30e-04,
+                "lflank": "TT",
+                "match": "CGATAA",
+                "rflank": ""
+              }, {
+                "seq": 4,
+                "pos": 2,
+                "rc": true,
+                "pvalue": 1.30e-03,
+                "lflank": "",
+                "match": "TGATAA",
+                "rflank": "TA"
+              }, {
+                "seq": 1,
+                "pos": 2,
+                "rc": false,
+                "pvalue": 1.63e-03,
+                "lflank": "CG",
+                "match": "TGATAG",
+                "rflank": ""
+              }, {
+                "seq": 3,
+                "pos": 1,
+                "rc": true,
+                "pvalue": 2.93e-03,
+                "lflank": "A",
+                "match": "TCATAA",
+                "rflank": "T"
               }
             ]
           }
         ],
         "scan": [
           {
-            "pvalue": 1.84e-01,
+            "pvalue": 7.22e-01,
             "sites": []
           }, {
-            "pvalue": 5.81e-02,
+            "pvalue": 9.75e-03,
             "sites": []
           }, {
-            "pvalue": 5.81e-02,
+            "pvalue": 1.98e-03,
             "sites": []
           }, {
-            "pvalue": 8.86e-02,
+            "pvalue": 1.75e-02,
             "sites": []
           }, {
-            "pvalue": 2.32e-01,
+            "pvalue": 7.78e-03,
             "sites": []
           }, {
-            "pvalue": 1.84e-01,
+            "pvalue": 5.56e-01,
+            "sites": []
+          }, {
+            "pvalue": 5.84e-01,
+            "sites": []
+          }, {
+            "pvalue": 1.98e-03,
             "sites": []
           }
         ]

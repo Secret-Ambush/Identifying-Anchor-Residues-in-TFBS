@@ -1,5 +1,20 @@
 Discrete 10% binning of entire dataset
 
+Consesus sequences of bins: 
+Bin 1: GATA 
+Bin 2: TATC 
+Bin 3: GATA 
+Bin 4: GATA 
+Bin 5: ATCT 
+Bin 6: ATCGCG 
+Bin 7: AATTGC 
+Bin 8: GATA 
+Bin 9: TATC 
+Bin 10: GATA 
+Bin 11: GCGATA 
+
+
+Analysis
 Position 1:
   G: 6 times
   T: 2 times

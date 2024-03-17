@@ -31,7 +31,7 @@ def split_into_bins(fasta_file, bin_size_percentage=50):
     
     return output_folders
 
-fasta_file = '/Users/bristi/Desktop/Design Project/Working-with-TF/GATA4/output_sequences.fasta'
+fasta_file = '/Users/bristi/Desktop/Design Project/Working-with-TF/GATA4/bin_1/bin_1.fasta'
 output_folders = split_into_bins(fasta_file, 10)  
 
 print("Sequences have been divided into the following folders:", output_folders)

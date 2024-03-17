@@ -1,0 +1,38 @@
+Discrete 10% binning of top 10% of dataset
+
+Consesus sequences of bins: 
+Bin 1: GATA 
+Bin 2: GATA 
+Bin 3: GATA 
+Bin 4: GATA 
+Bin 5: GATA 
+Bin 6: GATA 
+Bin 7: GATA 
+Bin 8: TATC 
+Bin 9: GATA 
+Bin 10: GATA 
+Bin 11: TGATAA 
+
+
+Analysis
+Position 1:
+  G: 9 times
+  T: 2 times
+Most common: G appears 9 times
+
+Position 2:
+  A: 10 times
+  G: 1 times
+Most common: A appears 10 times
+
+Position 3:
+  T: 10 times
+  A: 1 times
+Most common: T appears 10 times
+
+Position 4:
+  A: 9 times
+  C: 1 times
+  T: 1 times
+Most common: A appears 9 times
+

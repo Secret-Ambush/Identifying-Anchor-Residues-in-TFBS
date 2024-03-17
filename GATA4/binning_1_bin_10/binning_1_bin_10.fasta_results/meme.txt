@@ -28,7 +28,233 @@ TRAINING SET
 PRIMARY SEQUENCES= /data/binning_1_bin_10.fasta
 CONTROL SEQUENCES= --none--
 ALPHABET= ACGT
-
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+Sequence1                1.0000      8  Sequence2                1.0000      8  
+Sequence3                1.0000      8  Sequence4                1.0000      8  
+Sequence5                1.0000      8  Sequence6                1.0000      8  
+Sequence7                1.0000      8  Sequence8                1.0000      8  
+Sequence9                1.0000      8  Sequence10               1.0000      8  
+Sequence11               1.0000      8  Sequence12               1.0000      8  
+Sequence13               1.0000      8  Sequence14               1.0000      8  
+Sequence15               1.0000      8  Sequence16               1.0000      8  
+Sequence17               1.0000      8  Sequence18               1.0000      8  
+Sequence19               1.0000      8  Sequence20               1.0000      8  
+Sequence21               1.0000      8  Sequence22               1.0000      8  
+Sequence23               1.0000      8  Sequence24               1.0000      8  
+Sequence25               1.0000      8  Sequence26               1.0000      8  
+Sequence27               1.0000      8  Sequence28               1.0000      8  
+Sequence29               1.0000      8  Sequence30               1.0000      8  
+Sequence31               1.0000      8  Sequence32               1.0000      8  
+Sequence33               1.0000      8  Sequence34               1.0000      8  
+Sequence35               1.0000      8  Sequence36               1.0000      8  
+Sequence37               1.0000      8  Sequence38               1.0000      8  
+Sequence39               1.0000      8  Sequence40               1.0000      8  
+Sequence41               1.0000      8  Sequence42               1.0000      8  
+Sequence43               1.0000      8  Sequence44               1.0000      8  
+Sequence45               1.0000      8  Sequence46               1.0000      8  
+Sequence47               1.0000      8  Sequence48               1.0000      8  
+Sequence49               1.0000      8  Sequence50               1.0000      8  
+Sequence51               1.0000      8  Sequence52               1.0000      8  
+Sequence53               1.0000      8  Sequence54               1.0000      8  
+Sequence55               1.0000      8  Sequence56               1.0000      8  
+Sequence57               1.0000      8  Sequence58               1.0000      8  
+Sequence59               1.0000      8  Sequence60               1.0000      8  
+Sequence61               1.0000      8  Sequence62               1.0000      8  
+Sequence63               1.0000      8  Sequence64               1.0000      8  
+Sequence65               1.0000      8  Sequence66               1.0000      8  
+Sequence67               1.0000      8  Sequence68               1.0000      8  
+Sequence69               1.0000      8  Sequence70               1.0000      8  
+Sequence71               1.0000      8  Sequence72               1.0000      8  
+Sequence73               1.0000      8  Sequence74               1.0000      8  
+Sequence75               1.0000      8  Sequence76               1.0000      8  
+Sequence77               1.0000      8  Sequence78               1.0000      8  
+Sequence79               1.0000      8  Sequence80               1.0000      8  
+Sequence81               1.0000      8  Sequence82               1.0000      8  
+Sequence83               1.0000      8  Sequence84               1.0000      8  
+Sequence85               1.0000      8  Sequence86               1.0000      8  
+Sequence87               1.0000      8  Sequence88               1.0000      8  
+Sequence89               1.0000      8  Sequence90               1.0000      8  
+Sequence91               1.0000      8  Sequence92               1.0000      8  
+Sequence93               1.0000      8  Sequence94               1.0000      8  
+Sequence95               1.0000      8  Sequence96               1.0000      8  
+Sequence97               1.0000      8  Sequence98               1.0000      8  
+Sequence99               1.0000      8  Sequence100              1.0000      8  
+Sequence101              1.0000      8  Sequence102              1.0000      8  
+Sequence103              1.0000      8  Sequence104              1.0000      8  
+Sequence105              1.0000      8  Sequence106              1.0000      8  
+Sequence107              1.0000      8  Sequence108              1.0000      8  
+Sequence109              1.0000      8  Sequence110              1.0000      8  
+Sequence111              1.0000      8  Sequence112              1.0000      8  
+Sequence113              1.0000      8  Sequence114              1.0000      8  
+Sequence115              1.0000      8  Sequence116              1.0000      8  
+Sequence117              1.0000      8  Sequence118              1.0000      8  
+Sequence119              1.0000      8  Sequence120              1.0000      8  
+Sequence121              1.0000      8  Sequence122              1.0000      8  
+Sequence123              1.0000      8  Sequence124              1.0000      8  
+Sequence125              1.0000      8  Sequence126              1.0000      8  
+Sequence127              1.0000      8  Sequence128              1.0000      8  
+Sequence129              1.0000      8  Sequence130              1.0000      8  
+Sequence131              1.0000      8  Sequence132              1.0000      8  
+Sequence133              1.0000      8  Sequence134              1.0000      8  
+Sequence135              1.0000      8  Sequence136              1.0000      8  
+Sequence137              1.0000      8  Sequence138              1.0000      8  
+Sequence139              1.0000      8  Sequence140              1.0000      8  
+Sequence141              1.0000      8  Sequence142              1.0000      8  
+Sequence143              1.0000      8  Sequence144              1.0000      8  
+Sequence145              1.0000      8  Sequence146              1.0000      8  
+Sequence147              1.0000      8  Sequence148              1.0000      8  
+Sequence149              1.0000      8  Sequence150              1.0000      8  
+Sequence151              1.0000      8  Sequence152              1.0000      8  
+Sequence153              1.0000      8  Sequence154              1.0000      8  
+Sequence155              1.0000      8  Sequence156              1.0000      8  
+Sequence157              1.0000      8  Sequence158              1.0000      8  
+Sequence159              1.0000      8  Sequence160              1.0000      8  
+Sequence161              1.0000      8  Sequence162              1.0000      8  
+Sequence163              1.0000      8  Sequence164              1.0000      8  
+Sequence165              1.0000      8  Sequence166              1.0000      8  
+Sequence167              1.0000      8  Sequence168              1.0000      8  
+Sequence169              1.0000      8  Sequence170              1.0000      8  
+Sequence171              1.0000      8  Sequence172              1.0000      8  
+Sequence173              1.0000      8  Sequence174              1.0000      8  
+Sequence175              1.0000      8  Sequence176              1.0000      8  
+Sequence177              1.0000      8  Sequence178              1.0000      8  
+Sequence179              1.0000      8  Sequence180              1.0000      8  
+Sequence181              1.0000      8  Sequence182              1.0000      8  
+Sequence183              1.0000      8  Sequence184              1.0000      8  
+Sequence185              1.0000      8  Sequence186              1.0000      8  
+Sequence187              1.0000      8  Sequence188              1.0000      8  
+Sequence189              1.0000      8  Sequence190              1.0000      8  
+Sequence191              1.0000      8  Sequence192              1.0000      8  
+Sequence193              1.0000      8  Sequence194              1.0000      8  
+Sequence195              1.0000      8  Sequence196              1.0000      8  
+Sequence197              1.0000      8  Sequence198              1.0000      8  
+Sequence199              1.0000      8  Sequence200              1.0000      8  
+Sequence201              1.0000      8  Sequence202              1.0000      8  
+Sequence203              1.0000      8  Sequence204              1.0000      8  
+Sequence205              1.0000      8  Sequence206              1.0000      8  
+Sequence207              1.0000      8  Sequence208              1.0000      8  
+Sequence209              1.0000      8  Sequence210              1.0000      8  
+Sequence211              1.0000      8  Sequence212              1.0000      8  
+Sequence213              1.0000      8  Sequence214              1.0000      8  
+Sequence215              1.0000      8  Sequence216              1.0000      8  
+Sequence217              1.0000      8  Sequence218              1.0000      8  
+Sequence219              1.0000      8  Sequence220              1.0000      8  
+Sequence221              1.0000      8  Sequence222              1.0000      8  
+Sequence223              1.0000      8  Sequence224              1.0000      8  
+Sequence225              1.0000      8  Sequence226              1.0000      8  
+Sequence227              1.0000      8  Sequence228              1.0000      8  
+Sequence229              1.0000      8  Sequence230              1.0000      8  
+Sequence231              1.0000      8  Sequence232              1.0000      8  
+Sequence233              1.0000      8  Sequence234              1.0000      8  
+Sequence235              1.0000      8  Sequence236              1.0000      8  
+Sequence237              1.0000      8  Sequence238              1.0000      8  
+Sequence239              1.0000      8  Sequence240              1.0000      8  
+Sequence241              1.0000      8  Sequence242              1.0000      8  
+Sequence243              1.0000      8  Sequence244              1.0000      8  
+Sequence245              1.0000      8  Sequence246              1.0000      8  
+Sequence247              1.0000      8  Sequence248              1.0000      8  
+Sequence249              1.0000      8  Sequence250              1.0000      8  
+Sequence251              1.0000      8  Sequence252              1.0000      8  
+Sequence253              1.0000      8  Sequence254              1.0000      8  
+Sequence255              1.0000      8  Sequence256              1.0000      8  
+Sequence257              1.0000      8  Sequence258              1.0000      8  
+Sequence259              1.0000      8  Sequence260              1.0000      8  
+Sequence261              1.0000      8  Sequence262              1.0000      8  
+Sequence263              1.0000      8  Sequence264              1.0000      8  
+Sequence265              1.0000      8  Sequence266              1.0000      8  
+Sequence267              1.0000      8  Sequence268              1.0000      8  
+Sequence269              1.0000      8  Sequence270              1.0000      8  
+Sequence271              1.0000      8  Sequence272              1.0000      8  
+Sequence273              1.0000      8  Sequence274              1.0000      8  
+Sequence275              1.0000      8  Sequence276              1.0000      8  
+Sequence277              1.0000      8  Sequence278              1.0000      8  
+Sequence279              1.0000      8  Sequence280              1.0000      8  
+Sequence281              1.0000      8  Sequence282              1.0000      8  
+Sequence283              1.0000      8  Sequence284              1.0000      8  
+Sequence285              1.0000      8  Sequence286              1.0000      8  
+Sequence287              1.0000      8  Sequence288              1.0000      8  
+Sequence289              1.0000      8  Sequence290              1.0000      8  
+Sequence291              1.0000      8  Sequence292              1.0000      8  
+Sequence293              1.0000      8  Sequence294              1.0000      8  
+Sequence295              1.0000      8  Sequence296              1.0000      8  
+Sequence297              1.0000      8  Sequence298              1.0000      8  
+Sequence299              1.0000      8  Sequence300              1.0000      8  
+Sequence301              1.0000      8  Sequence302              1.0000      8  
+Sequence303              1.0000      8  Sequence304              1.0000      8  
+Sequence305              1.0000      8  Sequence306              1.0000      8  
+Sequence307              1.0000      8  Sequence308              1.0000      8  
+Sequence309              1.0000      8  Sequence310              1.0000      8  
+Sequence311              1.0000      8  Sequence312              1.0000      8  
+Sequence313              1.0000      8  Sequence314              1.0000      8  
+Sequence315              1.0000      8  Sequence316              1.0000      8  
+Sequence317              1.0000      8  Sequence318              1.0000      8  
+Sequence319              1.0000      8  Sequence320              1.0000      8  
+Sequence321              1.0000      8  Sequence322              1.0000      8  
+Sequence323              1.0000      8  Sequence324              1.0000      8  
+Sequence325              1.0000      8  Sequence326              1.0000      8  
+Sequence327              1.0000      8  Sequence328              1.0000      8  
+Sequence329              1.0000      8  Sequence330              1.0000      8  
+Sequence331              1.0000      8  Sequence332              1.0000      8  
+Sequence333              1.0000      8  Sequence334              1.0000      8  
+Sequence335              1.0000      8  Sequence336              1.0000      8  
+Sequence337              1.0000      8  Sequence338              1.0000      8  
+Sequence339              1.0000      8  Sequence340              1.0000      8  
+Sequence341              1.0000      8  Sequence342              1.0000      8  
+Sequence343              1.0000      8  Sequence344              1.0000      8  
+Sequence345              1.0000      8  Sequence346              1.0000      8  
+Sequence347              1.0000      8  Sequence348              1.0000      8  
+Sequence349              1.0000      8  Sequence350              1.0000      8  
+Sequence351              1.0000      8  Sequence352              1.0000      8  
+Sequence353              1.0000      8  Sequence354              1.0000      8  
+Sequence355              1.0000      8  Sequence356              1.0000      8  
+Sequence357              1.0000      8  Sequence358              1.0000      8  
+Sequence359              1.0000      8  Sequence360              1.0000      8  
+Sequence361              1.0000      8  Sequence362              1.0000      8  
+Sequence363              1.0000      8  Sequence364              1.0000      8  
+Sequence365              1.0000      8  Sequence366              1.0000      8  
+Sequence367              1.0000      8  Sequence368              1.0000      8  
+Sequence369              1.0000      8  Sequence370              1.0000      8  
+Sequence371              1.0000      8  Sequence372              1.0000      8  
+Sequence373              1.0000      8  Sequence374              1.0000      8  
+Sequence375              1.0000      8  Sequence376              1.0000      8  
+Sequence377              1.0000      8  Sequence378              1.0000      8  
+Sequence379              1.0000      8  Sequence380              1.0000      8  
+Sequence381              1.0000      8  Sequence382              1.0000      8  
+Sequence383              1.0000      8  Sequence384              1.0000      8  
+Sequence385              1.0000      8  Sequence386              1.0000      8  
+Sequence387              1.0000      8  Sequence388              1.0000      8  
+Sequence389              1.0000      8  Sequence390              1.0000      8  
+Sequence391              1.0000      8  Sequence392              1.0000      8  
+Sequence393              1.0000      8  Sequence394              1.0000      8  
+Sequence395              1.0000      8  Sequence396              1.0000      8  
+Sequence397              1.0000      8  Sequence398              1.0000      8  
+Sequence399              1.0000      8  Sequence400              1.0000      8  
+Sequence401              1.0000      8  Sequence402              1.0000      8  
+Sequence403              1.0000      8  Sequence404              1.0000      8  
+Sequence405              1.0000      8  Sequence406              1.0000      8  
+Sequence407              1.0000      8  Sequence408              1.0000      8  
+Sequence409              1.0000      8  Sequence410              1.0000      8  
+Sequence411              1.0000      8  Sequence412              1.0000      8  
+Sequence413              1.0000      8  Sequence414              1.0000      8  
+Sequence415              1.0000      8  Sequence416              1.0000      8  
+Sequence417              1.0000      8  Sequence418              1.0000      8  
+Sequence419              1.0000      8  Sequence420              1.0000      8  
+Sequence421              1.0000      8  Sequence422              1.0000      8  
+Sequence423              1.0000      8  Sequence424              1.0000      8  
+Sequence425              1.0000      8  Sequence426              1.0000      8  
+Sequence427              1.0000      8  Sequence428              1.0000      8  
+Sequence429              1.0000      8  Sequence430              1.0000      8  
+Sequence431              1.0000      8  Sequence432              1.0000      8  
+Sequence433              1.0000      8  Sequence434              1.0000      8  
+Sequence435              1.0000      8  Sequence436              1.0000      8  
+Sequence437              1.0000      8  Sequence438              1.0000      8  
+Sequence439              1.0000      8  Sequence440              1.0000      8  
+Sequence441              1.0000      8  Sequence442              1.0000      8  
+Sequence443              1.0000      8  Sequence444              1.0000      8  
+Sequence445              1.0000      8  Sequence446              1.0000      8  
+Sequence447              1.0000      8  Sequence448              1.0000      8  
+Sequence449              1.0000      8  
 ********************************************************************************
 
 ********************************************************************************
@@ -37,99 +263,1418 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/binning_1_bin_10.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/binning_1_bin_10.fasta_results 
+command: meme /data/binning_1_bin_10.fasta -dna -o -nostatus -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/binning_1_bin_10.fasta_results 
 
 model:  mod=         zoops    nmotifs=         1    evt=           inf
 objective function:           em=       E-value of product of p-values
                               starts=   E-value of product of p-values
 strands: + -
 width:  minw=            4    maxw=            8
-nsites: minsites=        2    maxsites=     4498    wnsites=       0.8
+nsites: minsites=        2    maxsites=      449    wnsites=       0.8
 theta:  spmap=         uni    spfuzz=        0.5
 em:     prior=   dirichlet    b=            0.01    maxiter=        50
         distance=    1e-05
 trim:   wg=             11    ws=              1    endgaps=       yes
-data:   n=           35984    N=            4498
+data:   n=            3592    N=             449
 sample: seed=            0    hsfrac=          0
-        searchsize=  35984    norand=         no    csites=       1000
+        searchsize=   3592    norand=         no    csites=       1000
 Letter frequencies in dataset:
-A 0.341 C 0.159 G 0.159 T 0.341 
+A 0.369 C 0.131 G 0.131 T 0.369 
 Background letter frequencies (from file dataset with add-one prior applied):
-A 0.341 C 0.159 G 0.159 T 0.341 
+A 0.369 C 0.131 G 0.131 T 0.369 
 Background model order: 0
 ********************************************************************************
 
 
 ********************************************************************************
-MOTIF ATCGCG MEME-1	width =   6  sites =  86  llr = 616  E-value = 2.0e-007
+MOTIF GATA MEME-1	width =   4  sites = 279  llr = 1242  E-value = 2.5e-119
 ********************************************************************************
 --------------------------------------------------------------------------------
-	Motif ATCGCG MEME-1 Description
+	Motif GATA MEME-1 Description
 --------------------------------------------------------------------------------
-Simplified        A  a12:::
-pos.-specific     C  ::81a1
-probability       G  :1:7:9
-matrix            T  :9:2::
+Simplified        A  :9:8
+pos.-specific     C  :1::
+probability       G  a:::
+matrix            T  ::a2
 
-         bits    2.7     * 
-                 2.4     * 
-                 2.1     **
-                 1.9   * **
-Relative         1.6 * * **
-Entropy          1.3 * ****
-(10.3 bits)      1.1 * ****
-                 0.8 ******
-                 0.5 ******
-                 0.3 ******
-                 0.0 ------
+         bits    2.9 *   
+                 2.6 *   
+                 2.3 *   
+                 2.1 *   
+Relative         1.8 *   
+Entropy          1.5 * * 
+(6.4 bits)       1.2 *** 
+                 0.9 ****
+                 0.6 ****
+                 0.3 ****
+                 0.0 ----
 
-Multilevel           ATCGCG
-consensus                  
-sequence                   
-                           
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-	Motif ATCGCG MEME-1 position-specific scoring matrix
---------------------------------------------------------------------------------
-log-odds matrix: alength= 4 w= 6 n= 13494 bayes= 9.15679 E= 2.0e-007 
-   155  -1307  -1307  -1307 
-  -229  -1307   -119    134 
-   -97    237  -1307  -1307 
- -1307    -78    220    -97 
- -1307    265  -1307  -1307 
- -1307    -19    243  -1307 
+Multilevel           GATA
+consensus                
+sequence                 
+                         
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif ATCGCG MEME-1 position-specific probability matrix
+	Motif GATA MEME-1 sites sorted by position p-value
 --------------------------------------------------------------------------------
-letter-probability matrix: alength= 4 w= 6 nsites= 86 E= 2.0e-007 
- 1.000000  0.000000  0.000000  0.000000 
- 0.069767  0.000000  0.069767  0.860465 
- 0.174419  0.825581  0.000000  0.000000 
- 0.000000  0.093023  0.732558  0.174419 
- 0.000000  1.000000  0.000000  0.000000 
- 0.000000  0.139535  0.860465  0.000000 
+Sequence name            Strand  Start   P-value            Site  
+-------------            ------  ----- ---------            ----
+Sequence448                  +      4  6.58e-03        ACA GATA C         
+Sequence445                  +      5  6.58e-03       GTGA GATA           
+Sequence443                  +      5  6.58e-03       GTGT GATA           
+Sequence442                  -      3  6.58e-03         CT GATA CT        
+Sequence438                  -      2  6.58e-03        TTC GATA A         
+Sequence435                  +      4  6.58e-03        ACC GATA A         
+Sequence434                  -      5  6.58e-03          . GATA ATCG      
+Sequence432                  +      3  6.58e-03         AT GATA TC        
+Sequence431                  +      5  6.58e-03       AAAA GATA           
+Sequence429                  -      5  6.58e-03          . GATA AACT      
+Sequence428                  -      4  6.58e-03          C GATA GGG       
+Sequence424                  +      5  6.58e-03       GTGC GATA           
+Sequence423                  -      2  6.58e-03        GCA GATA G         
+Sequence421                  -      4  6.58e-03          T GATA CTG       
+Sequence419                  +      2  6.58e-03          T GATA CGA       
+Sequence418                  +      2  6.58e-03          A GATA GGC       
+Sequence417                  +      3  6.58e-03         AA GATA TA        
+Sequence416                  -      3  6.58e-03         GA GATA GT        
+Sequence415                  -      4  6.58e-03          C GATA ATG       
+Sequence414                  -      4  6.58e-03          A GATA TCT       
+Sequence412                  +      5  6.58e-03       ATAG GATA           
+Sequence410                  +      2  6.58e-03          A GATA TTA       
+Sequence405                  -      3  6.58e-03         GA GATA GT        
+Sequence402                  -      3  6.58e-03         TC GATA AA        
+Sequence400                  +      5  6.58e-03       AATC GATA           
+Sequence397                  -      2  6.58e-03        TTT GATA T         
+Sequence396                  +      2  6.58e-03          A GATA CCG       
+Sequence395                  -      3  6.58e-03         GA GATA GG        
+Sequence394                  -      5  6.58e-03          . GATA TATG      
+Sequence392                  +      1  6.58e-03          . GATA TAAA      
+Sequence390                  +      2  6.58e-03          A GATA GAC       
+Sequence387                  +      4  6.58e-03        CGA GATA A         
+Sequence385                  -      5  6.58e-03          . GATA GATC      
+Sequence384                  +      5  6.58e-03       TATA GATA           
+Sequence382                  +      5  6.58e-03       AAAT GATA           
+Sequence380                  -      4  6.58e-03          C GATA ACT       
+Sequence379                  +      4  6.58e-03        AAT GATA G         
+Sequence378                  -      2  6.58e-03        GGA GATA G         
+Sequence376                  -      2  6.58e-03        TTT GATA G         
+Sequence372                  +      2  6.58e-03          A GATA GCG       
+Sequence371                  +      2  6.58e-03          A GATA TTA       
+Sequence370                  +      5  6.58e-03       TAGA GATA           
+Sequence363                  +      2  6.58e-03          G GATA ATA       
+Sequence362                  -      2  6.58e-03        GGA GATA T         
+Sequence361                  +      3  6.58e-03         CA GATA CG        
+Sequence359                  +      4  6.58e-03        TGT GATA A         
+Sequence358                  -      4  6.58e-03          C GATA ACT       
+Sequence357                  +      5  6.58e-03       GATA GATA           
+Sequence355                  +      1  6.58e-03          . GATA TCAA      
+Sequence353                  +      2  6.58e-03          C GATA ATA       
+Sequence352                  -      3  6.58e-03         GC GATA GG        
+Sequence349                  -      5  6.58e-03          . GATA ATGG      
+Sequence343                  -      4  6.58e-03          G GATA ACT       
+Sequence342                  +      1  6.58e-03          . GATA ATTA      
+Sequence340                  +      5  6.58e-03       ATTA GATA           
+Sequence338                  +      5  6.58e-03       ATGA GATA           
+Sequence337                  -      5  6.58e-03          . GATA CGGT      
+Sequence336                  -      3  6.58e-03         TC GATA AT        
+Sequence335                  +      5  6.58e-03       TAAT GATA           
+Sequence333                  +      5  6.58e-03       AAAG GATA           
+Sequence332                  +      4  6.58e-03        CAT GATA G         
+Sequence331                  -      2  6.58e-03        TTT GATA T         
+Sequence329                  -      4  6.58e-03          T GATA GAA       
+Sequence328                  -      5  6.58e-03          . GATA GATG      
+Sequence326                  -      2  6.58e-03        TAA GATA T         
+Sequence325                  -      2  6.58e-03        TCA GATA G         
+Sequence324                  +      3  6.58e-03         CA GATA AA        
+Sequence320                  +      1  6.58e-03          . GATA GCAA      
+Sequence316                  -      2  6.58e-03        ATC GATA T         
+Sequence315                  +      5  6.58e-03       AACT GATA           
+Sequence314                  +      3  6.58e-03         CA GATA GA        
+Sequence313                  +      3  6.58e-03         GC GATA AC        
+Sequence309                  -      2  6.58e-03        TTT GATA G         
+Sequence308                  -      2  6.58e-03        TGC GATA G         
+Sequence307                  +      4  6.58e-03        TGT GATA A         
+Sequence305                  +      5  6.58e-03       CGTT GATA           
+Sequence302                  +      4  6.58e-03        AAT GATA G         
+Sequence299                  +      3  6.58e-03         TA GATA AA        
+Sequence297                  +      5  6.58e-03       ATAA GATA           
+Sequence295                  -      2  6.58e-03        CTT GATA T         
+Sequence291                  +      4  6.58e-03        TGA GATA A         
+Sequence290                  +      3  6.58e-03         AA GATA AC        
+Sequence289                  +      1  6.58e-03          . GATA GTAC      
+Sequence287                  +      5  6.58e-03       TAAT GATA           
+Sequence286                  -      5  6.58e-03          . GATA CGAT      
+Sequence285                  -      2  6.58e-03        TGC GATA T         
+Sequence284                  +      3  6.58e-03         CA GATA AA        
+Sequence281                  +      5  6.58e-03       CCGC GATA           
+Sequence280                  +      1  6.58e-03          . GATA ATTA      
+Sequence277                  -      2  6.58e-03        TAT GATA G         
+Sequence275                  -      2  6.58e-03        CGC GATA T         
+Sequence274                  +      2  6.58e-03          T GATA GCA       
+Sequence273                  +      5  6.58e-03       CGAT GATA           
+Sequence272                  +      4  6.58e-03        AAT GATA T         
+Sequence271                  +      1  6.58e-03          . GATA GCTA      
+Sequence269                  +      1  6.58e-03          . GATA TATC      
+Sequence267                  +      4  6.58e-03        CCT GATA A         
+Sequence261                  +      4  6.58e-03        TTT GATA A         
+Sequence258                  +      1  6.58e-03          . GATA ACCA      
+Sequence256                  -      5  6.58e-03          . GATA ACGG      
+Sequence255                  +      1  6.58e-03          . GATA ATGA      
+Sequence252                  +      2  6.58e-03          A GATA TAG       
+Sequence248                  +      2  6.58e-03          A GATA CAG       
+Sequence246                  +      4  6.58e-03        CGG GATA A         
+Sequence239                  -      3  6.58e-03         AC GATA AT        
+Sequence237                  +      2  6.58e-03          A GATA ACA       
+Sequence236                  -      3  6.58e-03         AT GATA AT        
+Sequence235                  +      1  6.58e-03          . GATA ACCC      
+Sequence234                  -      3  6.58e-03         TT GATA CA        
+Sequence233                  -      5  6.58e-03          . GATA ATTT      
+Sequence232                  +      2  6.58e-03          A GATA ACT       
+Sequence230                  -      2  6.58e-03        TCT GATA A         
+Sequence229                  +      2  6.58e-03          C GATA CAC       
+Sequence228                  -      3  6.58e-03         GA GATA GT        
+Sequence227                  -      3  6.58e-03         AG GATA AT        
+Sequence226                  +      1  6.58e-03          . GATA AGCC      
+Sequence224                  -      3  6.58e-03         GG GATA AT        
+Sequence223                  -      2  6.58e-03        GCG GATA C         
+Sequence222                  +      4  6.58e-03        GGT GATA A         
+Sequence221                  -      4  6.58e-03          T GATA GAC       
+Sequence219                  +      4  6.58e-03        ATT GATA T         
+Sequence212                  -      2  6.58e-03        GAT GATA G         
+Sequence211                  -      3  6.58e-03         GA GATA TG        
+Sequence210                  +      4  6.58e-03        ACA GATA A         
+Sequence206                  -      4  6.58e-03          T GATA GGC       
+Sequence205                  -      4  6.58e-03          G GATA TAT       
+Sequence202                  -      2  6.58e-03        TGC GATA T         
+Sequence200                  +      1  6.58e-03          . GATA GCAA      
+Sequence191                  -      1  6.58e-03       TGGA GATA           
+Sequence189                  +      4  6.58e-03        TTC GATA A         
+Sequence188                  -      3  6.58e-03         TA GATA GC        
+Sequence187                  +      4  6.58e-03        AAC GATA A         
+Sequence186                  +      5  6.58e-03       ATTG GATA           
+Sequence184                  -      1  6.58e-03       TTGT GATA           
+Sequence181                  +      5  6.58e-03       AAAA GATA           
+Sequence180                  -      2  6.58e-03        TTC GATA A         
+Sequence175                  +      2  6.58e-03          T GATA AAA       
+Sequence169                  -      1  6.58e-03       TTGA GATA           
+Sequence167                  +      4  6.58e-03        GCT GATA A         
+Sequence164                  -      2  6.58e-03        CCA GATA G         
+Sequence163                  +      5  6.58e-03       CGTT GATA           
+Sequence159                  -      5  6.58e-03          . GATA TTAG      
+Sequence158                  -      5  6.58e-03          . GATA CGGG      
+Sequence153                  +      5  6.58e-03       AATT GATA           
+Sequence152                  +      2  6.58e-03          C GATA TAA       
+Sequence149                  +      3  6.58e-03         GT GATA GA        
+Sequence148                  +      3  6.58e-03         GC GATA TA        
+Sequence147                  -      4  6.58e-03          T GATA GAC       
+Sequence146                  -      5  6.58e-03          . GATA ACTC      
+Sequence144                  +      1  6.58e-03          . GATA TCAC      
+Sequence143                  +      2  6.58e-03          G GATA AAA       
+Sequence140                  -      1  6.58e-03       TTAA GATA           
+Sequence137                  -      3  6.58e-03         TC GATA TA        
+Sequence135                  -      5  6.58e-03          . GATA TTAG      
+Sequence133                  +      3  6.58e-03         AA GATA AG        
+Sequence130                  -      3  6.58e-03         GT GATA GC        
+Sequence129                  +      2  6.58e-03          A GATA TTC       
+Sequence123                  -      2  6.58e-03        GTT GATA T         
+Sequence121                  -      1  6.58e-03       TTGT GATA           
+Sequence120                  -      4  6.58e-03          T GATA GTA       
+Sequence118                  +      3  6.58e-03         AT GATA TA        
+Sequence117                  -      3  6.58e-03         CT GATA AT        
+Sequence113                  +      1  6.58e-03          . GATA CGCA      
+Sequence110                  +      4  6.58e-03        GTC GATA A         
+Sequence109                  +      5  6.58e-03       AGTA GATA           
+Sequence103                  +      5  6.58e-03       GAAA GATA           
+Sequence101                  +      5  6.58e-03       TATA GATA           
+Sequence98                   +      1  6.58e-03          . GATA ACAA      
+Sequence97                   +      3  6.58e-03         GA GATA TA        
+Sequence96                   +      3  6.58e-03         AA GATA GC        
+Sequence94                   +      1  6.58e-03          . GATA GAAC      
+Sequence93                   +      5  6.58e-03       CTGA GATA           
+Sequence92                   -      4  6.58e-03          T GATA GCG       
+Sequence90                   -      3  6.58e-03         GT GATA CG        
+Sequence88                   +      3  6.58e-03         CA GATA GC        
+Sequence85                   -      2  6.58e-03        GGA GATA T         
+Sequence84                   +      4  6.58e-03        CTT GATA C         
+Sequence81                   -      4  6.58e-03          C GATA GAT       
+Sequence80                   -      2  6.58e-03        GTA GATA G         
+Sequence78                   +      3  6.58e-03         AT GATA TG        
+Sequence77                   +      5  6.58e-03       TGCA GATA           
+Sequence75                   +      2  6.58e-03          A GATA TGC       
+Sequence73                   +      1  6.58e-03          . GATA CGAA      
+Sequence70                   +      4  6.58e-03        GTA GATA A         
+Sequence69                   -      4  6.58e-03          C GATA ATT       
+Sequence68                   +      5  6.58e-03       GACA GATA           
+Sequence67                   -      5  6.58e-03          . GATA TTTT      
+Sequence64                   +      3  6.58e-03         AA GATA GG        
+Sequence63                   -      2  6.58e-03        TTC GATA C         
+Sequence62                   +      5  6.58e-03       AGGC GATA           
+Sequence61                   -      3  6.58e-03         TA GATA TG        
+Sequence57                   -      1  6.58e-03       TTTT GATA           
+Sequence56                   +      4  6.58e-03        GTG GATA A         
+Sequence52                   -      3  6.58e-03         CC GATA AG        
+Sequence51                   +      1  6.58e-03          . GATA GATC      
+Sequence49                   +      5  6.58e-03       GTTT GATA           
+Sequence48                   +      2  6.58e-03          A GATA GCG       
+Sequence41                   -      2  6.58e-03        GGA GATA G         
+Sequence40                   -      1  6.58e-03       TGAT GATA           
+Sequence35                   +      5  6.58e-03       GCTT GATA           
+Sequence34                   -      5  6.58e-03          . GATA TCTG      
+Sequence32                   +      5  6.58e-03       GCGC GATA           
+Sequence31                   -      2  6.58e-03        GGA GATA G         
+Sequence30                   -      4  6.58e-03          T GATA ATT       
+Sequence27                   +      3  6.58e-03         CC GATA AC        
+Sequence26                   -      4  6.58e-03          T GATA ACT       
+Sequence24                   -      4  6.58e-03          T GATA ATG       
+Sequence23                   +      5  6.58e-03       AGCA GATA           
+Sequence22                   -      2  6.58e-03        CGA GATA T         
+Sequence21                   -      3  6.58e-03         GT GATA AC        
+Sequence20                   +      4  6.58e-03        AAC GATA A         
+Sequence19                   +      4  6.58e-03        ACT GATA A         
+Sequence18                   +      2  6.58e-03          A GATA TGC       
+Sequence16                   -      3  6.58e-03         TT GATA GC        
+Sequence15                   -      4  6.58e-03          T GATA ATT       
+Sequence14                   -      3  6.58e-03         TG GATA TG        
+Sequence11                   +      2  6.58e-03          C GATA TGA       
+Sequence10                   -      2  6.58e-03        TGT GATA T         
+Sequence9                    +      4  6.58e-03        CCG GATA C         
+Sequence8                    +      4  6.58e-03        CAT GATA A         
+Sequence6                    -      4  6.58e-03          T GATA ATC       
+Sequence4                    -      4  6.58e-03          T GATA AAC       
+Sequence3                    -      2  6.58e-03        TGC GATA C         
+Sequence447                  -      1  1.32e-02       ATCT GATT           
+Sequence441                  -      1  1.32e-02       TAAT GATT           
+Sequence437                  +      1  1.32e-02          . GATT AATA      
+Sequence427                  -      3  1.32e-02         TG GATT AT        
+Sequence403                  -      4  1.32e-02          A GATT AGT       
+Sequence391                  -      4  1.32e-02          T GATT AAG       
+Sequence386                  -      3  1.32e-02         TC GATT AT        
+Sequence374                  -      4  1.32e-02          C GATT AAT       
+Sequence365                  +      4  1.32e-02        GTA GATT A         
+Sequence356                  -      4  1.32e-02          A GATT AGT       
+Sequence351                  +      4  1.32e-02        ATT GATT A         
+Sequence296                  +      2  1.32e-02          A GATT AAG       
+Sequence263                  -      3  1.32e-02         TT GATT AT        
+Sequence259                  +      4  1.32e-02        TAA GATT A         
+Sequence257                  +      4  1.32e-02        ATT GATT G         
+Sequence250                  -      1  1.32e-02       TTAT GATT           
+Sequence245                  -      4  1.32e-02          C GATT TAT       
+Sequence231                  +      4  1.32e-02        AAT GATT A         
+Sequence209                  -      1  1.32e-02       TACA GATT           
+Sequence201                  +      1  1.32e-02          . GATT ACAA      
+Sequence198                  +      3  1.32e-02         GT GATT AA        
+Sequence192                  -      1  1.32e-02       TAAT GATT           
+Sequence190                  +      4  1.32e-02        TTT GATT A         
+Sequence176                  +      3  1.32e-02         AC GATT AA        
+Sequence168                  +      3  1.32e-02         TA GATT AA        
+Sequence162                  +      4  1.32e-02        ACT GATT A         
+Sequence160                  +      3  1.32e-02         AA GATT AA        
+Sequence145                  +      4  1.32e-02        ATC GATT A         
+Sequence134                  -      3  1.32e-02         TT GATT AC        
+Sequence131                  -      3  1.32e-02         TT GATT AC        
+Sequence116                  -      5  1.32e-02          . GATT ACAT      
+Sequence112                  +      2  1.32e-02          A GATT TAA       
+Sequence106                  +      3  1.32e-02         GT GATT TA        
+Sequence91                   -      5  1.32e-02          . GATT AAGT      
+Sequence79                   +      3  1.32e-02         TG GATT AA        
+Sequence76                   -      4  1.32e-02          T GATT ATA       
+Sequence72                   -      1  1.32e-02       TAAT GATT           
+Sequence71                   -      3  1.32e-02         GC GATT AT        
+Sequence39                   +      4  1.32e-02        ATT GATT A         
+Sequence37                   -      1  1.32e-02       TCAT GATT           
+Sequence17                   +      3  1.32e-02         AA GATT AC        
+Sequence5                    +      3  1.32e-02         AC GATT AG        
+Sequence449                  +      4  1.55e-02        AAT GCTA T         
+Sequence436                  -      3  1.55e-02         TC GCTA TA        
+Sequence393                  -      3  1.55e-02         CA GCTA AT        
+Sequence368                  -      1  1.55e-02       TAAT GCTA           
+Sequence330                  -      3  1.55e-02         TT GCTA AA        
+Sequence323                  -      2  1.55e-02        ATT GCTA T         
+Sequence312                  +      5  1.55e-02       CATT GCTA           
+Sequence288                  +      2  1.55e-02          A GCTA TAA       
+Sequence247                  +      3  1.55e-02         AA GCTA AT        
+Sequence208                  -      4  1.55e-02          T GCTA ATA       
+Sequence183                  -      4  1.55e-02          T GCTA TAC       
+Sequence128                  -      2  1.55e-02        TAC GCTA T         
+Sequence127                  -      4  1.55e-02          T GCTA ACA       
+Sequence45                   -      4  1.55e-02          T GCTA ATT       
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif ATCGCG MEME-1 regular expression
+	Motif GATA MEME-1 block diagrams
 --------------------------------------------------------------------------------
-ATCGCG
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Sequence448                        0.0066  3_[+1]_1
+Sequence445                        0.0066  4_[+1]
+Sequence443                        0.0066  4_[+1]
+Sequence442                        0.0066  2_[-1]_2
+Sequence438                        0.0066  1_[-1]_3
+Sequence435                        0.0066  3_[+1]_1
+Sequence434                        0.0066  4_[-1]
+Sequence432                        0.0066  2_[+1]_2
+Sequence431                        0.0066  4_[+1]
+Sequence429                        0.0066  4_[-1]
+Sequence428                        0.0066  3_[-1]_1
+Sequence424                        0.0066  4_[+1]
+Sequence423                        0.0066  1_[-1]_3
+Sequence421                        0.0066  3_[-1]_1
+Sequence419                        0.0066  1_[+1]_3
+Sequence418                        0.0066  1_[+1]_3
+Sequence417                        0.0066  2_[+1]_2
+Sequence416                        0.0066  2_[-1]_2
+Sequence415                        0.0066  3_[-1]_1
+Sequence414                        0.0066  3_[-1]_1
+Sequence412                        0.0066  4_[+1]
+Sequence410                        0.0066  1_[+1]_3
+Sequence405                        0.0066  2_[-1]_2
+Sequence402                        0.0066  2_[-1]_2
+Sequence400                        0.0066  4_[+1]
+Sequence397                        0.0066  1_[-1]_3
+Sequence396                        0.0066  1_[+1]_3
+Sequence395                        0.0066  2_[-1]_2
+Sequence394                        0.0066  4_[-1]
+Sequence392                        0.0066  [+1]_4
+Sequence390                        0.0066  1_[+1]_3
+Sequence387                        0.0066  3_[+1]_1
+Sequence385                        0.0066  4_[-1]
+Sequence384                        0.0066  4_[+1]
+Sequence382                        0.0066  4_[+1]
+Sequence380                        0.0066  3_[-1]_1
+Sequence379                        0.0066  3_[+1]_1
+Sequence378                        0.0066  1_[-1]_3
+Sequence376                        0.0066  1_[-1]_3
+Sequence372                        0.0066  1_[+1]_3
+Sequence371                        0.0066  1_[+1]_3
+Sequence370                        0.0066  4_[+1]
+Sequence363                        0.0066  1_[+1]_3
+Sequence362                        0.0066  1_[-1]_3
+Sequence361                        0.0066  2_[+1]_2
+Sequence359                        0.0066  3_[+1]_1
+Sequence358                        0.0066  3_[-1]_1
+Sequence357                        0.0066  4_[+1]
+Sequence355                        0.0066  [+1]_4
+Sequence353                        0.0066  1_[+1]_3
+Sequence352                        0.0066  2_[-1]_2
+Sequence349                        0.0066  4_[-1]
+Sequence343                        0.0066  3_[-1]_1
+Sequence342                        0.0066  [+1]_4
+Sequence340                        0.0066  4_[+1]
+Sequence338                        0.0066  4_[+1]
+Sequence337                        0.0066  4_[-1]
+Sequence336                        0.0066  2_[-1]_2
+Sequence335                        0.0066  4_[+1]
+Sequence333                        0.0066  4_[+1]
+Sequence332                        0.0066  3_[+1]_1
+Sequence331                        0.0066  1_[-1]_3
+Sequence329                        0.0066  3_[-1]_1
+Sequence328                        0.0066  4_[-1]
+Sequence326                        0.0066  1_[-1]_3
+Sequence325                        0.0066  1_[-1]_3
+Sequence324                        0.0066  2_[+1]_2
+Sequence320                        0.0066  [+1]_4
+Sequence316                        0.0066  1_[-1]_3
+Sequence315                        0.0066  4_[+1]
+Sequence314                        0.0066  2_[+1]_2
+Sequence313                        0.0066  2_[+1]_2
+Sequence309                        0.0066  1_[-1]_3
+Sequence308                        0.0066  1_[-1]_3
+Sequence307                        0.0066  3_[+1]_1
+Sequence305                        0.0066  4_[+1]
+Sequence302                        0.0066  3_[+1]_1
+Sequence299                        0.0066  2_[+1]_2
+Sequence297                        0.0066  4_[+1]
+Sequence295                        0.0066  1_[-1]_3
+Sequence291                        0.0066  3_[+1]_1
+Sequence290                        0.0066  2_[+1]_2
+Sequence289                        0.0066  [+1]_4
+Sequence287                        0.0066  4_[+1]
+Sequence286                        0.0066  4_[-1]
+Sequence285                        0.0066  1_[-1]_3
+Sequence284                        0.0066  2_[+1]_2
+Sequence281                        0.0066  4_[+1]
+Sequence280                        0.0066  [+1]_4
+Sequence277                        0.0066  1_[-1]_3
+Sequence275                        0.0066  1_[-1]_3
+Sequence274                        0.0066  1_[+1]_3
+Sequence273                        0.0066  4_[+1]
+Sequence272                        0.0066  3_[+1]_1
+Sequence271                        0.0066  [+1]_4
+Sequence269                        0.0066  [+1]_4
+Sequence267                        0.0066  3_[+1]_1
+Sequence261                        0.0066  3_[+1]_1
+Sequence258                        0.0066  [+1]_4
+Sequence256                        0.0066  4_[-1]
+Sequence255                        0.0066  [+1]_4
+Sequence252                        0.0066  1_[+1]_3
+Sequence248                        0.0066  1_[+1]_3
+Sequence246                        0.0066  3_[+1]_1
+Sequence239                        0.0066  2_[-1]_2
+Sequence237                        0.0066  1_[+1]_3
+Sequence236                        0.0066  2_[-1]_2
+Sequence235                        0.0066  [+1]_4
+Sequence234                        0.0066  2_[-1]_2
+Sequence233                        0.0066  4_[-1]
+Sequence232                        0.0066  1_[+1]_3
+Sequence230                        0.0066  1_[-1]_3
+Sequence229                        0.0066  1_[+1]_3
+Sequence228                        0.0066  2_[-1]_2
+Sequence227                        0.0066  2_[-1]_2
+Sequence226                        0.0066  [+1]_4
+Sequence224                        0.0066  2_[-1]_2
+Sequence223                        0.0066  1_[-1]_3
+Sequence222                        0.0066  3_[+1]_1
+Sequence221                        0.0066  3_[-1]_1
+Sequence219                        0.0066  3_[+1]_1
+Sequence212                        0.0066  1_[-1]_3
+Sequence211                        0.0066  2_[-1]_2
+Sequence210                        0.0066  3_[+1]_1
+Sequence206                        0.0066  3_[-1]_1
+Sequence205                        0.0066  3_[-1]_1
+Sequence202                        0.0066  1_[-1]_3
+Sequence200                        0.0066  [+1]_4
+Sequence191                        0.0066  [-1]_4
+Sequence189                        0.0066  3_[+1]_1
+Sequence188                        0.0066  2_[-1]_2
+Sequence187                        0.0066  3_[+1]_1
+Sequence186                        0.0066  4_[+1]
+Sequence184                        0.0066  [-1]_4
+Sequence181                        0.0066  4_[+1]
+Sequence180                        0.0066  1_[-1]_3
+Sequence175                        0.0066  1_[+1]_3
+Sequence169                        0.0066  [-1]_4
+Sequence167                        0.0066  3_[+1]_1
+Sequence164                        0.0066  1_[-1]_3
+Sequence163                        0.0066  4_[+1]
+Sequence159                        0.0066  4_[-1]
+Sequence158                        0.0066  4_[-1]
+Sequence153                        0.0066  4_[+1]
+Sequence152                        0.0066  1_[+1]_3
+Sequence149                        0.0066  2_[+1]_2
+Sequence148                        0.0066  2_[+1]_2
+Sequence147                        0.0066  3_[-1]_1
+Sequence146                        0.0066  4_[-1]
+Sequence144                        0.0066  [+1]_4
+Sequence143                        0.0066  1_[+1]_3
+Sequence140                        0.0066  [-1]_4
+Sequence137                        0.0066  2_[-1]_2
+Sequence135                        0.0066  4_[-1]
+Sequence133                        0.0066  2_[+1]_2
+Sequence130                        0.0066  2_[-1]_2
+Sequence129                        0.0066  1_[+1]_3
+Sequence123                        0.0066  1_[-1]_3
+Sequence121                        0.0066  [-1]_4
+Sequence120                        0.0066  3_[-1]_1
+Sequence118                        0.0066  2_[+1]_2
+Sequence117                        0.0066  2_[-1]_2
+Sequence113                        0.0066  [+1]_4
+Sequence110                        0.0066  3_[+1]_1
+Sequence109                        0.0066  4_[+1]
+Sequence103                        0.0066  4_[+1]
+Sequence101                        0.0066  4_[+1]
+Sequence98                         0.0066  [+1]_4
+Sequence97                         0.0066  2_[+1]_2
+Sequence96                         0.0066  2_[+1]_2
+Sequence94                         0.0066  [+1]_4
+Sequence93                         0.0066  4_[+1]
+Sequence92                         0.0066  3_[-1]_1
+Sequence90                         0.0066  2_[-1]_2
+Sequence88                         0.0066  2_[+1]_2
+Sequence85                         0.0066  1_[-1]_3
+Sequence84                         0.0066  3_[+1]_1
+Sequence81                         0.0066  3_[-1]_1
+Sequence80                         0.0066  1_[-1]_3
+Sequence78                         0.0066  2_[+1]_2
+Sequence77                         0.0066  4_[+1]
+Sequence75                         0.0066  1_[+1]_3
+Sequence73                         0.0066  [+1]_4
+Sequence70                         0.0066  3_[+1]_1
+Sequence69                         0.0066  3_[-1]_1
+Sequence68                         0.0066  4_[+1]
+Sequence67                         0.0066  4_[-1]
+Sequence64                         0.0066  2_[+1]_2
+Sequence63                         0.0066  1_[-1]_3
+Sequence62                         0.0066  4_[+1]
+Sequence61                         0.0066  2_[-1]_2
+Sequence57                         0.0066  [-1]_4
+Sequence56                         0.0066  3_[+1]_1
+Sequence52                         0.0066  2_[-1]_2
+Sequence51                         0.0066  [+1]_4
+Sequence49                         0.0066  4_[+1]
+Sequence48                         0.0066  1_[+1]_3
+Sequence41                         0.0066  1_[-1]_3
+Sequence40                         0.0066  [-1]_4
+Sequence35                         0.0066  4_[+1]
+Sequence34                         0.0066  4_[-1]
+Sequence32                         0.0066  4_[+1]
+Sequence31                         0.0066  1_[-1]_3
+Sequence30                         0.0066  3_[-1]_1
+Sequence27                         0.0066  2_[+1]_2
+Sequence26                         0.0066  3_[-1]_1
+Sequence24                         0.0066  3_[-1]_1
+Sequence23                         0.0066  4_[+1]
+Sequence22                         0.0066  1_[-1]_3
+Sequence21                         0.0066  2_[-1]_2
+Sequence20                         0.0066  3_[+1]_1
+Sequence19                         0.0066  3_[+1]_1
+Sequence18                         0.0066  1_[+1]_3
+Sequence16                         0.0066  2_[-1]_2
+Sequence15                         0.0066  3_[-1]_1
+Sequence14                         0.0066  2_[-1]_2
+Sequence11                         0.0066  1_[+1]_3
+Sequence10                         0.0066  1_[-1]_3
+Sequence9                          0.0066  3_[+1]_1
+Sequence8                          0.0066  3_[+1]_1
+Sequence6                          0.0066  3_[-1]_1
+Sequence4                          0.0066  3_[-1]_1
+Sequence3                          0.0066  1_[-1]_3
+Sequence447                         0.013  [-1]_4
+Sequence441                         0.013  [-1]_4
+Sequence437                         0.013  [+1]_4
+Sequence427                         0.013  2_[-1]_2
+Sequence403                         0.013  3_[-1]_1
+Sequence391                         0.013  3_[-1]_1
+Sequence386                         0.013  2_[-1]_2
+Sequence374                         0.013  3_[-1]_1
+Sequence365                         0.013  3_[+1]_1
+Sequence356                         0.013  3_[-1]_1
+Sequence351                         0.013  3_[+1]_1
+Sequence296                         0.013  1_[+1]_3
+Sequence263                         0.013  2_[-1]_2
+Sequence259                         0.013  3_[+1]_1
+Sequence257                         0.013  3_[+1]_1
+Sequence250                         0.013  [-1]_4
+Sequence245                         0.013  3_[-1]_1
+Sequence231                         0.013  3_[+1]_1
+Sequence209                         0.013  [-1]_4
+Sequence201                         0.013  [+1]_4
+Sequence198                         0.013  2_[+1]_2
+Sequence192                         0.013  [-1]_4
+Sequence190                         0.013  3_[+1]_1
+Sequence176                         0.013  2_[+1]_2
+Sequence168                         0.013  2_[+1]_2
+Sequence162                         0.013  3_[+1]_1
+Sequence160                         0.013  2_[+1]_2
+Sequence145                         0.013  3_[+1]_1
+Sequence134                         0.013  2_[-1]_2
+Sequence131                         0.013  2_[-1]_2
+Sequence116                         0.013  4_[-1]
+Sequence112                         0.013  1_[+1]_3
+Sequence106                         0.013  2_[+1]_2
+Sequence91                          0.013  4_[-1]
+Sequence79                          0.013  2_[+1]_2
+Sequence76                          0.013  3_[-1]_1
+Sequence72                          0.013  [-1]_4
+Sequence71                          0.013  2_[-1]_2
+Sequence39                          0.013  3_[+1]_1
+Sequence37                          0.013  [-1]_4
+Sequence17                          0.013  2_[+1]_2
+Sequence5                           0.013  2_[+1]_2
+Sequence449                         0.016  3_[+1]_1
+Sequence436                         0.016  2_[-1]_2
+Sequence393                         0.016  2_[-1]_2
+Sequence368                         0.016  [-1]_4
+Sequence330                         0.016  2_[-1]_2
+Sequence323                         0.016  1_[-1]_3
+Sequence312                         0.016  4_[+1]
+Sequence288                         0.016  1_[+1]_3
+Sequence247                         0.016  2_[+1]_2
+Sequence208                         0.016  3_[-1]_1
+Sequence183                         0.016  3_[-1]_1
+Sequence128                         0.016  1_[-1]_3
+Sequence127                         0.016  3_[-1]_1
+Sequence45                          0.016  3_[-1]_1
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GATA MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF GATA width=4 seqs=279
+Sequence448              (    4) GATA  1 
+Sequence445              (    5) GATA  1 
+Sequence443              (    5) GATA  1 
+Sequence442              (    3) GATA  1 
+Sequence438              (    2) GATA  1 
+Sequence435              (    4) GATA  1 
+Sequence434              (    5) GATA  1 
+Sequence432              (    3) GATA  1 
+Sequence431              (    5) GATA  1 
+Sequence429              (    5) GATA  1 
+Sequence428              (    4) GATA  1 
+Sequence424              (    5) GATA  1 
+Sequence423              (    2) GATA  1 
+Sequence421              (    4) GATA  1 
+Sequence419              (    2) GATA  1 
+Sequence418              (    2) GATA  1 
+Sequence417              (    3) GATA  1 
+Sequence416              (    3) GATA  1 
+Sequence415              (    4) GATA  1 
+Sequence414              (    4) GATA  1 
+Sequence412              (    5) GATA  1 
+Sequence410              (    2) GATA  1 
+Sequence405              (    3) GATA  1 
+Sequence402              (    3) GATA  1 
+Sequence400              (    5) GATA  1 
+Sequence397              (    2) GATA  1 
+Sequence396              (    2) GATA  1 
+Sequence395              (    3) GATA  1 
+Sequence394              (    5) GATA  1 
+Sequence392              (    1) GATA  1 
+Sequence390              (    2) GATA  1 
+Sequence387              (    4) GATA  1 
+Sequence385              (    5) GATA  1 
+Sequence384              (    5) GATA  1 
+Sequence382              (    5) GATA  1 
+Sequence380              (    4) GATA  1 
+Sequence379              (    4) GATA  1 
+Sequence378              (    2) GATA  1 
+Sequence376              (    2) GATA  1 
+Sequence372              (    2) GATA  1 
+Sequence371              (    2) GATA  1 
+Sequence370              (    5) GATA  1 
+Sequence363              (    2) GATA  1 
+Sequence362              (    2) GATA  1 
+Sequence361              (    3) GATA  1 
+Sequence359              (    4) GATA  1 
+Sequence358              (    4) GATA  1 
+Sequence357              (    5) GATA  1 
+Sequence355              (    1) GATA  1 
+Sequence353              (    2) GATA  1 
+Sequence352              (    3) GATA  1 
+Sequence349              (    5) GATA  1 
+Sequence343              (    4) GATA  1 
+Sequence342              (    1) GATA  1 
+Sequence340              (    5) GATA  1 
+Sequence338              (    5) GATA  1 
+Sequence337              (    5) GATA  1 
+Sequence336              (    3) GATA  1 
+Sequence335              (    5) GATA  1 
+Sequence333              (    5) GATA  1 
+Sequence332              (    4) GATA  1 
+Sequence331              (    2) GATA  1 
+Sequence329              (    4) GATA  1 
+Sequence328              (    5) GATA  1 
+Sequence326              (    2) GATA  1 
+Sequence325              (    2) GATA  1 
+Sequence324              (    3) GATA  1 
+Sequence320              (    1) GATA  1 
+Sequence316              (    2) GATA  1 
+Sequence315              (    5) GATA  1 
+Sequence314              (    3) GATA  1 
+Sequence313              (    3) GATA  1 
+Sequence309              (    2) GATA  1 
+Sequence308              (    2) GATA  1 
+Sequence307              (    4) GATA  1 
+Sequence305              (    5) GATA  1 
+Sequence302              (    4) GATA  1 
+Sequence299              (    3) GATA  1 
+Sequence297              (    5) GATA  1 
+Sequence295              (    2) GATA  1 
+Sequence291              (    4) GATA  1 
+Sequence290              (    3) GATA  1 
+Sequence289              (    1) GATA  1 
+Sequence287              (    5) GATA  1 
+Sequence286              (    5) GATA  1 
+Sequence285              (    2) GATA  1 
+Sequence284              (    3) GATA  1 
+Sequence281              (    5) GATA  1 
+Sequence280              (    1) GATA  1 
+Sequence277              (    2) GATA  1 
+Sequence275              (    2) GATA  1 
+Sequence274              (    2) GATA  1 
+Sequence273              (    5) GATA  1 
+Sequence272              (    4) GATA  1 
+Sequence271              (    1) GATA  1 
+Sequence269              (    1) GATA  1 
+Sequence267              (    4) GATA  1 
+Sequence261              (    4) GATA  1 
+Sequence258              (    1) GATA  1 
+Sequence256              (    5) GATA  1 
+Sequence255              (    1) GATA  1 
+Sequence252              (    2) GATA  1 
+Sequence248              (    2) GATA  1 
+Sequence246              (    4) GATA  1 
+Sequence239              (    3) GATA  1 
+Sequence237              (    2) GATA  1 
+Sequence236              (    3) GATA  1 
+Sequence235              (    1) GATA  1 
+Sequence234              (    3) GATA  1 
+Sequence233              (    5) GATA  1 
+Sequence232              (    2) GATA  1 
+Sequence230              (    2) GATA  1 
+Sequence229              (    2) GATA  1 
+Sequence228              (    3) GATA  1 
+Sequence227              (    3) GATA  1 
+Sequence226              (    1) GATA  1 
+Sequence224              (    3) GATA  1 
+Sequence223              (    2) GATA  1 
+Sequence222              (    4) GATA  1 
+Sequence221              (    4) GATA  1 
+Sequence219              (    4) GATA  1 
+Sequence212              (    2) GATA  1 
+Sequence211              (    3) GATA  1 
+Sequence210              (    4) GATA  1 
+Sequence206              (    4) GATA  1 
+Sequence205              (    4) GATA  1 
+Sequence202              (    2) GATA  1 
+Sequence200              (    1) GATA  1 
+Sequence191              (    1) GATA  1 
+Sequence189              (    4) GATA  1 
+Sequence188              (    3) GATA  1 
+Sequence187              (    4) GATA  1 
+Sequence186              (    5) GATA  1 
+Sequence184              (    1) GATA  1 
+Sequence181              (    5) GATA  1 
+Sequence180              (    2) GATA  1 
+Sequence175              (    2) GATA  1 
+Sequence169              (    1) GATA  1 
+Sequence167              (    4) GATA  1 
+Sequence164              (    2) GATA  1 
+Sequence163              (    5) GATA  1 
+Sequence159              (    5) GATA  1 
+Sequence158              (    5) GATA  1 
+Sequence153              (    5) GATA  1 
+Sequence152              (    2) GATA  1 
+Sequence149              (    3) GATA  1 
+Sequence148              (    3) GATA  1 
+Sequence147              (    4) GATA  1 
+Sequence146              (    5) GATA  1 
+Sequence144              (    1) GATA  1 
+Sequence143              (    2) GATA  1 
+Sequence140              (    1) GATA  1 
+Sequence137              (    3) GATA  1 
+Sequence135              (    5) GATA  1 
+Sequence133              (    3) GATA  1 
+Sequence130              (    3) GATA  1 
+Sequence129              (    2) GATA  1 
+Sequence123              (    2) GATA  1 
+Sequence121              (    1) GATA  1 
+Sequence120              (    4) GATA  1 
+Sequence118              (    3) GATA  1 
+Sequence117              (    3) GATA  1 
+Sequence113              (    1) GATA  1 
+Sequence110              (    4) GATA  1 
+Sequence109              (    5) GATA  1 
+Sequence103              (    5) GATA  1 
+Sequence101              (    5) GATA  1 
+Sequence98               (    1) GATA  1 
+Sequence97               (    3) GATA  1 
+Sequence96               (    3) GATA  1 
+Sequence94               (    1) GATA  1 
+Sequence93               (    5) GATA  1 
+Sequence92               (    4) GATA  1 
+Sequence90               (    3) GATA  1 
+Sequence88               (    3) GATA  1 
+Sequence85               (    2) GATA  1 
+Sequence84               (    4) GATA  1 
+Sequence81               (    4) GATA  1 
+Sequence80               (    2) GATA  1 
+Sequence78               (    3) GATA  1 
+Sequence77               (    5) GATA  1 
+Sequence75               (    2) GATA  1 
+Sequence73               (    1) GATA  1 
+Sequence70               (    4) GATA  1 
+Sequence69               (    4) GATA  1 
+Sequence68               (    5) GATA  1 
+Sequence67               (    5) GATA  1 
+Sequence64               (    3) GATA  1 
+Sequence63               (    2) GATA  1 
+Sequence62               (    5) GATA  1 
+Sequence61               (    3) GATA  1 
+Sequence57               (    1) GATA  1 
+Sequence56               (    4) GATA  1 
+Sequence52               (    3) GATA  1 
+Sequence51               (    1) GATA  1 
+Sequence49               (    5) GATA  1 
+Sequence48               (    2) GATA  1 
+Sequence41               (    2) GATA  1 
+Sequence40               (    1) GATA  1 
+Sequence35               (    5) GATA  1 
+Sequence34               (    5) GATA  1 
+Sequence32               (    5) GATA  1 
+Sequence31               (    2) GATA  1 
+Sequence30               (    4) GATA  1 
+Sequence27               (    3) GATA  1 
+Sequence26               (    4) GATA  1 
+Sequence24               (    4) GATA  1 
+Sequence23               (    5) GATA  1 
+Sequence22               (    2) GATA  1 
+Sequence21               (    3) GATA  1 
+Sequence20               (    4) GATA  1 
+Sequence19               (    4) GATA  1 
+Sequence18               (    2) GATA  1 
+Sequence16               (    3) GATA  1 
+Sequence15               (    4) GATA  1 
+Sequence14               (    3) GATA  1 
+Sequence11               (    2) GATA  1 
+Sequence10               (    2) GATA  1 
+Sequence9                (    4) GATA  1 
+Sequence8                (    4) GATA  1 
+Sequence6                (    4) GATA  1 
+Sequence4                (    4) GATA  1 
+Sequence3                (    2) GATA  1 
+Sequence447              (    1) GATT  1 
+Sequence441              (    1) GATT  1 
+Sequence437              (    1) GATT  1 
+Sequence427              (    3) GATT  1 
+Sequence403              (    4) GATT  1 
+Sequence391              (    4) GATT  1 
+Sequence386              (    3) GATT  1 
+Sequence374              (    4) GATT  1 
+Sequence365              (    4) GATT  1 
+Sequence356              (    4) GATT  1 
+Sequence351              (    4) GATT  1 
+Sequence296              (    2) GATT  1 
+Sequence263              (    3) GATT  1 
+Sequence259              (    4) GATT  1 
+Sequence257              (    4) GATT  1 
+Sequence250              (    1) GATT  1 
+Sequence245              (    4) GATT  1 
+Sequence231              (    4) GATT  1 
+Sequence209              (    1) GATT  1 
+Sequence201              (    1) GATT  1 
+Sequence198              (    3) GATT  1 
+Sequence192              (    1) GATT  1 
+Sequence190              (    4) GATT  1 
+Sequence176              (    3) GATT  1 
+Sequence168              (    3) GATT  1 
+Sequence162              (    4) GATT  1 
+Sequence160              (    3) GATT  1 
+Sequence145              (    4) GATT  1 
+Sequence134              (    3) GATT  1 
+Sequence131              (    3) GATT  1 
+Sequence116              (    5) GATT  1 
+Sequence112              (    2) GATT  1 
+Sequence106              (    3) GATT  1 
+Sequence91               (    5) GATT  1 
+Sequence79               (    3) GATT  1 
+Sequence76               (    4) GATT  1 
+Sequence72               (    1) GATT  1 
+Sequence71               (    3) GATT  1 
+Sequence39               (    4) GATT  1 
+Sequence37               (    1) GATT  1 
+Sequence17               (    3) GATT  1 
+Sequence5                (    3) GATT  1 
+Sequence449              (    4) GCTA  1 
+Sequence436              (    3) GCTA  1 
+Sequence393              (    3) GCTA  1 
+Sequence368              (    1) GCTA  1 
+Sequence330              (    3) GCTA  1 
+Sequence323              (    2) GCTA  1 
+Sequence312              (    5) GCTA  1 
+Sequence288              (    2) GCTA  1 
+Sequence247              (    3) GCTA  1 
+Sequence208              (    4) GCTA  1 
+Sequence183              (    4) GCTA  1 
+Sequence128              (    2) GCTA  1 
+Sequence127              (    4) GCTA  1 
+Sequence45               (    4) GCTA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GATA MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 4 n= 2245 bayes= 4.32058 E= 2.5e-119 
+ -1477  -1477    293  -1477 
+   137   -139  -1477  -1477 
+ -1477  -1477  -1477    144 
+   120  -1477  -1477   -129 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GATA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 4 nsites= 279 E= 2.5e-119 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.949821  0.050179  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.849462  0.000000  0.000000  0.150538 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GATA MEME-1 regular expression
+--------------------------------------------------------------------------------
+GATA
 --------------------------------------------------------------------------------
 
 
 
 
-Time 40.03 secs.
+Time  3.79 secs.
 
 ********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Sequence1                        5.95e-01  8
+Sequence2                        6.96e-01  8
+Sequence3                        6.39e-02  8
+Sequence4                        6.39e-02  8
+Sequence5                        1.24e-01  8
+Sequence6                        6.39e-02  8
+Sequence7                        5.95e-01  8
+Sequence8                        6.39e-02  8
+Sequence9                        6.39e-02  8
+Sequence10                       6.39e-02  8
+Sequence11                       6.39e-02  8
+Sequence12                       8.47e-01  8
+Sequence13                       8.16e-01  8
+Sequence14                       6.39e-02  8
+Sequence15                       6.39e-02  8
+Sequence16                       6.39e-02  8
+Sequence17                       1.24e-01  8
+Sequence18                       6.39e-02  8
+Sequence19                       6.39e-02  8
+Sequence20                       6.39e-02  8
+Sequence21                       6.39e-02  8
+Sequence22                       6.39e-02  8
+Sequence23                       6.39e-02  8
+Sequence24                       6.39e-02  8
+Sequence25                       2.73e-01  8
+Sequence26                       6.39e-02  8
+Sequence27                       6.39e-02  8
+Sequence28                       8.16e-01  8
+Sequence29                       5.95e-01  8
+Sequence30                       6.39e-02  8
+Sequence31                       6.39e-02  8
+Sequence32                       6.39e-02  8
+Sequence33                       6.96e-01  8
+Sequence34                       6.39e-02  8
+Sequence35                       6.39e-02  8
+Sequence36                       5.95e-01  8
+Sequence37                       1.24e-01  8
+Sequence38                       5.95e-01  8
+Sequence39                       1.24e-01  8
+Sequence40                       6.39e-02  8
+Sequence41                       6.39e-02  8
+Sequence42                       2.73e-01  8
+Sequence43                       5.95e-01  8
+Sequence44                       5.95e-01  8
+Sequence45                       1.45e-01  8
+Sequence46                       5.95e-01  8
+Sequence47                       5.95e-01  8
+Sequence48                       6.39e-02  8
+Sequence49                       6.39e-02  8
+Sequence50                       8.55e-01  8
+Sequence51                       6.39e-02  8
+Sequence52                       6.39e-02  8
+Sequence53                       5.95e-01  8
+Sequence54                       5.95e-01  8
+Sequence55                       8.80e-01  8
+Sequence56                       6.39e-02  8
+Sequence57                       6.39e-02  8
+Sequence58                       5.95e-01  8
+Sequence59                       5.95e-01  8
+Sequence60                       5.95e-01  8
+Sequence61                       6.39e-02  8
+Sequence62                       6.39e-02  8
+Sequence63                       6.39e-02  8
+Sequence64                       6.39e-02  8
+Sequence65                       8.16e-01  8
+Sequence66                       1.65e-01  8
+Sequence67                       6.39e-02  8
+Sequence68                       6.39e-02  8
+Sequence69                       6.39e-02  8
+Sequence70                       6.39e-02  8
+Sequence71                       1.24e-01  8
+Sequence72                       1.24e-01  8
+Sequence73                       6.39e-02  8
+Sequence74                       5.95e-01  8
+Sequence75                       6.39e-02  8
+Sequence76                       1.24e-01  8
+Sequence77                       6.39e-02  8
+Sequence78                       6.39e-02  8
+Sequence79                       1.24e-01  8
+Sequence80                       6.39e-02  8
+Sequence81                       6.39e-02  8
+Sequence82                       6.39e-01  8
+Sequence83                       5.95e-01  8
+Sequence84                       6.39e-02  8
+Sequence85                       6.39e-02  8
+Sequence86                       5.95e-01  8
+Sequence87                       5.95e-01  8
+Sequence88                       6.39e-02  8
+Sequence89                       8.16e-01  8
+Sequence90                       6.39e-02  8
+Sequence91                       1.24e-01  8
+Sequence92                       6.39e-02  8
+Sequence93                       6.39e-02  8
+Sequence94                       6.39e-02  8
+Sequence95                       3.54e-01  8
+Sequence96                       6.39e-02  8
+Sequence97                       6.39e-02  8
+Sequence98                       6.39e-02  8
+Sequence99                       5.95e-01  8
+Sequence100                      8.16e-01  8
+Sequence101                      6.39e-02  8
+Sequence102                      5.95e-01  8
+Sequence103                      6.39e-02  8
+Sequence104                      5.95e-01  8
+Sequence105                      5.95e-01  8
+Sequence106                      1.24e-01  8
+Sequence107                      2.73e-01  8
+Sequence108                      5.95e-01  8
+Sequence109                      6.39e-02  8
+Sequence110                      6.39e-02  8
+Sequence111                      9.17e-01  8
+Sequence112                      1.24e-01  8
+Sequence113                      6.39e-02  8
+Sequence114                      8.16e-01  8
+Sequence115                      5.95e-01  8
+Sequence116                      1.24e-01  8
+Sequence117                      6.39e-02  8
+Sequence118                      6.39e-02  8
+Sequence119                      5.95e-01  8
+Sequence120                      6.39e-02  8
+Sequence121                      6.39e-02  8
+Sequence122                      8.16e-01  8
+Sequence123                      6.39e-02  8
+Sequence124                      5.95e-01  8
+Sequence125                      5.95e-01  8
+Sequence126                      5.95e-01  8
+Sequence127                      1.45e-01  8
+Sequence128                      1.45e-01  8
+Sequence129                      6.39e-02  8
+Sequence130                      6.39e-02  8
+Sequence131                      1.24e-01  8
+Sequence132                      8.16e-01  8
+Sequence133                      6.39e-02  8
+Sequence134                      1.24e-01  8
+Sequence135                      6.39e-02  8
+Sequence136                      5.95e-01  8
+Sequence137                      6.39e-02  8
+Sequence138                      2.73e-01  8
+Sequence139                      2.73e-01  8
+Sequence140                      6.39e-02  8
+Sequence141                      1.65e-01  8
+Sequence142                      6.96e-01  8
+Sequence143                      6.39e-02  8
+Sequence144                      6.39e-02  8
+Sequence145                      1.24e-01  8
+Sequence146                      6.39e-02  8
+Sequence147                      6.39e-02  8
+Sequence148                      6.39e-02  8
+Sequence149                      6.39e-02  8
+Sequence150                      5.95e-01  8
+Sequence151                      9.76e-01  8
+Sequence152                      6.39e-02  8
+Sequence153                      6.39e-02  8
+Sequence154                      8.16e-01  8
+Sequence155                      2.73e-01  8
+Sequence156                      6.96e-01  8
+Sequence157                      5.95e-01  8
+Sequence158                      6.39e-02  8
+Sequence159                      6.39e-02  8
+Sequence160                      1.24e-01  8
+Sequence161                      5.95e-01  8
+Sequence162                      1.24e-01  8
+Sequence163                      6.39e-02  8
+Sequence164                      6.39e-02  8
+Sequence165                      2.73e-01  8
+Sequence166                      8.16e-01  8
+Sequence167                      6.39e-02  8
+Sequence168                      1.24e-01  8
+Sequence169                      6.39e-02  8
+Sequence170                      6.82e-01  8
+Sequence171                      2.04e-01  8
+Sequence172                      5.95e-01  8
+Sequence173                      2.73e-01  8
+Sequence174                      5.95e-01  8
+Sequence175                      6.39e-02  8
+Sequence176                      1.24e-01  8
+Sequence177                      5.95e-01  8
+Sequence178                      6.39e-01  8
+Sequence179                      5.95e-01  8
+Sequence180                      6.39e-02  8
+Sequence181                      6.39e-02  8
+Sequence182                      5.95e-01  8
+Sequence183                      1.45e-01  8
+Sequence184                      6.39e-02  8
+Sequence185                      2.73e-01  8
+Sequence186                      6.39e-02  8
+Sequence187                      6.39e-02  8
+Sequence188                      6.39e-02  8
+Sequence189                      6.39e-02  8
+Sequence190                      1.24e-01  8
+Sequence191                      6.39e-02  8
+Sequence192                      1.24e-01  8
+Sequence193                      5.95e-01  8
+Sequence194                      2.73e-01  8
+Sequence195                      8.16e-01  8
+Sequence196                      5.95e-01  8
+Sequence197                      5.95e-01  8
+Sequence198                      1.24e-01  8
+Sequence199                      5.95e-01  8
+Sequence200                      6.39e-02  8
+Sequence201                      1.24e-01  8
+Sequence202                      6.39e-02  8
+Sequence203                      5.95e-01  8
+Sequence204                      5.95e-01  8
+Sequence205                      6.39e-02  8
+Sequence206                      6.39e-02  8
+Sequence207                      5.95e-01  8
+Sequence208                      1.45e-01  8
+Sequence209                      1.24e-01  8
+Sequence210                      6.39e-02  8
+Sequence211                      6.39e-02  8
+Sequence212                      6.39e-02  8
+Sequence213                      5.95e-01  8
+Sequence214                      8.16e-01  8
+Sequence215                      5.95e-01  8
+Sequence216                      2.73e-01  8
+Sequence217                      5.95e-01  8
+Sequence218                      8.16e-01  8
+Sequence219                      6.39e-02  8
+Sequence220                      5.95e-01  8
+Sequence221                      6.39e-02  8
+Sequence222                      6.39e-02  8
+Sequence223                      6.39e-02  8
+Sequence224                      6.39e-02  8
+Sequence225                      5.95e-01  8
+Sequence226                      6.39e-02  8
+Sequence227                      6.39e-02  8
+Sequence228                      6.39e-02  8
+Sequence229                      6.39e-02  8
+Sequence230                      6.39e-02  8
+Sequence231                      1.24e-01  8
+Sequence232                      6.39e-02  8
+Sequence233                      6.39e-02  8
+Sequence234                      6.39e-02  8
+Sequence235                      6.39e-02  8
+Sequence236                      6.39e-02  8
+Sequence237                      6.39e-02  8
+Sequence238                      1.65e-01  8
+Sequence239                      6.39e-02  8
+Sequence240                      9.17e-01  8
+Sequence241                      2.73e-01  8
+Sequence242                      5.95e-01  8
+Sequence243                      5.95e-01  8
+Sequence244                      8.16e-01  8
+Sequence245                      1.24e-01  8
+Sequence246                      6.39e-02  8
+Sequence247                      1.45e-01  8
+Sequence248                      6.39e-02  8
+Sequence249                      6.39e-01  8
+Sequence250                      1.24e-01  8
+Sequence251                      8.16e-01  8
+Sequence252                      6.39e-02  8
+Sequence253                      5.95e-01  8
+Sequence254                      5.95e-01  8
+Sequence255                      6.39e-02  8
+Sequence256                      6.39e-02  8
+Sequence257                      1.24e-01  8
+Sequence258                      6.39e-02  8
+Sequence259                      1.24e-01  8
+Sequence260                      6.39e-01  8
+Sequence261                      6.39e-02  8
+Sequence262                      5.95e-01  8
+Sequence263                      1.24e-01  8
+Sequence264                      6.82e-01  8
+Sequence265                      5.95e-01  8
+Sequence266                      5.95e-01  8
+Sequence267                      6.39e-02  8
+Sequence268                      8.16e-01  8
+Sequence269                      6.39e-02  8
+Sequence270                      5.95e-01  8
+Sequence271                      6.39e-02  8
+Sequence272                      6.39e-02  8
+Sequence273                      6.39e-02  8
+Sequence274                      6.39e-02  8
+Sequence275                      6.39e-02  8
+Sequence276                      8.16e-01  8
+Sequence277                      6.39e-02  8
+Sequence278                      5.95e-01  8
+Sequence279                      6.82e-01  8
+Sequence280                      6.39e-02  8
+Sequence281                      6.39e-02  8
+Sequence282                      5.95e-01  8
+Sequence283                      5.95e-01  8
+Sequence284                      6.39e-02  8
+Sequence285                      6.39e-02  8
+Sequence286                      6.39e-02  8
+Sequence287                      6.39e-02  8
+Sequence288                      1.45e-01  8
+Sequence289                      6.39e-02  8
+Sequence290                      6.39e-02  8
+Sequence291                      6.39e-02  8
+Sequence292                      5.95e-01  8
+Sequence293                      8.16e-01  8
+Sequence294                      2.73e-01  8
+Sequence295                      6.39e-02  8
+Sequence296                      1.24e-01  8
+Sequence297                      6.39e-02  8
+Sequence298                      5.95e-01  8
+Sequence299                      6.39e-02  8
+Sequence300                      5.95e-01  8
+Sequence301                      2.73e-01  8
+Sequence302                      6.39e-02  8
+Sequence303                      9.76e-01  8
+Sequence304                      6.96e-01  8
+Sequence305                      6.39e-02  8
+Sequence306                      5.95e-01  8
+Sequence307                      6.39e-02  8
+Sequence308                      6.39e-02  8
+Sequence309                      6.39e-02  8
+Sequence310                      3.54e-01  8
+Sequence311                      5.95e-01  8
+Sequence312                      1.45e-01  8
+Sequence313                      6.39e-02  8
+Sequence314                      6.39e-02  8
+Sequence315                      6.39e-02  8
+Sequence316                      6.39e-02  8
+Sequence317                      5.95e-01  8
+Sequence318                      5.95e-01  8
+Sequence319                      5.95e-01  8
+Sequence320                      6.39e-02  8
+Sequence321                      1.65e-01  8
+Sequence322                      8.16e-01  8
+Sequence323                      1.45e-01  8
+Sequence324                      6.39e-02  8
+Sequence325                      6.39e-02  8
+Sequence326                      6.39e-02  8
+Sequence327                      8.16e-01  8
+Sequence328                      6.39e-02  8
+Sequence329                      6.39e-02  8
+Sequence330                      1.45e-01  8
+Sequence331                      6.39e-02  8
+Sequence332                      6.39e-02  8
+Sequence333                      6.39e-02  8
+Sequence334                      8.16e-01  8
+Sequence335                      6.39e-02  8
+Sequence336                      6.39e-02  8
+Sequence337                      6.39e-02  8
+Sequence338                      6.39e-02  8
+Sequence339                      8.16e-01  8
+Sequence340                      6.39e-02  8
+Sequence341                      1.65e-01  8
+Sequence342                      6.39e-02  8
+Sequence343                      6.39e-02  8
+Sequence344                      5.95e-01  8
+Sequence345                      5.95e-01  8
+Sequence346                      5.95e-01  8
+Sequence347                      5.95e-01  8
+Sequence348                      8.16e-01  8
+Sequence349                      6.39e-02  8
+Sequence350                      3.54e-01  8
+Sequence351                      1.24e-01  8
+Sequence352                      6.39e-02  8
+Sequence353                      6.39e-02  8
+Sequence354                      5.95e-01  8
+Sequence355                      6.39e-02  8
+Sequence356                      1.24e-01  8
+Sequence357                      6.39e-02  8
+Sequence358                      6.39e-02  8
+Sequence359                      6.39e-02  8
+Sequence360                      2.73e-01  8
+Sequence361                      6.39e-02  8
+Sequence362                      6.39e-02  8
+Sequence363                      6.39e-02  8
+Sequence364                      8.16e-01  8
+Sequence365                      1.24e-01  8
+Sequence366                      8.16e-01  8
+Sequence367                      2.73e-01  8
+Sequence368                      1.45e-01  8
+Sequence369                      5.95e-01  8
+Sequence370                      6.39e-02  8
+Sequence371                      6.39e-02  8
+Sequence372                      6.39e-02  8
+Sequence373                      5.95e-01  8
+Sequence374                      1.24e-01  8
+Sequence375                      6.39e-01  8
+Sequence376                      6.39e-02  8
+Sequence377                      5.95e-01  8
+Sequence378                      6.39e-02  8
+Sequence379                      6.39e-02  8
+Sequence380                      6.39e-02  8
+Sequence381                      5.95e-01  8
+Sequence382                      6.39e-02  8
+Sequence383                      1.65e-01  8
+Sequence384                      6.39e-02  8
+Sequence385                      6.39e-02  8
+Sequence386                      1.24e-01  8
+Sequence387                      6.39e-02  8
+Sequence388                      5.95e-01  8
+Sequence389                      5.95e-01  8
+Sequence390                      6.39e-02  8
+Sequence391                      1.24e-01  8
+Sequence392                      6.39e-02  8
+Sequence393                      1.45e-01  8
+Sequence394                      6.39e-02  8
+Sequence395                      6.39e-02  8
+Sequence396                      6.39e-02  8
+Sequence397                      6.39e-02  8
+Sequence398                      8.16e-01  8
+Sequence399                      1.65e-01  8
+Sequence400                      6.39e-02  8
+Sequence401                      8.16e-01  8
+Sequence402                      6.39e-02  8
+Sequence403                      1.24e-01  8
+Sequence404                      5.95e-01  8
+Sequence405                      6.39e-02  8
+Sequence406                      2.73e-01  8
+Sequence407                      5.95e-01  8
+Sequence408                      5.95e-01  8
+Sequence409                      2.73e-01  8
+Sequence410                      6.39e-02  8
+Sequence411                      5.95e-01  8
+Sequence412                      6.39e-02  8
+Sequence413                      5.95e-01  8
+Sequence414                      6.39e-02  8
+Sequence415                      6.39e-02  8
+Sequence416                      6.39e-02  8
+Sequence417                      6.39e-02  8
+Sequence418                      6.39e-02  8
+Sequence419                      6.39e-02  8
+Sequence420                      5.95e-01  8
+Sequence421                      6.39e-02  8
+Sequence422                      2.04e-01  8
+Sequence423                      6.39e-02  8
+Sequence424                      6.39e-02  8
+Sequence425                      8.16e-01  8
+Sequence426                      5.95e-01  8
+Sequence427                      1.24e-01  8
+Sequence428                      6.39e-02  8
+Sequence429                      6.39e-02  8
+Sequence430                      8.16e-01  8
+Sequence431                      6.39e-02  8
+Sequence432                      6.39e-02  8
+Sequence433                      2.73e-01  8
+Sequence434                      6.39e-02  8
+Sequence435                      6.39e-02  8
+Sequence436                      1.45e-01  8
+Sequence437                      1.24e-01  8
+Sequence438                      6.39e-02  8
+Sequence439                      5.95e-01  8
+Sequence440                      5.95e-01  8
+Sequence441                      1.24e-01  8
+Sequence442                      6.39e-02  8
+Sequence443                      6.39e-02  8
+Sequence444                      5.95e-01  8
+Sequence445                      6.39e-02  8
+Sequence446                      5.95e-01  8
+Sequence447                      1.24e-01  8
+Sequence448                      6.39e-02  8
+Sequence449                      1.45e-01  8
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
 
 ********************************************************************************
 Stopped because requested number of motifs (1) found.
 ********************************************************************************
 
-CPU: 966392b3e1ab
+CPU: 8b1b41b5562a
 
 ********************************************************************************

@@ -4,8 +4,8 @@ import re
 import glob
 from collections import Counter
 
-file_pattern = 'bin_*/*.fasta_results/meme.html'
-files = glob.glob(file_pattern, recursive=True)
+file_pattern = 'binning_*_bin_*/*.fasta_results/meme.html'
+files = sorted(glob.glob(file_pattern, recursive=True), key=lambda x: int(re.search(r'binning_(\d+)_bin_(\d+)', x).group(2)))
 
 pwm_sections = []
 consensus_sequences = []
@@ -53,8 +53,16 @@ for i in pwm_sections:
     consensus = calculate_consensus(i)
     consensus_sequences.append(consensus)
     
-with open('10_percent_total_consensus_analysis.txt', 'w') as output_file:
-    output_file.write("Discrete 10% binning of entire dataset\n\n")
+with open('binning_top_10_consensus_analysis.txt', 'w') as output_file:
+    output_file.write("Discrete 10% binning of top 10% of dataset\n\n")
+    n = 1
+    output_file.write("Consesus sequences of bins: \n")
+    for i in consensus_sequences:
+        output_file.write(f"Bin {n}: {i} \n")
+        n += 1 
+    
+    output_file.write("\n\n")    
+    output_file.write("Analysis\n") 
     for position in range(len(consensus_sequences[0])):
         residues_at_position = [seq[position] for seq in consensus_sequences]
         count = Counter(residues_at_position)

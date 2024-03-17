@@ -37,7 +37,7 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -nostatus -time 14400 -o /data/binning_1_bin_1.fasta_results 
+command: meme /data/binning_1_bin_1.fasta -dna -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/binning_1_bin_1.fasta_results 
 
 model:  mod=         zoops    nmotifs=         1    evt=           inf
 objective function:           em=       E-value of product of p-values
@@ -118,7 +118,7 @@ GATA
 
 
 
-Time 38.70 secs.
+Time 39.87 secs.
 
 ********************************************************************************
 
@@ -126,6 +126,6 @@ Time 38.70 secs.
 Stopped because requested number of motifs (1) found.
 ********************************************************************************
 
-CPU: bd7a4da94b70
+CPU: 8b16d6082d54
 
 ********************************************************************************

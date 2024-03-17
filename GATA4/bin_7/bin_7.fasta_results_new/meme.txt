@@ -1,0 +1,131 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.5 (Release date: Thu Sep 14 08:48:04 2023 +1000)
+
+For further information on how to interpret these results please access http://localhost:8080/meme_5.5.5.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= /data/bin_7.fasta
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /data/bin_7.fasta -dna -o -nostatus -maxw 8 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_7.fasta_results_new 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: + -
+width:  minw=            4    maxw=            8
+nsites: minsites=        2    maxsites=     4498    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           35984    N=            4498
+sample: seed=            0    hsfrac=          0
+        searchsize=  35984    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.35 C 0.15 G 0.15 T 0.35 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.35 C 0.15 G 0.15 T 0.35 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF GATA MEME-1	width =   4  sites = 1074  llr = 5048  E-value = 9.8e-002
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif GATA MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  :8:a
+pos.-specific     C  :2::
+probability       G  a:::
+matrix            T  ::a:
+
+         bits    2.7 *   
+                 2.5 *   
+                 2.2 *   
+                 1.9 *   
+Relative         1.6 * **
+Entropy          1.4 * **
+(6.8 bits)       1.1 ****
+                 0.8 ****
+                 0.5 ****
+                 0.3 ****
+                 0.0 ----
+
+Multilevel           GATA
+consensus             C  
+sequence                 
+                         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GATA MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 4 n= 22490 bayes= 6.12725 E= 9.8e-002 
+ -1671  -1671    274  -1671 
+   113     65  -1671  -1671 
+ -1671  -1671  -1671    152 
+   152  -1671  -1671  -1671 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GATA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 4 nsites= 1074 E= 9.8e-002 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.763501  0.236499  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GATA MEME-1 regular expression
+--------------------------------------------------------------------------------
+G[AC]TA
+--------------------------------------------------------------------------------
+
+
+
+
+Time 39.29 secs.
+
+********************************************************************************
+
+********************************************************************************
+Stopped because requested number of motifs (1) found.
+********************************************************************************
+
+CPU: cd2c8f062051
+
+********************************************************************************
