@@ -3,14 +3,11 @@ from Bio import SeqIO
 
 
 def split_into_bins(fasta_file, bin_size_percentage=50):
-    # Read sequences from the FASTA file
     sequences = list(SeqIO.parse(fasta_file, "fasta"))
     total_sequences = len(sequences)
     
-    # Calculate the number of sequences per bin
     sequences_per_bin = max(int(bin_size_percentage / 100 * total_sequences), 1)
     
-    # Create bins and write to separate files in separate folders
     output_folders = []
     seq_count = 0  
     for i in range(0, total_sequences, sequences_per_bin):
@@ -18,7 +15,6 @@ def split_into_bins(fasta_file, bin_size_percentage=50):
         output_folder = f"binning_1_bin_{i//sequences_per_bin + 1}"
         os.makedirs(output_folder, exist_ok=True)
         
-        # Reset sequence numbering for each new file
         for seq_record in bin_sequences:
             seq_count += 1
             seq_record.id = f"Sequence{seq_count}"

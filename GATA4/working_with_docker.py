@@ -32,7 +32,7 @@ def meme_analysis(input_files):
                 "-objfun", "classic", 
                 "-revcomp", 
                 "-markov_order", "0", 
-                "-o", f"/data/{input_basename}_results_new"],
+                "-o", f"/data/{input_basename}_results_once_again"],
                check=True)
         except subprocess.CalledProcessError as e:
             print(f"Command failed with error: {e}")
