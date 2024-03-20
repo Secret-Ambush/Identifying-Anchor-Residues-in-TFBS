@@ -1,4 +1,4 @@
-Discrete 10% binning of entire dataset
+Discrete 10% binning of ENTIRE dataset
 
 Consesus sequences of bins: 
 Bin 1: GATA 

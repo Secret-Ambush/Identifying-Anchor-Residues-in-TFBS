@@ -54,7 +54,7 @@ for i in pwm_sections:
     consensus_sequences.append(consensus)
     
 with open('total_dataset_10_consensus_analysis.txt', 'w') as output_file:
-    output_file.write("Discrete 10% binning of entire dataset\n\n")
+    output_file.write("Discrete 10% binning of ENTIRE dataset\n\n")
     n = 1
     output_file.write("Consesus sequences of bins: \n")
     for i in consensus_sequences:
