@@ -1,0 +1,139 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.5 (Release date: Thu Sep 14 08:48:04 2023 +1000)
+
+For further information on how to interpret these results please access http://localhost:8080/meme_5.5.5.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= /data/bin_6.fasta
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /data/bin_6.fasta -dna -o -nostatus -maxw 8 -minw 8 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_6.fasta_8mers 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: + -
+width:  minw=            8    maxw=            8
+nsites: minsites=        2    maxsites=     4498    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           35984    N=            4498
+sample: seed=            0    hsfrac=          0
+        searchsize=  35984    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.352 C 0.148 G 0.148 T 0.352 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.352 C 0.148 G 0.148 T 0.352 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF SSGHGATA MEME-1	width =   8  sites =  74  llr = 513  E-value = 1.9e-002
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif SSGHGATA MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::13:a:9
+pos.-specific     C  4333::::
+probability       G  466:8:::
+matrix            T  2::42:a:
+
+         bits    2.8         
+                 2.5         
+                 2.2         
+                 1.9         
+Relative         1.7  *  *   
+Entropy          1.4  *  *** 
+(10.0 bits)      1.1 *** ****
+                 0.8 *** ****
+                 0.6 *** ****
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           CGGTGATA
+consensus            GCCAT   
+sequence                C    
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif SSGHGATA MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 4498 bayes= 7.33959 E= 1.9e-002 
+ -1285    150    145   -100 
+ -1285    119    210   -370 
+  -153     87    197   -370 
+    -6    107  -1285      0 
+ -1285  -1285    240    -70 
+   151  -1285  -1285  -1285 
+ -1285  -1285  -1285    151 
+   143   -345  -1285   -312 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif SSGHGATA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 74 E= 1.9e-002 
+ 0.000000  0.418919  0.405405  0.175676 
+ 0.000000  0.337838  0.635135  0.027027 
+ 0.121622  0.270270  0.581081  0.027027 
+ 0.337838  0.310811  0.000000  0.351351 
+ 0.000000  0.000000  0.783784  0.216216 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.945946  0.013514  0.000000  0.040541 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif SSGHGATA MEME-1 regular expression
+--------------------------------------------------------------------------------
+[CG][GC][GC][TAC][GT]ATA
+--------------------------------------------------------------------------------
+
+
+
+
+Time 38.01 secs.
+
+********************************************************************************
+
+********************************************************************************
+Stopped because requested number of motifs (1) found.
+********************************************************************************
+
+CPU: e778613082c3
+
+********************************************************************************
