@@ -25,7 +25,7 @@ for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
 ********************************************************************************
 TRAINING SET
 ********************************************************************************
-PRIMARY SEQUENCES= /data/bin_4.fasta
+PRIMARY SEQUENCES= /data/bin_7.fasta
 CONTROL SEQUENCES= --none--
 ALPHABET= ACGT
 
@@ -37,7 +37,7 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/bin_4.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_4.fasta_6mers 
+command: meme /data/bin_7.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_7.fasta_6mers 
 
 model:  mod=         zoops    nmotifs=         1    evt=           inf
 objective function:           em=       E-value of product of p-values
@@ -53,76 +53,76 @@ data:   n=           35984    N=            4498
 sample: seed=            0    hsfrac=          0
         searchsize=  35984    norand=         no    csites=       1000
 Letter frequencies in dataset:
-A 0.358 C 0.142 G 0.142 T 0.358 
+A 0.35 C 0.15 G 0.15 T 0.35 
 Background letter frequencies (from file dataset with add-one prior applied):
-A 0.358 C 0.142 G 0.142 T 0.358 
+A 0.35 C 0.15 G 0.15 T 0.35 
 Background model order: 0
 ********************************************************************************
 
 
 ********************************************************************************
-MOTIF TATCDN MEME-1	width =   6  sites = 704  llr = 3732  E-value = 9.6e-036
+MOTIF WTATCG MEME-1	width =   6  sites = 176  llr = 1162  E-value = 8.5e-006
 ********************************************************************************
 --------------------------------------------------------------------------------
-	Motif TATCDN MEME-1 Description
+	Motif WTATCG MEME-1 Description
 --------------------------------------------------------------------------------
-Simplified        A  :a::43
-pos.-specific     C  :::a:3
-probability       G  ::::32
-matrix            T  a:a:32
+Simplified        A  4:a:::
+pos.-specific     C  2:::a:
+probability       G  2::2:a
+matrix            T  3a:8::
 
-         bits    2.8    *  
-                 2.5    *  
-                 2.3    *  
-                 2.0    *  
-Relative         1.7    *  
-Entropy          1.4 ****  
-(7.6 bits)       1.1 ****  
-                 0.8 ****  
-                 0.6 ****  
-                 0.3 ***** 
+         bits    2.7     **
+                 2.5     **
+                 2.2     **
+                 1.9     **
+Relative         1.6  ** **
+Entropy          1.4  ** **
+(9.5 bits)       1.1  *****
+                 0.8  *****
+                 0.5  *****
+                 0.3  *****
                  0.0 ------
 
-Multilevel           TATCAA
-consensus                TC
-sequence                 GT
-                          G
+Multilevel           ATATCG
+consensus            T  G  
+sequence                   
+                           
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif TATCDN MEME-1 position-specific scoring matrix
+	Motif WTATCG MEME-1 position-specific scoring matrix
 --------------------------------------------------------------------------------
-log-odds matrix: alength= 4 w= 6 n= 13494 bayes= 6.44048 E= 9.6e-036 
- -1610  -1610  -1610    148 
-   148  -1610  -1610  -1610 
- -1610  -1610  -1610    148 
- -1610    281  -1610  -1610 
-    14  -1610     98    -13 
-   -25     82     50    -54 
+log-odds matrix: alength= 4 w= 6 n= 13494 bayes= 8.33706 E= 8.5e-006 
+    16      3     13    -27 
+ -1410  -1410  -1410    152 
+   152  -1410  -1410  -1410 
+ -1410  -1410     67    112 
+ -1410    273  -1410  -1410 
+ -1410  -1410    273  -1410 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif TATCDN MEME-1 position-specific probability matrix
+	Motif WTATCG MEME-1 position-specific probability matrix
 --------------------------------------------------------------------------------
-letter-probability matrix: alength= 4 w= 6 nsites= 704 E= 9.6e-036 
+letter-probability matrix: alength= 4 w= 6 nsites= 176 E= 8.5e-006 
+ 0.392045  0.153409  0.164773  0.289773 
  0.000000  0.000000  0.000000  1.000000 
  1.000000  0.000000  0.000000  0.000000 
- 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  0.238636  0.761364 
  0.000000  1.000000  0.000000  0.000000 
- 0.393466  0.000000  0.279830  0.326705 
- 0.301136  0.251420  0.201705  0.245739 
+ 0.000000  0.000000  1.000000  0.000000 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif TATCDN MEME-1 regular expression
+	Motif WTATCG MEME-1 regular expression
 --------------------------------------------------------------------------------
-TATC[ATG][ACTG]
+[AT]TA[TG]CG
 --------------------------------------------------------------------------------
 
 
 
 
-Time 37.66 secs.
+Time 38.95 secs.
 
 ********************************************************************************
 
@@ -130,6 +130,6 @@ Time 37.66 secs.
 Stopped because requested number of motifs (1) found.
 ********************************************************************************
 
-CPU: 33e6ca60d186
+CPU: 7464231c29f7
 
 ********************************************************************************

@@ -25,7 +25,7 @@ for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
 ********************************************************************************
 TRAINING SET
 ********************************************************************************
-PRIMARY SEQUENCES= /data/bin_4.fasta
+PRIMARY SEQUENCES= /data/bin_3.fasta
 CONTROL SEQUENCES= --none--
 ALPHABET= ACGT
 
@@ -37,7 +37,7 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/bin_4.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_4.fasta_6mers 
+command: meme /data/bin_3.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_3.fasta_6mers 
 
 model:  mod=         zoops    nmotifs=         1    evt=           inf
 objective function:           em=       E-value of product of p-values
@@ -53,34 +53,34 @@ data:   n=           35984    N=            4498
 sample: seed=            0    hsfrac=          0
         searchsize=  35984    norand=         no    csites=       1000
 Letter frequencies in dataset:
-A 0.358 C 0.142 G 0.142 T 0.358 
+A 0.36 C 0.14 G 0.14 T 0.36 
 Background letter frequencies (from file dataset with add-one prior applied):
-A 0.358 C 0.142 G 0.142 T 0.358 
+A 0.36 C 0.14 G 0.14 T 0.36 
 Background model order: 0
 ********************************************************************************
 
 
 ********************************************************************************
-MOTIF TATCDN MEME-1	width =   6  sites = 704  llr = 3732  E-value = 9.6e-036
+MOTIF TATCDN MEME-1	width =   6  sites = 932  llr = 4818  E-value = 4.6e-068
 ********************************************************************************
 --------------------------------------------------------------------------------
 	Motif TATCDN MEME-1 Description
 --------------------------------------------------------------------------------
 Simplified        A  :a::43
-pos.-specific     C  :::a:3
-probability       G  ::::32
+pos.-specific     C  :::a13
+probability       G  ::::22
 matrix            T  a:a:32
 
          bits    2.8    *  
-                 2.5    *  
+                 2.6    *  
                  2.3    *  
                  2.0    *  
 Relative         1.7    *  
 Entropy          1.4 ****  
-(7.6 bits)       1.1 ****  
-                 0.8 ****  
+(7.5 bits)       1.1 ****  
+                 0.9 ****  
                  0.6 ****  
-                 0.3 ***** 
+                 0.3 ****  
                  0.0 ------
 
 Multilevel           TATCAA
@@ -92,25 +92,25 @@ sequence                 GT
 --------------------------------------------------------------------------------
 	Motif TATCDN MEME-1 position-specific scoring matrix
 --------------------------------------------------------------------------------
-log-odds matrix: alength= 4 w= 6 n= 13494 bayes= 6.44048 E= 9.6e-036 
- -1610  -1610  -1610    148 
-   148  -1610  -1610  -1610 
- -1610  -1610  -1610    148 
- -1610    281  -1610  -1610 
-    14  -1610     98    -13 
-   -25     82     50    -54 
+log-odds matrix: alength= 4 w= 6 n= 13494 bayes= 6.0605 E= 4.6e-068 
+ -1651  -1651  -1651    147 
+   147  -1651  -1651  -1651 
+ -1651  -1651  -1651    147 
+ -1651    283  -1651  -1651 
+     7    -86     69    -17 
+   -35     88     68    -63 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 	Motif TATCDN MEME-1 position-specific probability matrix
 --------------------------------------------------------------------------------
-letter-probability matrix: alength= 4 w= 6 nsites= 704 E= 9.6e-036 
+letter-probability matrix: alength= 4 w= 6 nsites= 932 E= 4.6e-068 
  0.000000  0.000000  0.000000  1.000000 
  1.000000  0.000000  0.000000  0.000000 
  0.000000  0.000000  0.000000  1.000000 
  0.000000  1.000000  0.000000  0.000000 
- 0.393466  0.000000  0.279830  0.326705 
- 0.301136  0.251420  0.201705  0.245739 
+ 0.376609  0.077253  0.226395  0.319742 
+ 0.283262  0.258584  0.225322  0.232833 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -122,7 +122,7 @@ TATC[ATG][ACTG]
 
 
 
-Time 37.66 secs.
+Time 37.54 secs.
 
 ********************************************************************************
 
@@ -130,6 +130,6 @@ Time 37.66 secs.
 Stopped because requested number of motifs (1) found.
 ********************************************************************************
 
-CPU: 33e6ca60d186
+CPU: 5b39be40b2e1
 
 ********************************************************************************

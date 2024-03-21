@@ -1,0 +1,200 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.5 (Release date: Thu Sep 14 08:48:04 2023 +1000)
+
+For further information on how to interpret these results please access http://localhost:8080/meme_5.5.5.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= /data/bin_11.fasta
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+Sequence1                1.0000      8  Sequence2                1.0000      8  
+Sequence3                1.0000      8  Sequence4                1.0000      8  
+Sequence5                1.0000      8  Sequence6                1.0000      8  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /data/bin_11.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_11.fasta_6mers 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: + -
+width:  minw=            6    maxw=            6
+nsites: minsites=        2    maxsites=        6    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=              48    N=               6
+sample: seed=            0    hsfrac=          0
+        searchsize=     48    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.323 C 0.177 G 0.177 T 0.323 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.323 C 0.177 G 0.177 T 0.323 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF ATMTNM MEME-1	width =   6  sites =   6  llr = 26  E-value = 6.0e+000
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif ATMTNM MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  8:3235
+pos.-specific     C  2:7:25
+probability       G  ::::3:
+matrix            T  :a:82:
+
+         bits    2.5       
+                 2.2       
+                 2.0       
+                 1.7  *    
+Relative         1.5  *    
+Entropy          1.2 ***   
+(6.2 bits)       1.0 **** *
+                 0.7 **** *
+                 0.5 **** *
+                 0.2 ******
+                 0.0 ------
+
+Multilevel           ATCTAA
+consensus              A GC
+sequence                   
+                           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ATMTNM MEME-1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value             Site 
+-------------            ------  ----- ---------            ------
+Sequence2                    +      1  1.87e-04          . ATCTGC GA        
+Sequence6                    +      3  2.80e-03         CA ATATGC           
+Sequence3                    +      1  4.71e-03          . ATCTTA AG        
+Sequence1                    -      2  5.33e-03          T ATATAC C         
+Sequence4                    +      1  6.36e-03          . CTCTAA TC        
+Sequence5                    +      2  1.16e-02          G ATCACA A         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ATMTNM MEME-1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Sequence2                         0.00019  [+1]_2
+Sequence6                          0.0028  2_[+1]
+Sequence3                          0.0047  [+1]_2
+Sequence1                          0.0053  1_[-1]_1
+Sequence4                          0.0064  [+1]_2
+Sequence5                           0.012  1_[+1]_1
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ATMTNM MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF ATMTNM width=6 seqs=6
+Sequence2                (    1) ATCTGC  1 
+Sequence6                (    3) ATATGC  1 
+Sequence3                (    1) ATCTTA  1 
+Sequence1                (    2) ATATAC  1 
+Sequence4                (    1) CTCTAA  1 
+Sequence5                (    2) ATCACA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ATMTNM MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 6 n= 18 bayes= 2.44057 E= 6.0e+000 
+   137     -9   -923   -923 
+  -923   -923   -923    163 
+     5    191   -923   -923 
+   -95   -923   -923    137 
+     5     -9     91    -95 
+    63    149   -923   -923 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ATMTNM MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 6 nsites= 6 E= 6.0e+000 
+ 0.833333  0.166667  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.333333  0.666667  0.000000  0.000000 
+ 0.166667  0.000000  0.000000  0.833333 
+ 0.333333  0.166667  0.333333  0.166667 
+ 0.500000  0.500000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ATMTNM MEME-1 regular expression
+--------------------------------------------------------------------------------
+AT[CA]T[AG][AC]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  0.13 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Sequence1                        3.16e-02  8
+Sequence2                        1.12e-03  8
+Sequence3                        2.79e-02  8
+Sequence4                        3.75e-02  8
+Sequence5                        6.75e-02  8
+Sequence6                        1.67e-02  8
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (1) found.
+********************************************************************************
+
+CPU: 27f70b41802d
+
+********************************************************************************
