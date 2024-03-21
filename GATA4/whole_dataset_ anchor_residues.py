@@ -4,7 +4,7 @@ import re
 import glob
 from collections import Counter
 
-file_pattern = 'bin_*/*.fasta_4mers/meme.html'
+file_pattern = 'bin_*/*.fasta_6mers/meme.html'
 files = sorted(glob.glob(file_pattern, recursive=True), key=lambda x: int(re.search(r'bin_(\d+)', x).group(1)))
 
 pwm_sections = []
@@ -53,8 +53,8 @@ for i in pwm_sections:
     consensus = calculate_consensus(i)
     consensus_sequences.append(consensus)
     
-with open('8mer_motif_total_10_consensus_analysis.txt', 'w') as output_file:
-    output_file.write("8mer motif - Discrete 10% binning of ENTIRE dataset\n\n")
+with open('6mer_motif_total_10_consensus_analysis.txt', 'w') as output_file:
+    output_file.write("6mer motif - Discrete 10% binning of ENTIRE dataset\n\n")
     n = 1
     output_file.write("Consesus sequences of bins: \n")
     for i in consensus_sequences:
