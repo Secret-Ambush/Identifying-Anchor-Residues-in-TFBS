@@ -1,0 +1,10 @@
+FROM python:3.9-slim
+
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Copy the Python script into the container
+COPY working_with_docker.py /usr/src/app/
+
+# Set the default command to run the Python script
+CMD ["python", "working_with_docker.py"]
