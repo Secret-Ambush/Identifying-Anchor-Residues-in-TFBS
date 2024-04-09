@@ -1,0 +1,131 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.5 (Release date: Thu Sep 14 08:48:04 2023 +1000)
+
+For further information on how to interpret these results please access http://localhost:8080/meme_5.5.5.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= /data/mutated_bin_3.fasta
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /data/mutated_bin_3.fasta -dna -o -nostatus -maxw 4 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/mutated_bin_3.fasta_4mers 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: + -
+width:  minw=            4    maxw=            4
+nsites: minsites=        2    maxsites=     9971    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           97337    N=            9971
+sample: seed=            0    hsfrac=          0
+        searchsize=  97337    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.396 C 0.104 G 0.104 T 0.396 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.396 C 0.104 G 0.104 T 0.396 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF TTAA MEME-1	width =   4  sites =  33  llr = 122  E-value = 4.0e+007
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif TTAA MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::aa
+pos.-specific     C  ::::
+probability       G  ::::
+matrix            T  aa::
+
+         bits    3.3     
+                 2.9     
+                 2.6     
+                 2.3     
+Relative         2.0     
+Entropy          1.6     
+(5.3 bits)       1.3 ****
+                 1.0 ****
+                 0.7 ****
+                 0.3 ****
+                 0.0 ----
+
+Multilevel           TTAA
+consensus                
+sequence                 
+                         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTAA MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 4 n= 49855 bayes= 12.5696 E= 4.0e+007 
+ -1169  -1169  -1169    134 
+ -1169  -1169  -1169    134 
+   134  -1169  -1169  -1169 
+   134  -1169  -1169  -1169 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTAA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 4 nsites= 33 E= 4.0e+007 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTAA MEME-1 regular expression
+--------------------------------------------------------------------------------
+TTAA
+--------------------------------------------------------------------------------
+
+
+
+
+Time 41.63 secs.
+
+********************************************************************************
+
+********************************************************************************
+Stopped because requested number of motifs (1) found.
+********************************************************************************
+
+CPU: 830126f8e163
+
+********************************************************************************
