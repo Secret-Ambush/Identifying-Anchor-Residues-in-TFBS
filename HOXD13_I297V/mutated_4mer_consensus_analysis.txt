@@ -1,0 +1,36 @@
+4mer motif - Discrete 10% binning of ENTIRE dataset
+
+Consesus sequences of bins: 
+Bin 1: GGCC 
+Bin 2: TTAA 
+Bin 3: TTAA 
+Bin 4: TTAA 
+Bin 5: TTAA 
+Bin 6: TTAA 
+Bin 7: TTAA 
+Bin 8: TTAA 
+Bin 9: TTAA 
+Bin 10: TTAA 
+
+
+Analysis
+Position 1:
+  G: 1 times
+  T: 9 times
+Most common: T appears 9 times
+
+Position 2:
+  G: 1 times
+  T: 9 times
+Most common: T appears 9 times
+
+Position 3:
+  C: 1 times
+  A: 9 times
+Most common: A appears 9 times
+
+Position 4:
+  C: 1 times
+  A: 9 times
+Most common: A appears 9 times
+

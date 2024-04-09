@@ -1,0 +1,64 @@
+8mer motif - Discrete 10% binning of ENTIRE dataset
+
+Consesus sequences of bins: 
+Bin 1: CTCATAAA 
+Bin 2: CCCGTAAA 
+Bin 3: CCCGTTAA 
+Bin 4: GCCCATTA 
+Bin 5: AGCTCGTA 
+Bin 6: GCCCGTAA 
+Bin 7: CCCCATTA 
+Bin 8: CCCTTTTA 
+Bin 9: GCCTTATA 
+Bin 10: ACGAGCAC 
+
+
+Analysis
+Position 1:
+  C: 5 times
+  G: 3 times
+  A: 2 times
+Most common: C appears 5 times
+
+Position 2:
+  T: 1 times
+  C: 8 times
+  G: 1 times
+Most common: C appears 8 times
+
+Position 3:
+  C: 9 times
+  G: 1 times
+Most common: C appears 9 times
+
+Position 4:
+  A: 2 times
+  G: 2 times
+  C: 3 times
+  T: 3 times
+Most common: C appears 3 times
+
+Position 5:
+  T: 5 times
+  A: 2 times
+  C: 1 times
+  G: 2 times
+Most common: T appears 5 times
+
+Position 6:
+  A: 3 times
+  T: 5 times
+  G: 1 times
+  C: 1 times
+Most common: T appears 5 times
+
+Position 7:
+  A: 5 times
+  T: 5 times
+Most common: A appears 5 times
+
+Position 8:
+  A: 9 times
+  C: 1 times
+Most common: A appears 9 times
+
