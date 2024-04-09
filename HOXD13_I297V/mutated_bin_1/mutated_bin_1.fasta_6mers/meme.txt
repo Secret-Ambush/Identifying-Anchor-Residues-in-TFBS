@@ -1,0 +1,135 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.5 (Release date: Thu Sep 14 08:48:04 2023 +1000)
+
+For further information on how to interpret these results please access http://localhost:8080/meme_5.5.5.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= /data/mutated_bin_1.fasta
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /data/mutated_bin_1.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/mutated_bin_1.fasta_6mers 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: + -
+width:  minw=            6    maxw=            6
+nsites: minsites=        2    maxsites=     9971    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           96399    N=            9971
+sample: seed=            0    hsfrac=          0
+        searchsize=  96399    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.428 C 0.072 G 0.072 T 0.428 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.428 C 0.072 G 0.072 T 0.428 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF CCCATA MEME-1	width =   6  sites =  11  llr = 115  E-value = 1.3e+005
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif CCCATA MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  :::a:a
+pos.-specific     C  aaa:::
+probability       G  ::::::
+matrix            T  ::::a:
+
+         bits    3.8 ***   
+                 3.4 ***   
+                 3.0 ***   
+                 2.7 ***   
+Relative         2.3 ***   
+Entropy          1.9 ***   
+(15.1 bits)      1.5 ***   
+                 1.1 ******
+                 0.8 ******
+                 0.4 ******
+                 0.0 ------
+
+Multilevel           CCCATA
+consensus                  
+sequence                   
+                           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCCATA MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 6 n= 29913 bayes= 12.9423 E= 1.3e+005 
+ -1010    380  -1010  -1010 
+ -1010    380  -1010  -1010 
+ -1010    380  -1010  -1010 
+   122  -1010  -1010  -1010 
+ -1010  -1010  -1010    122 
+   122  -1010  -1010  -1010 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCCATA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 6 nsites= 11 E= 1.3e+005 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCCATA MEME-1 regular expression
+--------------------------------------------------------------------------------
+CCCATA
+--------------------------------------------------------------------------------
+
+
+
+
+Time 43.53 secs.
+
+********************************************************************************
+
+********************************************************************************
+Stopped because requested number of motifs (1) found.
+********************************************************************************
+
+CPU: b349b2a03b45
+
+********************************************************************************
