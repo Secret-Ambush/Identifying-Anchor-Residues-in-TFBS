@@ -37,13 +37,13 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/bin_2.fasta -dna -o -nostatus -maxw 4 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_2.fasta_4mers 
+command: meme /data/bin_2.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_2.fasta_6mers 
 
 model:  mod=         zoops    nmotifs=         1    evt=           inf
 objective function:           em=       E-value of product of p-values
                               starts=   E-value of product of p-values
 strands: + -
-width:  minw=            4    maxw=            4
+width:  minw=            6    maxw=            6
 nsites: minsites=        2    maxsites=     9971    wnsites=       0.8
 theta:  spmap=         uni    spfuzz=        0.5
 em:     prior=   dirichlet    b=            0.01    maxiter=        50
@@ -61,64 +61,68 @@ Background model order: 0
 
 
 ********************************************************************************
-MOTIF TTAA MEME-1	width =   4  sites =  17  llr = 52  E-value = 7.3e+007
+MOTIF GGCTCG MEME-1	width =   6  sites =   3  llr = 31  E-value = 4.2e+004
 ********************************************************************************
 --------------------------------------------------------------------------------
-	Motif TTAA MEME-1 Description
+	Motif GGCTCG MEME-1 Description
 --------------------------------------------------------------------------------
-Simplified        A  1:aa
-pos.-specific     C  ::::
-probability       G  2:::
-matrix            T  6a::
+Simplified        A  ::1::1
+pos.-specific     C  ::7:a:
+probability       G  aa:::7
+matrix            T  ::1a:1
 
-         bits    3.5     
-                 3.1     
-                 2.8     
-                 2.4     
-Relative         2.1     
-Entropy          1.7     
-(4.4 bits)       1.4  ***
-                 1.0  ***
-                 0.7 ****
-                 0.3 ****
-                 0.0 ----
+         bits    3.5 **  * 
+                 3.1 **  * 
+                 2.8 **  * 
+                 2.4 **  * 
+Relative         2.1 **  * 
+Entropy          1.7 *** **
+(14.8 bits)      1.4 ******
+                 1.0 ******
+                 0.7 ******
+                 0.3 ******
+                 0.0 ------
 
-Multilevel           TTAA
-consensus            G   
-sequence                 
-                         
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-	Motif TTAA MEME-1 position-specific scoring matrix
---------------------------------------------------------------------------------
-log-odds matrix: alength= 4 w= 4 n= 49855 bayes= 5.93204 E= 7.3e+007 
-  -180  -1073    137     66 
- -1073  -1073  -1073    129 
-   129  -1073  -1073  -1073 
-   129  -1073  -1073  -1073 
+Multilevel           GGCTCG
+consensus                  
+sequence                   
+                           
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif TTAA MEME-1 position-specific probability matrix
+	Motif GGCTCG MEME-1 position-specific scoring matrix
 --------------------------------------------------------------------------------
-letter-probability matrix: alength= 4 w= 4 nsites= 17 E= 7.3e+007 
- 0.117647  0.000000  0.235294  0.647059 
+log-odds matrix: alength= 4 w= 6 n= 29913 bayes= 13.7309 E= 4.2e+004 
+  -823   -823    346   -823 
+  -823   -823    346   -823 
+  -158    294   -158   -158 
+  -823   -823   -823    129 
+  -823    346   -823   -823 
+  -158   -158    294   -158 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGCTCG MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 6 nsites= 3 E= 4.2e+004 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.136397  0.696936  0.030269  0.136397 
  0.000000  0.000000  0.000000  1.000000 
- 1.000000  0.000000  0.000000  0.000000 
- 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.136397  0.030269  0.696936  0.136397 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif TTAA MEME-1 regular expression
+	Motif GGCTCG MEME-1 regular expression
 --------------------------------------------------------------------------------
-[TG]TAA
+GGCTCG
 --------------------------------------------------------------------------------
 
 
 
 
-Time 42.51 secs.
+Time 42.52 secs.
 
 ********************************************************************************
 
@@ -126,6 +130,6 @@ Time 42.51 secs.
 Stopped because requested number of motifs (1) found.
 ********************************************************************************
 
-CPU: 0908bb0e3dc9
+CPU: 4753d0b3c786
 
 ********************************************************************************

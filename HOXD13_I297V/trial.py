@@ -25,14 +25,14 @@ def meme_analysis(input_files):
                 "-dna", 
                 "-o",
                 "-nostatus",
-                "-maxw", "8", 
-                "-minw", "8", 
+                "-maxw", "6", 
+                "-minw", "6", 
                 "-nmotifs", "1", 
                 "-mod", "zoops", 
                 "-objfun", "classic", 
                 "-revcomp", 
                 "-markov_order", "0", 
-                "-o", f"/data/{input_basename}_8mers"],
+                "-o", f"/data/{input_basename}_6mers"],
                check=True)
         except subprocess.CalledProcessError as e:
             print(f"Command failed with error: {e}")

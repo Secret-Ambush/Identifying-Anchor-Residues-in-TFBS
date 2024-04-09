@@ -25,7 +25,7 @@ for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
 ********************************************************************************
 TRAINING SET
 ********************************************************************************
-PRIMARY SEQUENCES= /data/bin_2.fasta
+PRIMARY SEQUENCES= /data/bin_8.fasta
 CONTROL SEQUENCES= --none--
 ALPHABET= ACGT
 
@@ -37,88 +37,92 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/bin_2.fasta -dna -o -nostatus -maxw 4 -minw 4 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_2.fasta_4mers 
+command: meme /data/bin_8.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_8.fasta_6mers 
 
 model:  mod=         zoops    nmotifs=         1    evt=           inf
 objective function:           em=       E-value of product of p-values
                               starts=   E-value of product of p-values
 strands: + -
-width:  minw=            4    maxw=            4
+width:  minw=            6    maxw=            6
 nsites: minsites=        2    maxsites=     9971    wnsites=       0.8
 theta:  spmap=         uni    spfuzz=        0.5
 em:     prior=   dirichlet    b=            0.01    maxiter=        50
         distance=    1e-05
 trim:   wg=             11    ws=              1    endgaps=       yes
-data:   n=           97150    N=            9971
+data:   n=           97438    N=            9971
 sample: seed=            0    hsfrac=          0
-        searchsize=  97150    norand=         no    csites=       1000
+        searchsize=  97438    norand=         no    csites=       1000
 Letter frequencies in dataset:
-A 0.409 C 0.0908 G 0.0908 T 0.409 
+A 0.362 C 0.138 G 0.138 T 0.362 
 Background letter frequencies (from file dataset with add-one prior applied):
-A 0.409 C 0.0908 G 0.0908 T 0.409 
+A 0.362 C 0.138 G 0.138 T 0.362 
 Background model order: 0
 ********************************************************************************
 
 
 ********************************************************************************
-MOTIF TTAA MEME-1	width =   4  sites =  17  llr = 52  E-value = 7.3e+007
+MOTIF CCCGTA MEME-1	width =   6  sites =   4  llr = 40  E-value = 1.1e+005
 ********************************************************************************
 --------------------------------------------------------------------------------
-	Motif TTAA MEME-1 Description
+	Motif CCCGTA MEME-1 Description
 --------------------------------------------------------------------------------
-Simplified        A  1:aa
-pos.-specific     C  ::::
-probability       G  2:::
-matrix            T  6a::
+Simplified        A  :::::a
+pos.-specific     C  aaa:::
+probability       G  :::a::
+matrix            T  ::::a:
 
-         bits    3.5     
-                 3.1     
-                 2.8     
-                 2.4     
-Relative         2.1     
-Entropy          1.7     
-(4.4 bits)       1.4  ***
-                 1.0  ***
-                 0.7 ****
-                 0.3 ****
-                 0.0 ----
+         bits    2.9 ****  
+                 2.6 ****  
+                 2.3 ****  
+                 2.0 ****  
+Relative         1.7 ****  
+Entropy          1.4 ******
+(14.4 bits)      1.1 ******
+                 0.9 ******
+                 0.6 ******
+                 0.3 ******
+                 0.0 ------
 
-Multilevel           TTAA
-consensus            G   
-sequence                 
-                         
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-	Motif TTAA MEME-1 position-specific scoring matrix
---------------------------------------------------------------------------------
-log-odds matrix: alength= 4 w= 4 n= 49855 bayes= 5.93204 E= 7.3e+007 
-  -180  -1073    137     66 
- -1073  -1073  -1073    129 
-   129  -1073  -1073  -1073 
-   129  -1073  -1073  -1073 
+Multilevel           CCCGTA
+consensus                  
+sequence                   
+                           
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif TTAA MEME-1 position-specific probability matrix
+	Motif CCCGTA MEME-1 position-specific scoring matrix
 --------------------------------------------------------------------------------
-letter-probability matrix: alength= 4 w= 4 nsites= 17 E= 7.3e+007 
- 0.117647  0.000000  0.235294  0.647059 
+log-odds matrix: alength= 4 w= 6 n= 29913 bayes= 13.6053 E= 1.1e+005 
+  -865    286   -865   -865 
+  -865    286   -865   -865 
+  -865    286   -865   -865 
+  -865   -865    286   -865 
+  -865   -865   -865    146 
+   146   -865   -865   -865 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCCGTA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 6 nsites= 4 E= 1.1e+005 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
  0.000000  0.000000  0.000000  1.000000 
  1.000000  0.000000  0.000000  0.000000 
- 1.000000  0.000000  0.000000  0.000000 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif TTAA MEME-1 regular expression
+	Motif CCCGTA MEME-1 regular expression
 --------------------------------------------------------------------------------
-[TG]TAA
+CCCGTA
 --------------------------------------------------------------------------------
 
 
 
 
-Time 42.51 secs.
+Time 40.37 secs.
 
 ********************************************************************************
 
@@ -126,6 +130,6 @@ Time 42.51 secs.
 Stopped because requested number of motifs (1) found.
 ********************************************************************************
 
-CPU: 0908bb0e3dc9
+CPU: 2532f820f862
 
 ********************************************************************************
