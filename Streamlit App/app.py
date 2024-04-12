@@ -158,12 +158,13 @@ def process_meme_results(tmpdir_path):
     )
                 
    
+if 'sequences' not in st.session_state:
+    st.session_state.sequences = []
+
 st.title('Protein Anchor Residue Identifier')
 
-# Adding a GIF to make the app more engaging
+# Placeholder for your GIF link
 # st.markdown("![Protein Animation](https://link_to_your_gif.gif)")
-
-st.write("## Upload your protein enrichment scores file")
 
 st.markdown("""
 This app analyses protein enrichment scores to identify possible anchor residues, 
@@ -173,37 +174,47 @@ for identifying anchor residues. The table below will update with the potential
 anchor residues based on your criteria.
 """)
 
-uploaded_file = st.file_uploader("Upload the top-enrinchment dataset of any Protein:", type=["txt", "csv"])
-
 # User inputs for binning preferences
-st.sidebar.header("Binning Preferences")
-bin_size_percentage = st.sidebar.number_input("Bin Size Percentage", min_value=1, max_value=100, value=50)
-overlap_choice = st.sidebar.radio("Bin Overlap", ('Discrete', 'Overlap'))
-if overlap_choice == 'Overlap':
-    overlap_percentage = st.sidebar.number_input("Overlap Percentage", min_value=0, max_value=100, value=5)
-else:
-    overlap_percentage = 0
+with st.form("binning_preferences_form"):
+    st.subheader("Binning Preferences")
+    st.caption("Here you can decide how much percentage of the dataset should be included in one bin")
+    bin_size_percentage = st.number_input("Bin Size Percentage", min_value=1, max_value=100, value=50)
+    overlap_choice = st.radio("Bin Overlap", ('Discrete', 'Overlap'))
+    if overlap_choice == 'Overlap':
+        overlap_percentage = st.number_input("Overlap Percentage", min_value=0, max_value=100, value=5)
+    else:
+        overlap_percentage = 0
+    st.subheader("Upload the top-enrichment dataset")
+    uploaded_file = st.file_uploader(" ", type=["txt", "csv"])
+    submit_button = st.form_submit_button("Confirm")
 
-if uploaded_file is not None:
+# Process file only if submit button is pressed
+if submit_button and uploaded_file is not None:
     sequences = [SeqRecord(seq, id=f"Sequence_{i+1}", description="") for i, seq in enumerate(uploaded_file.getvalue().decode("utf-8").split('\n')) if seq.strip()]
+    st.session_state.sequences = sequences  # Store sequences in session state
+
+# Display and process sequences only if they are in the session state
+if st.session_state.sequences:
+    st.markdown(f"Chosen Bin Size: `{bin_size_percentage}%` Overlap Percentage: `{overlap_percentage}%`")
     fasta_io = StringIO()
-    SeqIO.write(sequences, fasta_io, "fasta")
+    SeqIO.write(st.session_state.sequences, fasta_io, "fasta")
     fasta_io.seek(0)
     
     with tempfile.TemporaryDirectory() as tmpdir_path:
-        # Convert tmpdir_path to a Path object for easier manipulation
         tmpdir_path = Path(tmpdir_path)
+        binned_sequences = split_into_bins(st.session_state.sequences, bin_size_percentage, overlap_percentage)
         
-        # Your logic for binning sequences and saving them as FASTA files
-        binned_sequences = split_into_bins(sequences, bin_size_percentage, overlap_percentage)
-        
-        # Now call run_meme_analysis_on_bins with the updated path and binned sequences
-        run_meme_analysis_on_bins(binned_sequences, tmpdir_path)
+        st.write("Download Bins here!")
+        for bin_name, bin_seqs in binned_sequences:
+            fasta_io = StringIO()
+            SeqIO.write(bin_seqs, fasta_io, "fasta")
+            fasta_content = fasta_io.getvalue()
+            st.download_button(f"Download {bin_name}", data=fasta_content, file_name=f"{bin_name}.fasta", mime="text/plain")
+
+        col1, col2, col3 = st.columns([1,1,1])
+        confirm = col2.button("Do you want to continue with MEME Analysis?")
+        if confirm:
+            run_meme_analysis_on_bins(binned_sequences, tmpdir_path)
 
     
-    st.write("Download Bins here!")
-    for bin_name, bin_seqs in binned_sequences:
-        fasta_io = StringIO()
-        SeqIO.write(bin_seqs, fasta_io, "fasta")
-        fasta_content = fasta_io.getvalue()
-        st.download_button(f"Download {bin_name}", data=fasta_content, file_name=f"{bin_name}.fasta", mime="text/plain")
+    
