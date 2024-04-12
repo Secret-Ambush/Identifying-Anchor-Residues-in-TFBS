@@ -1,0 +1,4 @@
+beautifulsoup4==4.11.2
+Bio==1.7.0
+biopython==1.83
+streamlit==1.29.0
