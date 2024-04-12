@@ -1,16 +1,19 @@
+import uuid
+from bs4 import BeautifulSoup
 import streamlit as st
 import subprocess
 import tempfile
 import shutil
-from bs4 import BeautifulSoup
 import json
 import re
+from io import StringIO
 from collections import Counter
 from pathlib import Path
 from Bio import SeqIO
-from io import StringIO
 import glob
 from Bio.SeqRecord import SeqRecord
+from Bio.Seq import Seq
+from datetime import datetime
 
 def calculate_consensus(pwm):
     consensus = ''
@@ -29,72 +32,84 @@ def split_into_bins(sequences, bin_size_percentage=50, overlap_percentage=5):
     overlap_amount = max(int(overlap_percentage / 100 * sequences_per_bin), 1)
     
     binned_sequences = []
-    seq_count = 0
+    seq_count = 0  # Maintain a global sequence count
     i = 0
     bin_count = 0
     while i < total_sequences:
         bin_sequences = sequences[i:min(i + sequences_per_bin, total_sequences)]
         bin_count += 1
-        # Reset the sequence ID to ensure uniqueness within each bin
+        
+        # Process each sequence in the bin
         for seq_record in bin_sequences:
             seq_count += 1
-            seq_record.id = f"Bin_{bin_count}_Sequence_{seq_count}"
+            seq_record.id = f"Sequence_{seq_count}"  # Global unique sequence ID
             seq_record.description = ""
         
-        seq_count = 0
-        
-        # Instead of writing to a file, add the bin_sequences to a list
+        # Add the processed bin to the list
         binned_sequences.append((f"Bin_{bin_count}", bin_sequences))
-        
+        seq_count = 0
         i += sequences_per_bin - overlap_amount
     
     return binned_sequences
 
-def run_meme_analysis_on_bins(binned_sequences, tmpdir_path):
+def run_meme_analysis_on_bins(binned_sequences, base_dir):
+    base_dir = Path(base_dir).absolute()
+    
+    try:
+        base_dir.mkdir(parents=True, exist_ok=True)
+    except Exception as e:
+        print(f"Failed to create base directory {base_dir}: {e}")
+        return
+
     for bin_name, bin_seqs in binned_sequences:
-        fasta_file_path = tmpdir_path / f"{bin_name}.fasta"
+        input_dir = base_dir / f"{bin_name}"
+        input_dir.mkdir(parents=True, exist_ok=True)  # Ensure directory is created
+
+        input_basename = f"{bin_name}.fasta"
+        fasta_file_path = input_dir / input_basename
         
-        # Save the sequences to a FASTA file
-        with fasta_file_path.open('w') as fasta_file:
-            for seq in bin_seqs:
-                fasta_file.write(f">{seq.id}\n{seq.seq}\n")
-        
-        # Prepare the output directory for the MEME analysis
-        output_dir_path = tmpdir_path / f"{bin_name}_memeout"
-        if output_dir_path.exists():
-            shutil.rmtree(output_dir_path)  # Remove the existing directory and its contents
-        output_dir_path.mkdir(parents=True, exist_ok=True)
-        
-        # Execute MEME analysis using Docker
-        print(f"Running MEME analysis on {fasta_file_path}")
         try:
-            subprocess.run([
-                "docker", "run", "--rm",
-                "-v", f"{tmpdir_path}:/data",
-                "memesuite/memesuite:latest",
-                "meme", f"/data/{fasta_file_path.name}",
-                "-dna",
-                "-o", f"/data/{output_dir_path.name}",
-                "-nostatus",
-                "-maxw", "8",
-                "-minw", "4",
-                "-nmotifs", "1",
-                "-mod", "zoops",
-                "-objfun", "classic",
-                "-revcomp",
-                "-markov_order", "0"
-            ], check=True)
-            print(f"MEME analysis completed for {bin_name}")
-        except subprocess.CalledProcessError as e:
-            print(f"MEME analysis failed for {bin_name}: {e}")
+            with open(fasta_file_path, 'w') as fasta_file:
+                for seq in bin_seqs:
+                    fasta_file.write(f">{seq.id}\n{seq.seq}\n")
+        except Exception as e:
+            print(f"Failed to write to file {fasta_file_path}: {e}")
+            continue
+        
+        print(f"Running Meme for {fasta_file_path}")
+
+        command = [
+            "docker", "run", "--rm",
+            "-v", f"{input_dir}:/data",
+            "memesuite/memesuite:latest",
+            "meme", f"/data/{input_basename}",
+            "-dna",
+            "-o", f"/data/{input_basename}_8mers",
+            "-nostatus",
+            "-maxw", "8",
+            "-minw", "8",
+            "-nmotifs", "1",
+            "-mod", "zoops",
+            "-objfun", "classic",
+            "-revcomp",
+            "-markov_order", "0"
+        ]
+
+        try:
+            subprocess.run(command, check=True)
+            print(f"Done Running Meme for {fasta_file_path}")
             
-    process_meme_results(tmpdir_path)
+        except Exception as e:
+            print(f"Failed to run command for bin {bin_name}: {e}")
  
 def process_meme_results(tmpdir_path):
-    file_pattern = f'{tmpdir_path}/Bin_*_memeout/meme.html'
+    print("HEREEE!!")
+    print("*********************************************\n")
+    print("*********************************************\n")
+    file_pattern = f'{tmpdir_path}/Bin_*/Bin_*.fasta_8mers/meme.html'
+    files = sorted(glob.glob(file_pattern, recursive=True), key=lambda x: int(re.search(r'/Bin_(\d+)/', x).group(1)))
+    print("Found HTML files:", files)
     
-    files = sorted(glob.glob(file_pattern, recursive=True), key=lambda x: int(re.search(r'bin_(\d+)', x).group(1)))
-
     pwm_sections = []
     consensus_sequences = []
 
@@ -125,16 +140,19 @@ def process_meme_results(tmpdir_path):
         else:
             st.write(f"Script tag containing 'var data' was not found in {file_path}.")
 
+    print("Output file generation!!")
+    print("*********************************************\n")
+    print("*********************************************\n")
     # Prepare the content to be written in the downloadable file
     output_content = StringIO()
     output_content.write(f"Binning of ENTIRE dataset with {overlap_percentage}% overlap \n\n")
     output_content.write("Consensus sequences of bins: \n")
-    
+
     for i, pwm_section in enumerate(pwm_sections, start=1):
         consensus = calculate_consensus(pwm_section)
         consensus_sequences.append(consensus)
         output_content.write(f"Bin {i}: {consensus}\n")
-    
+
     output_content.write("\n\nAnalysis\n")
     for position in range(len(consensus_sequences[0])):
         residues_at_position = [seq[position] for seq in consensus_sequences]
@@ -146,18 +164,18 @@ def process_meme_results(tmpdir_path):
         for residue, residue_count in count.items():
             output_content.write(f"  {residue}: {residue_count} times\n")
         output_content.write(f"Most common: {most_common_residue} appears {most_common_count} times\n\n")
-    
-    output_content.seek(0)
-    
+
+    # Convert StringIO to string and then encode to bytes
+    output_bytes = output_content.getvalue().encode()
+
     # Create a download button in Streamlit for the analysis file
     st.download_button(
         label="Download Analysis Results",
-        data=output_content,
+        data=output_bytes,
         file_name="consensus_analysis.txt",
         mime="text/plain"
     )
-                
-   
+
 if 'sequences' not in st.session_state:
     st.session_state.sequences = []
 
@@ -190,8 +208,19 @@ with st.form("binning_preferences_form"):
 
 # Process file only if submit button is pressed
 if submit_button and uploaded_file is not None:
-    sequences = [SeqRecord(seq, id=f"Sequence_{i+1}", description="") for i, seq in enumerate(uploaded_file.getvalue().decode("utf-8").split('\n')) if seq.strip()]
-    st.session_state.sequences = sequences  # Store sequences in session state
+    uploaded_content = uploaded_file.getvalue().decode("utf-8").strip()
+    lines = uploaded_content.split('\n')
+
+    # Skipping the header and processing the first column only
+    sequences = []
+    for i, line in enumerate(lines[1:]):  # Start from 1 to skip the header
+        if line.strip():  # Ensure the line is not empty
+            columns = line.split('\t')
+            if columns:  # Check if there are any columns
+                sequence = columns[0].replace('.', '')  # Remove '.' from sequences
+                seq_record = SeqRecord(Seq(sequence), id=f"Sequence{i+1}", description="")
+                sequences.append(seq_record)
+        st.session_state.sequences = sequences  # Store sequences in session state
 
 # Display and process sequences only if they are in the session state
 if st.session_state.sequences:
@@ -215,6 +244,8 @@ if st.session_state.sequences:
         confirm = col2.button("Do you want to continue with MEME Analysis?")
         if confirm:
             run_meme_analysis_on_bins(binned_sequences, tmpdir_path)
+            process_meme_results(tmpdir_path)
+            
 
     
     

@@ -11,7 +11,7 @@ def meme_analysis(input_files):
         print(f"Processing file: {input_file}")
         input_abs_path = os.path.abspath(input_file)
         input_dir, input_basename = os.path.split(input_abs_path)
-        
+        print(input_basename)
         if not os.path.exists(input_dir):
             print(f"Directory does not exist: {input_dir}")
             continue
