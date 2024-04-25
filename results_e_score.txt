@@ -1,0 +1,27 @@
+Binning 10%
+Bin 1: 0.4908 to 0.4667 - Average: 0.4759, Std Dev: 0.0063
+Bin 2: 0.4667 to 0.4426 - Average: 0.4531, Std Dev: 0.0069
+Bin 3: 0.4426 to 0.4186 - Average: 0.4299, Std Dev: 0.0068
+Bin 4: 0.4186 to 0.3945 - Average: 0.4054, Std Dev: 0.0068
+Bin 5: 0.3945 to 0.3704 - Average: 0.3812, Std Dev: 0.0070
+Bin 6: 0.3704 to 0.3463 - Average: 0.3576, Std Dev: 0.0069
+Bin 7: 0.3463 to 0.3222 - Average: 0.3335, Std Dev: 0.0070
+Bin 8: 0.3222 to 0.2982 - Average: 0.3095, Std Dev: 0.0069
+Bin 9: 0.2982 to 0.2741 - Average: 0.2855, Std Dev: 0.0069
+Bin 10: 0.2741 to 0.2500 - Average: 0.2615, Std Dev: 0.0069
+***************
+
+
+Binning 20%
+Bin 1: 0.4908 to 0.4426 - Average: 0.4600, Std Dev: 0.0124
+Bin 2: 0.4426 to 0.3945 - Average: 0.4136, Std Dev: 0.0134
+Bin 3: 0.3945 to 0.3463 - Average: 0.3665, Std Dev: 0.0134
+Bin 4: 0.3463 to 0.2982 - Average: 0.3190, Std Dev: 0.0137
+Bin 5: 0.2982 to 0.2500 - Average: 0.2716, Std Dev: 0.0137
+***************
+
+
+Binning 50%
+Bin 1: 0.4908 to 0.3704 - Average: 0.4031, Std Dev: 0.0266
+Bin 2: 0.3704 to 0.2500 - Average: 0.2922, Std Dev: 0.0313
+***************

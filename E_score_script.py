@@ -1,75 +1,42 @@
-from bs4 import BeautifulSoup
-import json
-import re
-import glob
-from collections import Counter
+import numpy as np
 
-file_pattern = 'GATA4/GATA4_anti-GST/GATA4_anti-GST_8mers_top_enrichment.txt'
-files = sorted(glob.glob(file_pattern, recursive=True), key=lambda x: int(re.search(r'bin_(\d+)', x).group(1)))
-
-pwm_sections = []
-consensus_sequences = []
-
-def calculate_consensus(pwm):
-    consensus = ''
-    residues = ['A', 'C', 'G', 'T']
-    
-    for position in pwm:
-        max_index = position.index(max(position))
-        consensus += residues[max_index]
-    
-    return consensus
-
-for file_path in files:
+def read_data(file_path):
     with open(file_path, 'r') as file:
-        html_content = file.read()
+        lines = file.readlines()
+    data = [line.strip().split('\t') for line in lines[1:]]  # Skip header and split by tab
+    return data
 
-    soup = BeautifulSoup(html_content, 'html.parser')
+def bin_escores(data, bin_percentage):
+    escores = np.array([float(row[2]) for row in data])
+    bin_count = int(100 / bin_percentage)
+    bin_edges = np.linspace(escores.max(), escores.min(), bin_count + 1)
+    binned_escores = np.digitize(escores, bin_edges, right=True)
+    return escores, binned_escores, bin_edges
 
-    script_tags = soup.find_all("script")
-    data_script = None
-    for script in script_tags:
-        if 'var data' in script.text:
-            data_script = script.text
-            break
+def calculate_stats(escores, binned_escores, bin_edges):
+    stats = []
+    for i in range(len(bin_edges)-1):
+        indices = np.where(binned_escores == i + 1)[0]
+        bin_escores = escores[indices]
+        avg = np.mean(bin_escores) if bin_escores.size > 0 else 0
+        std = np.std(bin_escores) if bin_escores.size > 0 else 0
+        stats.append((bin_edges[i], bin_edges[i+1], avg, std))
+    return stats
 
-    if data_script:
-        json_str_match = re.search(r'var data = ({.*?});', data_script, re.DOTALL)
-        if json_str_match:
-            json_str = json_str_match.group(1)
-            data = json.loads(json_str)
-            if 'motifs' in data and data['motifs']:
-                pwm_section = data['motifs'][0].get('pwm', 'PWM data not available')
-                pwm_sections.append(pwm_section)
-                print(f'Analysing PWM from {file_path}:')
-            else:
-                print(f"No 'motifs' data found in {file_path}.")
-        else:
-            print(f"JSON data not found in the script tag of {file_path}.")
-    else:
-        print(f"Script tag containing 'var data' was not found in {file_path}.")
-
-for i in pwm_sections:
-    consensus = calculate_consensus(i)
-    consensus_sequences.append(consensus)
-    
-with open('mutated_4mer_consensus_analysis.txt', 'w') as output_file:
-    output_file.write("4mer motif - Discrete 10% binning of ENTIRE dataset\n\n")
-    n = 1
-    output_file.write("Consesus sequences of bins: \n")
-    for i in consensus_sequences:
-        output_file.write(f"Bin {n}: {i} \n")
-        n += 1 
-    
-    output_file.write("\n\n")    
-    output_file.write("Analysis\n") 
-    for position in range(len(consensus_sequences[0])):
-        residues_at_position = [seq[position] for seq in consensus_sequences]
-        count = Counter(residues_at_position)
+def main():
+    file_path = 'GATA4/GATA4_anti-GST/GATA4_anti-GST_8mers_top_enrichment.txt'
+    for i in [10,20,50]:
+        bin_percentage = i;
+        data = read_data(file_path)
+        escores, binned_escores, bin_edges = bin_escores(data, bin_percentage)
+        stats = calculate_stats(escores, binned_escores, bin_edges)
         
-        most_common_residue, most_common_count = count.most_common(1)[0]
+        print(f"Binning {i}%")
+        for i, (bin_start, bin_end, avg, std) in enumerate(stats):
+            print(f"Bin {i+1}: {bin_start:.4f} to {bin_end:.4f} - Average: {avg:.4f}, Std Dev: {std:.4f}")
         
-        output_file.write(f"Position {position+1}:\n")
-        for residue, residue_count in count.items():
-            output_file.write(f"  {residue}: {residue_count} times\n")
-        output_file.write(f"Most common: {most_common_residue} appears {most_common_count} times\n\n")
+        print("***************")
+        print("\n")
+
+if __name__ == "__main__":
+    main()
