@@ -3,7 +3,7 @@ import numpy as np
 def read_data(file_path):
     with open(file_path, 'r') as file:
         lines = file.readlines()
-    data = [line.strip().split('\t') for line in lines[1:]]  # Skip header and split by tab
+    data = [line.strip().split('\t') for line in lines[1:]]
     return data
 
 def bin_escores(data, bin_percentage):
