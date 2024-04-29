@@ -5,6 +5,7 @@ import glob
 from collections import Counter
 import numpy as np
 import matplotlib.pyplot as plt
+import plotly.express as px
 
 pwm_sections = []
 consensus_sequences = []
@@ -110,7 +111,12 @@ def main():
     sum_pwm = sum_pwms(weighted_pwms)
     
     bases = ['A', 'C', 'G', 'T']
-
+    print(sum_pwm)
+    
+    for position in sum_pwm:
+        position_sum = sum(position)  # Sum the values of A, C, G, T for the current position
+        print(f"{position_sum}")
+    
     n_positions = sum_pwm.shape[0]
     n_bases = sum_pwm.shape[1]
     bar_width = 0.2 
@@ -128,7 +134,6 @@ def main():
     ax.set_xticklabels(range(1, n_positions + 1))  
     ax.legend()
 
-    # Show the plot
     plt.show()
 
 if __name__ == "__main__":
