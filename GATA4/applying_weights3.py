@@ -4,6 +4,7 @@ import re
 import glob
 from collections import Counter
 import numpy as np
+import matplotlib.pyplot as plt
 
 pwm_sections = []
 consensus_sequences = []
@@ -61,7 +62,6 @@ def read_html_pwm(files):
                 if 'motifs' in data and data['motifs']:
                     pwm_section = data['motifs'][0].get('pwm', 'PWM data not available')
                     pwm_sections.append(pwm_section)
-                    print(f'Analysing PWM from {file_path}:')
                 else:
                     print(f"No 'motifs' data found in {file_path}.")
             else:
@@ -77,6 +77,10 @@ def apply_weights(pwms, weights):
         weighted_pwm = [[value * weight for value in position] for position in pwm]  # Element-wise multiplication for nested lists
         weighted_pwms.append(weighted_pwm)
     return weighted_pwms
+
+def sum_pwms(weighted_pwms):
+    sum_pwm = np.sum(np.array(weighted_pwms), axis=0)
+    return sum_pwm
 
 def main():
     file_path = 'GATA4_anti-GST/GATA4_anti-GST_8mers_top_enrichment.txt'
@@ -103,9 +107,29 @@ def main():
     pwms = read_html_pwm(files)
     weighted_pwms = apply_weights(pwms, weights)
     
-    for pwm in weighted_pwms:
-        print("***************")
-        print(pwm)
+    sum_pwm = sum_pwms(weighted_pwms)
+    
+    bases = ['A', 'C', 'G', 'T']
+
+    n_positions = sum_pwm.shape[0]
+    n_bases = sum_pwm.shape[1]
+    bar_width = 0.2 
+    x = np.arange(n_positions)  
+
+    fig, ax = plt.subplots()
+
+    for i in range(n_bases):
+        ax.bar(x + i * bar_width, sum_pwm[:, i], width=bar_width, label=bases[i])
+
+    ax.set_xlabel('Position')
+    ax.set_ylabel('Values')
+    ax.set_title('Summed PWM Values by Position and Base')
+    ax.set_xticks(x + bar_width * (n_bases - 1) / 2) 
+    ax.set_xticklabels(range(1, n_positions + 1))  
+    ax.legend()
+
+    # Show the plot
+    plt.show()
 
 if __name__ == "__main__":
     main()
