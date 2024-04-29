@@ -38,7 +38,7 @@ def main():
             metrics.append(metric)
         for i, (bin_start, bin_end, avg, std) in enumerate(stats):
             weight = metrics[i]/sum(metrics)
-            print(f"Bin {i+1}: {bin_start:.4f} to {bin_end:.4f} - Average: {avg:.4f}, Std Dev: {std:.4f}, Weight: {weight:.4f}")
+            print(f"Bin {i+1}: {bin_start:.4f} to {bin_end:.4f} - Average: {avg:.4f}, Std Dev: {std:.4f}, Metric: {metrics[i]:.4f}, Weight: {weight:.4f}")
         
         print("***************")
         print("\n")
