@@ -111,10 +111,9 @@ def main():
     sum_pwm = sum_pwms(weighted_pwms)
     
     bases = ['A', 'C', 'G', 'T']
-    print(sum_pwm)
     
     for position in sum_pwm:
-        position_sum = sum(position)  # Sum the values of A, C, G, T for the current position
+        position_sum = sum(position)  
         print(f"{position_sum}")
     
     n_positions = sum_pwm.shape[0]
