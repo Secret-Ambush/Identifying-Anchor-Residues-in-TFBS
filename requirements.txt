@@ -1,4 +1,7 @@
 beautifulsoup4==4.11.2
 Bio==1.7.0
 biopython==1.83
-streamlit
+matplotlib==3.7.1
+numpy==1.26.4
+plotly==5.15.0
+streamlit==1.33.0
