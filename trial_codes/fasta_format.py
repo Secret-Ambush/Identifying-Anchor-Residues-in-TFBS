@@ -1,7 +1,7 @@
 import csv
 
-csv_file_path = '/Users/bristi/Desktop/Design Project/Working-with-TF/ETV-5/Etv5_8mers_top_enrichment.txt'
-fasta_file_path = '/Users/bristi/Desktop/Design Project/Working-with-TF/ETV-5/Etv5.fasta'
+csv_file_path = '/Users/bristi/Desktop/Design Project/Working-with-TF/Gm5454/Gm5454_8mers_top_enrichment.txt'
+fasta_file_path = '/Users/bristi/Desktop/Design Project/Working-with-TF/Gm5454/Gm5454.fasta'
             
 with open(csv_file_path, 'r') as input_file, open(fasta_file_path, 'w') as output_file:
         next(input_file)
