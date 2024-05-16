@@ -102,7 +102,7 @@ def main():
         weights.append(weight)
         print(f"Bin {i+1}: {bin_start:.4f} to {bin_end:.4f} - Average: {avg:.4f}, Std Dev: {std:.4f}, Weight: {weight:.4f}")
     
-    file_pattern = 'bin_*/*.fasta_8mers/meme.html'
+    file_pattern = 'Binned data/bin_*/*.fasta_8mers/meme.html'
     files = sorted(glob.glob(file_pattern, recursive=True), key=lambda x: int(re.search(r'bin_(\d+)', x).group(1)))
 
     pwms = read_html_pwm(files)
@@ -111,7 +111,7 @@ def main():
     sum_pwm = sum_pwms(weighted_pwms)
     
     bases = ['A', 'C', 'G', 'T']
-    
+        
     for position in sum_pwm:
         position_sum = sum(position)  
         print(f"{position_sum}")
