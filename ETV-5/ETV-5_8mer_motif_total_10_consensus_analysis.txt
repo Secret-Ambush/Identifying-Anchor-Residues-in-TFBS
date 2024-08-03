@@ -1,4 +1,4 @@
-6mer motif - Discrete 10% binning of ENTIRE dataset
+8mer motif - Discrete 10% binning of ENTIRE dataset
 
 Consesus sequences of bins: 
 Bin 1: CCGGAAGT 

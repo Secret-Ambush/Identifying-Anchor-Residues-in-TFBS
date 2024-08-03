@@ -83,7 +83,7 @@ def sum_pwms(weighted_pwms):
     return sum_pwm
 
 def main():
-    file_path = 'GATA4/GATA4_anti-GST/GATA4_anti-GST_8mers_top_enrichment.txt'
+    file_path = 'ETV-5/Datasets/Etv5_8mers_top_enrichment.txt'
     bin_percentage = 10
     data = read_data(file_path)
     escores, binned_escores, bin_edges = bin_escores(data, bin_percentage)
@@ -100,7 +100,7 @@ def main():
         weights.append(weight)
         #print(f"Bin {i+1}: {bin_start:.4f} to {bin_end:.4f} - Average: {avg:.4f}, Std Dev: {std:.4f}, Weight: {weight:.4f}")
     
-    file_pattern = 'GATA4/Binned data/bin_*/bin_*.fasta_8mers/meme.html'
+    file_pattern = 'ETV-5/bin_*/bin_*.fasta_8mers/meme.html'
     files = sorted(glob.glob(file_pattern, recursive=True), key=lambda x: int(re.search(r'bin_(\d+)', x).group(1)))
     
     pwms = read_html_pwm(files)
@@ -135,3 +135,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+                   
