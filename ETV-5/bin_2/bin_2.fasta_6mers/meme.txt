@@ -25,7 +25,7 @@ for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
 ********************************************************************************
 TRAINING SET
 ********************************************************************************
-PRIMARY SEQUENCES= /data/bin_4.fasta
+PRIMARY SEQUENCES= /data/bin_2.fasta
 CONTROL SEQUENCES= --none--
 ALPHABET= ACGT
 
@@ -37,7 +37,7 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/bin_4.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_4.fasta_6mers 
+command: meme /data/bin_2.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_2.fasta_6mers 
 
 model:  mod=         zoops    nmotifs=         1    evt=           inf
 objective function:           em=       E-value of product of p-values
@@ -49,37 +49,37 @@ theta:  spmap=         uni    spfuzz=        0.5
 em:     prior=   dirichlet    b=            0.01    maxiter=        50
         distance=    1e-05
 trim:   wg=             11    ws=              1    endgaps=       yes
-data:   n=           55977    N=            5752
+data:   n=           55788    N=            5752
 sample: seed=            0    hsfrac=          0
-        searchsize=  55977    norand=         no    csites=       1000
+        searchsize=  55788    norand=         no    csites=       1000
 Letter frequencies in dataset:
-A 0.212 C 0.288 G 0.288 T 0.212 
+A 0.206 C 0.294 G 0.294 T 0.206 
 Background letter frequencies (from file dataset with add-one prior applied):
-A 0.212 C 0.288 G 0.288 T 0.212 
+A 0.206 C 0.294 G 0.294 T 0.206 
 Background model order: 0
 ********************************************************************************
 
 
 ********************************************************************************
-MOTIF CCGGAA MEME-1	width =   6  sites = 4154  llr = 13124  E-value = 2.6e+005
+MOTIF CCGGAW MEME-1	width =   6  sites = 4248  llr = 15877  E-value = 9.6e-200
 ********************************************************************************
 --------------------------------------------------------------------------------
-	Motif CCGGAA MEME-1 Description
+	Motif CCGGAW MEME-1 Description
 --------------------------------------------------------------------------------
-Simplified        A  12::75
-pos.-specific     C  67:111
-probability       G  219911
+Simplified        A  12::85
+pos.-specific     C  67::11
+probability       G  21a911
 matrix            T  11::13
 
-         bits    2.2       
-                 2.0       
+         bits    2.3       
+                 2.1       
                  1.8       
-                 1.6       
-Relative         1.3   *   
-Entropy          1.1   **  
-(4.6 bits)       0.9   *** 
+                 1.6   *   
+Relative         1.4   **  
+Entropy          1.1   *** 
+(5.4 bits)       0.9   *** 
                  0.7   *** 
-                 0.4  *****
+                 0.5 ******
                  0.2 ******
                  0.0 ------
 
@@ -90,31 +90,31 @@ sequence
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif CCGGAA MEME-1 position-specific scoring matrix
+	Motif CCGGAW MEME-1 position-specific scoring matrix
 --------------------------------------------------------------------------------
-log-odds matrix: alength= 4 w= 6 n= 17256 bayes= 4.12856 E= 2.6e+005 
-   -62    100    -59   -115 
-   -28    119   -137   -196 
-  -312   -312    167   -312 
-  -248   -252    160   -256 
-   182   -202   -200    -95 
-   133   -136   -156     28 
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-	Motif CCGGAA MEME-1 position-specific probability matrix
---------------------------------------------------------------------------------
-letter-probability matrix: alength= 4 w= 6 nsites= 4154 E= 2.6e+005 
- 0.137382  0.575546  0.191819  0.095253 
- 0.174731  0.659646  0.111259  0.054365 
- 0.024298  0.033117  0.918288  0.024298 
- 0.037888  0.050220  0.875930  0.035962 
- 0.746809  0.071197  0.072160  0.109833 
- 0.532058  0.112381  0.097937  0.257624 
+log-odds matrix: alength= 4 w= 6 n= 17256 bayes= 3.6672 E= 9.6e-200 
+   -64    108    -74   -155 
+   -41    124   -162   -188 
+  -500   -500    173   -500 
+  -293   -322    164   -325 
+   193   -216   -215   -134 
+   130   -159   -179     59 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif CCGGAA MEME-1 regular expression
+	Motif CCGGAW MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 6 nsites= 4248 E= 9.6e-200 
+ 0.132004  0.621292  0.176612  0.070093 
+ 0.155144  0.693608  0.095444  0.055803 
+ 0.006443  0.009211  0.977902  0.006443 
+ 0.026973  0.031525  0.919943  0.021559 
+ 0.786637  0.065999  0.066235  0.081129 
+ 0.507592  0.097752  0.084805  0.309851 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCGGAW MEME-1 regular expression
 --------------------------------------------------------------------------------
 CCGGA[AT]
 --------------------------------------------------------------------------------
@@ -122,7 +122,7 @@ CCGGA[AT]
 
 
 
-Time 27.89 secs.
+Time 28.08 secs.
 
 ********************************************************************************
 
@@ -130,6 +130,6 @@ Time 27.89 secs.
 Stopped because requested number of motifs (1) found.
 ********************************************************************************
 
-CPU: dafcb51cca85
+CPU: 40b471b9a5e6
 
 ********************************************************************************

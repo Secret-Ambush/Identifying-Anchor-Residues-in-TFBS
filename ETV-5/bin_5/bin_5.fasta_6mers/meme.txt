@@ -25,7 +25,7 @@ for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
 ********************************************************************************
 TRAINING SET
 ********************************************************************************
-PRIMARY SEQUENCES= /data/bin_4.fasta
+PRIMARY SEQUENCES= /data/bin_5.fasta
 CONTROL SEQUENCES= --none--
 ALPHABET= ACGT
 
@@ -37,7 +37,7 @@ COMMAND LINE SUMMARY
 This information can also be useful in the event you wish to report a
 problem with the MEME software.
 
-command: meme /data/bin_4.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_4.fasta_6mers 
+command: meme /data/bin_5.fasta -dna -o -nostatus -maxw 6 -minw 6 -nmotifs 1 -mod zoops -objfun classic -revcomp -markov_order 0 -o /data/bin_5.fasta_6mers 
 
 model:  mod=         zoops    nmotifs=         1    evt=           inf
 objective function:           em=       E-value of product of p-values
@@ -49,80 +49,80 @@ theta:  spmap=         uni    spfuzz=        0.5
 em:     prior=   dirichlet    b=            0.01    maxiter=        50
         distance=    1e-05
 trim:   wg=             11    ws=              1    endgaps=       yes
-data:   n=           55977    N=            5752
+data:   n=           56119    N=            5752
 sample: seed=            0    hsfrac=          0
-        searchsize=  55977    norand=         no    csites=       1000
+        searchsize=  56119    norand=         no    csites=       1000
 Letter frequencies in dataset:
-A 0.212 C 0.288 G 0.288 T 0.212 
+A 0.213 C 0.287 G 0.287 T 0.213 
 Background letter frequencies (from file dataset with add-one prior applied):
-A 0.212 C 0.288 G 0.288 T 0.212 
+A 0.213 C 0.287 G 0.287 T 0.213 
 Background model order: 0
 ********************************************************************************
 
 
 ********************************************************************************
-MOTIF CCGGAA MEME-1	width =   6  sites = 4154  llr = 13124  E-value = 2.6e+005
+MOTIF AYTTCC MEME-1	width =   6  sites =  18  llr = 140  E-value = 3.4e+006
 ********************************************************************************
 --------------------------------------------------------------------------------
-	Motif CCGGAA MEME-1 Description
+	Motif AYTTCC MEME-1 Description
 --------------------------------------------------------------------------------
-Simplified        A  12::75
-pos.-specific     C  67:111
-probability       G  219911
-matrix            T  11::13
+Simplified        A  a:::::
+pos.-specific     C  :3::aa
+probability       G  ::::::
+matrix            T  :6aa::
 
-         bits    2.2       
-                 2.0       
-                 1.8       
-                 1.6       
-Relative         1.3   *   
-Entropy          1.1   **  
-(4.6 bits)       0.9   *** 
-                 0.7   *** 
-                 0.4  *****
+         bits    2.2 * **  
+                 2.0 * **  
+                 1.8 * ****
+                 1.6 * ****
+Relative         1.3 * ****
+Entropy          1.1 * ****
+(11.2 bits)      0.9 ******
+                 0.7 ******
+                 0.4 ******
                  0.2 ******
                  0.0 ------
 
-Multilevel           CCGGAA
-consensus                 T
+Multilevel           ATTTCC
+consensus             C    
 sequence                   
                            
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif CCGGAA MEME-1 position-specific scoring matrix
+	Motif AYTTCC MEME-1 position-specific scoring matrix
 --------------------------------------------------------------------------------
-log-odds matrix: alength= 4 w= 6 n= 17256 bayes= 4.12856 E= 2.6e+005 
-   -62    100    -59   -115 
-   -28    119   -137   -196 
-  -312   -312    167   -312 
-  -248   -252    160   -256 
-   182   -202   -200    -95 
-   133   -136   -156     28 
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-	Motif CCGGAA MEME-1 position-specific probability matrix
---------------------------------------------------------------------------------
-letter-probability matrix: alength= 4 w= 6 nsites= 4154 E= 2.6e+005 
- 0.137382  0.575546  0.191819  0.095253 
- 0.174731  0.659646  0.111259  0.054365 
- 0.024298  0.033117  0.918288  0.024298 
- 0.037888  0.050220  0.875930  0.035962 
- 0.746809  0.071197  0.072160  0.109833 
- 0.532058  0.112381  0.097937  0.257624 
+log-odds matrix: alength= 4 w= 6 n= 17256 bayes= 11.6959 E= 3.4e+006 
+   223  -1081  -1081  -1081 
+  -416     28   -416    155 
+ -1081  -1081  -1081    223 
+ -1081  -1081  -1081    223 
+ -1081    180  -1081  -1081 
+ -1081    180  -1081  -1081 
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-	Motif CCGGAA MEME-1 regular expression
+	Motif AYTTCC MEME-1 position-specific probability matrix
 --------------------------------------------------------------------------------
-CCGGA[AT]
+letter-probability matrix: alength= 4 w= 6 nsites= 18 E= 3.4e+006 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.011817  0.349294  0.015961  0.622928 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AYTTCC MEME-1 regular expression
+--------------------------------------------------------------------------------
+A[TC]TTCC
 --------------------------------------------------------------------------------
 
 
 
 
-Time 27.89 secs.
+Time 27.00 secs.
 
 ********************************************************************************
 
@@ -130,6 +130,6 @@ Time 27.89 secs.
 Stopped because requested number of motifs (1) found.
 ********************************************************************************
 
-CPU: dafcb51cca85
+CPU: e33e57b06e29
 
 ********************************************************************************
