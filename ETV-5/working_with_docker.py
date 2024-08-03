@@ -37,8 +37,10 @@ def meme_analysis(input_files):
         except subprocess.CalledProcessError as e:
             print(f"Command failed with error: {e}")
 
-pattern = 'bin_*/*.fasta'
+pattern = 'ETV-5/bin_*/*.fasta'
 fasta_files = glob.glob(pattern)
-output_files = [os.path.join(os.path.basename(os.path.dirname(f)), os.path.basename(f)) for f in fasta_files]
 
-meme_analysis(output_files)
+# Use absolute paths for input files
+absolute_fasta_files = [os.path.abspath(f) for f in fasta_files]
+
+meme_analysis(absolute_fasta_files)
