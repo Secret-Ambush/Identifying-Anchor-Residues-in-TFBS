@@ -1,0 +1,69 @@
+6mer motif - Discrete 10% binning of ENTIRE dataset
+
+Consesus sequences of bins: 
+Bin 1: CCGGAAGT 
+Bin 2: GACCGGAA 
+Bin 3: AAACCGGA 
+Bin 4: AAGAGGAA 
+Bin 5: CCGGAAAA 
+Bin 6: AGGAAATA 
+Bin 7: AGGAAAAA 
+Bin 8: CCGAAGGA 
+Bin 9: ATACGGAA 
+Bin 10: TATTACCG 
+
+
+Analysis
+Position 1:
+  C: 3 times
+  G: 1 times
+  A: 5 times
+  T: 1 times
+Most common: A appears 5 times
+
+Position 2:
+  C: 3 times
+  A: 4 times
+  G: 2 times
+  T: 1 times
+Most common: A appears 4 times
+
+Position 3:
+  G: 6 times
+  C: 1 times
+  A: 2 times
+  T: 1 times
+Most common: G appears 6 times
+
+Position 4:
+  G: 2 times
+  C: 3 times
+  A: 4 times
+  T: 1 times
+Most common: A appears 4 times
+
+Position 5:
+  A: 6 times
+  G: 3 times
+  C: 1 times
+Most common: A appears 6 times
+
+Position 6:
+  A: 4 times
+  G: 5 times
+  C: 1 times
+Most common: G appears 5 times
+
+Position 7:
+  G: 3 times
+  A: 5 times
+  T: 1 times
+  C: 1 times
+Most common: A appears 5 times
+
+Position 8:
+  T: 1 times
+  A: 8 times
+  G: 1 times
+Most common: A appears 8 times
+
