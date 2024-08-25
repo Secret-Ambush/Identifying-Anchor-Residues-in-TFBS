@@ -1,6 +1,6 @@
 4mer motif - Discrete 10% binning of ENTIRE dataset
 
-Consesus sequences of bins: 
+Consensus sequences of bins: 
 Bin 1: GATA 
 Bin 2: GATA 
 Bin 3: TATC 
