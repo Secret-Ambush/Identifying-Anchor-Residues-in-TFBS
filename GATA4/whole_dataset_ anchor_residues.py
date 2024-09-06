@@ -4,7 +4,7 @@ import re
 import glob
 from collections import Counter
 
-file_pattern = 'ETV-5/bin_*/*.fasta_8mers/meme.html'
+file_pattern = 'ETV-5/bin_*/*.fasta_6mers/meme.html'
 files = sorted(glob.glob(file_pattern, recursive=True), key=lambda x: int(re.search(r'bin_(\d+)', x).group(1)))
 
 pwm_sections = []
