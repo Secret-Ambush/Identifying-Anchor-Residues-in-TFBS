@@ -32,11 +32,11 @@ Anchor residues are like the keystones 🗝️ of the transcription factor-DNA i
 - **UniProbe Data**: Our data source for TFBS.
 - **MEME Suite**: Command-line interface for motif identification.
 - **PWM Interpretation**: For extracting useful insights from the motifs.
-- **Novel Binning Strategy**: Our secret sauce for pinpointing anchor residues.
+- **Awesome Algorithm**: Our novel contribution. ✨
 
 ### Algorithm Development
 
-We're also working on an **algorithm** to align datasets. This alignment step could revolutionize how we approach drug design by offering more robust insights into TFBS. We’re really excited about how this could **transform the field**!
+Remember, the alignment algorithm we were talking about? This alignment step could revolutionize how we approach drug design by offering more robust insights into TFBS. We’re really excited about how this could **transform the field**!
 
 ## 💡 Key Contributions
 
