@@ -19,9 +19,9 @@ The core of this project is centered on **human transcription factors (TFs)**, s
 
 1. **Data Collection & Preprocessing:** We kick things off by gathering data from **UniProbe**. We then clean and prep it, making sure it's ready for further analysis.
    
-2. **Motif Identification:** Using the **MEME Suite** (via the official Docker container 🖥️), we identify motifs. This involves generating **Probability Weight Matrices (PWM)**, interpreting them, and applying a **consensus approach** to nail down the important details.
+2. **Motif Identification:** Using the **MEME Suite** (via the official Docker container 🖥), we identify motifs. This involves generating **Probability Weight Matrices (PWM)**, interpreting them, and applying a **consensus approach** to nail down the important details.
    
-3. **Alignment Algorithm:** We’ve come up with a novel algorithm 💻 to align subsequent sequences alongside the top seed motif. This helps us identify the **anchor residues**—those key positions in the motifs that play a big role in gene regulation.
+3. **Alignment Algorithm:** We’ve come up with a novel algorithm ✨ to align subsequent sequences alongside the top seed motif. This helps us identify the **anchor residues**—those key positions in the motifs that play a big role in gene regulation.
 
 ## 🧩 Why Anchor Residues Matter
 
@@ -32,7 +32,7 @@ Anchor residues are like the keystones 🗝️ of the transcription factor-DNA i
 - **UniProbe Data**: Our data source for TFBS.
 - **MEME Suite**: Command-line interface for motif identification.
 - **PWM Interpretation**: For extracting useful insights from the motifs.
-- **Awesome Algorithm**: Our novel contribution. ✨
+- **Awesome Algorithm**: Our novel contribution. 🤩
 
 ### Algorithm Development
 
