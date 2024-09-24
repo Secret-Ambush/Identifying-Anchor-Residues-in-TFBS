@@ -19,9 +19,9 @@ The core of this project is centered on **human transcription factors (TFs)**, s
 
 1. **Data Collection & Preprocessing:** We kick things off by gathering data from **UniProbe**. We then clean and prep it, making sure it's ready for further analysis.
    
-2. **Motif Identification:** Using the **MEME Suite** (via command-line interface 🖥️), we identify motifs. This involves generating **Probability Weight Matrices (PWM)**, interpreting them, and applying a **consensus approach** to nail down the important details.
+2. **Motif Identification:** Using the **MEME Suite** (via the official Docker container 🖥️), we identify motifs. This involves generating **Probability Weight Matrices (PWM)**, interpreting them, and applying a **consensus approach** to nail down the important details.
    
-3. **Binning Strategy:** We’ve come up with a novel binning strategy 🗃️ to compare motif prevalence across data segments. This helps us identify the **anchor residues**—those key positions in the motifs that play a big role in gene regulation.
+3. **Alignment Algorithm:** We’ve come up with a novel algorithm 💻 to align subsequent sequences alongside the top seed motif. This helps us identify the **anchor residues**—those key positions in the motifs that play a big role in gene regulation.
 
 ## 🧩 Why Anchor Residues Matter
 
